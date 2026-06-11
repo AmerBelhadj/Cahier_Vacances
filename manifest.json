@@ -1,0 +1,31 @@
+{
+  "name": "Les Vacances de Maya et Aaron",
+  "short_name": "Maya & Aaron",
+  "description": "Le cahier de vacances interactif de Maya et Aaron !",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFF9F0",
+  "theme_color": "#FF6B9D",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "kids"],
+  "screenshots": []
+}

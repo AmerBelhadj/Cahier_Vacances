@@ -1,0 +1,380 @@
+{
+  "maya": {
+    "nom": "Maya",
+    "niveau": "CE1 → CE2",
+    "age": "7-8 ans",
+    "couleur": "#FF6B9D",
+    "emoji": "🦋",
+    "sessions": [
+      {
+        "id": "m1",
+        "titre": "Les sons mystérieux",
+        "matiere": "Français",
+        "emoji": "🔠",
+        "lecon": "Certains sons s'écrivent de plusieurs façons ! Le son [o] peut s'écrire 'o' (moto), 'au' (fauteuil) ou 'eau' (chapeau). Attention aux pièges !",
+        "memo": "o / au / eau → tous font le son [o]",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Classe les mots !",
+            "consigne": "Range ces mots dans la bonne colonne : bateau, oiseau, escargot, plateau, robot, cadeau",
+            "correction": "o: escargot, robot | eau: bateau, oiseau, plateau, cadeau"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Complète les trous",
+            "consigne": "Écris o, au ou eau : une m_to, un g_teau, un b_teau, j'ai ch_d",
+            "correction": "moto, gâteau, bateau, chaud"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "L'intrus mystérieux",
+            "consigne": "Dans chaque liste, trouve l'intrus (le mot dont le son est différent) : 1) pot / peau / pauvre / poteau  2) auto / alto / beau / trop",
+            "correction": "1) pauvre (son différent) 2) alto (son [al])"
+          }
+        ],
+        "jeu": {
+          "titre": "Le Memory des sons",
+          "description": "Retrouve les paires : chaque mot doit être associé à son orthographe du son [o] (o, au, eau)"
+        },
+        "defi": "Cherche 5 mots avec le son 'eau' dans un livre ou un magazine. Écris-les !"
+      },
+      {
+        "id": "m2",
+        "titre": "La magie des additions",
+        "matiere": "Maths",
+        "emoji": "🔢",
+        "lecon": "En CE2, on additionne des nombres jusqu'à 1000 ! On pose l'opération en colonnes : unités sous unités, dizaines sous dizaines, centaines sous centaines. N'oublie pas les retenues !",
+        "memo": "U sous U, D sous D, C sous C — et attention aux retenues !",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Additions sans retenue",
+            "consigne": "Calcule : 234 + 152 = ?  |  401 + 326 = ?  |  512 + 230 = ?",
+            "correction": "386 | 727 | 742"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Avec une retenue",
+            "consigne": "Pose et calcule : 347 + 285 = ?  |  456 + 367 = ?",
+            "correction": "632 | 823"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Problème du marché",
+            "consigne": "Mamie achète des fraises pour 245€, des légumes pour 178€ et des fleurs pour 63€. Combien dépense-t-elle en tout ?",
+            "correction": "245 + 178 + 63 = 486€"
+          }
+        ],
+        "jeu": {
+          "titre": "Course aux 1000 !",
+          "description": "Lance deux dés deux fois, forme un nombre à 3 chiffres, additionne avec celui de ton adversaire. Le premier à dépasser 1000 a gagné !"
+        },
+        "defi": "Compte les objets de ta chambre par catégorie et additionne-les tous !"
+      },
+      {
+        "id": "m3",
+        "titre": "Qui fait quoi ? La grammaire !",
+        "matiere": "Français",
+        "emoji": "📝",
+        "lecon": "Dans une phrase, le verbe est l'action. Le sujet, c'est celui qui fait l'action. Pour trouver le sujet, pose la question 'Qui est-ce qui…?' devant le verbe.",
+        "memo": "Sujet → Verbe → Complément. Le sujet fait l'action !",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Souligne le sujet",
+            "consigne": "Entoure le sujet : 1) Le chat dort sur le canapé. 2) Les enfants jouent au parc. 3) Ma sœur mange une pomme.",
+            "correction": "Le chat | Les enfants | Ma sœur"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Vrai ou Faux ?",
+            "consigne": "1) Dans 'Tom et Léa rient', le sujet est 'Tom'. 2) Dans 'Les fleurs poussent', le verbe est 'poussent'. 3) Le sujet est toujours avant le verbe.",
+            "correction": "Faux (Tom ET Léa) | Vrai | Faux (pas toujours)"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Écris ta phrase",
+            "consigne": "Invente 3 phrases avec : 1) un sujet singulier 2) un sujet pluriel 3) deux sujets. Souligne chaque sujet.",
+            "correction": "Réponses libres — vérifie que le sujet répond à 'Qui est-ce qui + verbe ?'"
+          }
+        ],
+        "jeu": {
+          "titre": "Qui fait quoi ?",
+          "description": "Un joueur mime une action, l'autre forme une phrase avec sujet + verbe. Exemple : tu mimes 'sauter', l'autre dit 'Le kangourou saute !'"
+        },
+        "defi": "Écris le journal de ta journée avec 5 phrases. Souligne tous les sujets !"
+      },
+      {
+        "id": "m4",
+        "titre": "Les formes géométriques cachées",
+        "matiere": "Maths",
+        "emoji": "📐",
+        "lecon": "Les formes géométriques sont partout ! Un carré a 4 côtés égaux et 4 angles droits. Un rectangle a 4 angles droits mais 2 paires de côtés égaux. Le périmètre, c'est la somme de tous les côtés !",
+        "memo": "Périmètre = addition de tous les côtés",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Reconnais les formes",
+            "consigne": "Nomme : 1) 4 côtés de 5cm chacun → ?  2) 3 côtés → ?  3) 2 côtés de 8cm et 2 de 4cm → ?",
+            "correction": "Carré | Triangle | Rectangle"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Calcule les périmètres",
+            "consigne": "P d'un carré de côté 6cm = ?  |  P d'un rectangle 8cm×3cm = ?  |  P d'un triangle 4, 5, 6cm = ?",
+            "correction": "24cm | 22cm | 15cm"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Le plan de la maison",
+            "consigne": "Une pièce est un rectangle 5m × 4m. On veut une plinthe tout autour sauf une porte de 1m. Quelle longueur de plinthe acheter ?",
+            "correction": "Périmètre = 18m, moins 1m de porte = 17m de plinthe"
+          }
+        ],
+        "jeu": {
+          "titre": "La chasse aux formes",
+          "description": "Trouve 5 objets rectangulaires, 3 carrés et 2 triangulaires dans la maison. Mesure-en un et calcule son périmètre !"
+        },
+        "defi": "Dessine ta chambre vue du dessus (comme un plan). Indique les formes et dimensions !"
+      },
+      {
+        "id": "m5",
+        "titre": "La Terre et ses merveilles",
+        "matiere": "Sciences",
+        "emoji": "🌍",
+        "lecon": "La Terre est entourée d'une couche d'air appelée l'atmosphère. Elle contient de l'oxygène (21%), qu'on respire ! Les plantes fabriquent de l'oxygène grâce à la photosynthèse.",
+        "memo": "Plantes + soleil + CO₂ → Oxygène + énergie (photosynthèse)",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Vrai ou Faux",
+            "consigne": "1) L'air est invisible mais existe vraiment. 2) Les plantes respirent. 3) On peut vivre sans oxygène. 4) Les feuilles vertes captent la lumière.",
+            "correction": "Vrai | Vrai (différemment) | Faux | Vrai"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Complète le schéma",
+            "consigne": "Pour la photosynthèse, la plante a besoin de : _____, _____ et _____. Elle produit : _____ et _____.",
+            "correction": "lumière du soleil, eau, CO₂ → oxygène + sucres"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Expérience !",
+            "consigne": "Mets une plante sous un sac transparent au soleil pendant 1h. Que vois-tu se former ? Explique pourquoi.",
+            "correction": "Des gouttelettes d'eau (transpiration de la plante) due à la respiration et la photosynthèse."
+          }
+        ],
+        "jeu": {
+          "titre": "Le vrai scientifique",
+          "description": "Un joueur pose une question sur la nature ('Pourquoi le ciel est bleu ?'), l'autre essaie d'expliquer. Cherchez ensuite la vraie réponse ensemble !"
+        },
+        "defi": "Observe une plante chez toi chaque jour pendant 3 jours. Note ce qui change !"
+      }
+    ]
+  },
+  "aaron": {
+    "nom": "Aaron",
+    "niveau": "PS → MS",
+    "age": "3-4 ans",
+    "couleur": "#4ECDC4",
+    "emoji": "🚀",
+    "sessions": [
+      {
+        "id": "a1",
+        "titre": "Les couleurs de l'arc-en-ciel",
+        "matiere": "Découverte",
+        "emoji": "🎨",
+        "lecon": "Il y a 6 couleurs principales : rouge, orange, jaune, vert, bleu, violet. Elles forment l'arc-en-ciel après la pluie quand le soleil brille !",
+        "memo": "Rouge 🔴 Orange 🟠 Jaune 🟡 Vert 🟢 Bleu 🔵 Violet 🟣",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Montre-moi !",
+            "consigne": "Avec un adulte : trouve dans la maison un objet de chaque couleur ! Rouge, jaune, bleu, vert, orange, violet.",
+            "correction": "Activité libre — chercher avec enthousiasme !"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Quelle couleur manque ?",
+            "consigne": "Je vois : rouge, jaune, vert, bleu, violet. Quelle couleur de l'arc-en-ciel a disparu ?",
+            "correction": "L'orange !"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Mélange magique",
+            "consigne": "Avec de la peinture (avec un adulte) : mélange jaune + bleu. Quelle couleur obtiens-tu ?",
+            "correction": "Du vert ! Jaune + bleu = vert 🎉"
+          }
+        ],
+        "jeu": {
+          "titre": "La chasse aux couleurs",
+          "description": "Un adulte dit une couleur, Aaron court toucher quelque chose de cette couleur dans la pièce. Chronomètre-le !"
+        },
+        "defi": "Dessine ton arc-en-ciel avec toutes ses couleurs dans le bon ordre !"
+      },
+      {
+        "id": "a2",
+        "titre": "Les chiffres font la fête !",
+        "matiere": "Maths",
+        "emoji": "🔢",
+        "lecon": "On compte : 1, 2, 3, 4, 5 ! Chaque chiffre représente une quantité. Le 1 c'est tout seul, le 2 c'est une paire, le 3 c'est un trio !",
+        "memo": "1 🐶 2 🐶🐶 3 🐶🐶🐶 4 🐶🐶🐶🐶 5 🐶🐶🐶🐶🐶",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Montre avec tes doigts",
+            "consigne": "Avec un adulte : montre 1 doigt, puis 2, puis 3, puis 4, puis 5. Maintenant l'autre main ! Compte jusqu'à 10 !",
+            "correction": "Activité de manipulation — féliciter chaque bonne réponse !"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Autant que…",
+            "consigne": "Mets autant de Lego que le nombre indiqué : 3 Lego, puis 5, puis 2.",
+            "correction": "Activité concrète de dénombrement."
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Qui a plus ?",
+            "consigne": "Pose 3 jouets d'un côté et 5 de l'autre. Quel tas a le plus ? Quel tas a le moins ?",
+            "correction": "5 c'est plus que 3 ! Alignez-les pour bien voir !"
+          }
+        ],
+        "jeu": {
+          "titre": "Bingo des doigts",
+          "description": "Un adulte montre des doigts (de 1 à 5), Aaron dit le chiffre. Puis inversez !"
+        },
+        "defi": "Compte tous les animaux en peluche de ta chambre. Quel chiffre obtiens-tu ?"
+      },
+      {
+        "id": "a3",
+        "titre": "Les animaux et leurs maisons",
+        "matiere": "Découverte du monde",
+        "emoji": "🐾",
+        "lecon": "Chaque animal a sa maison ! L'oiseau a son nid, l'abeille sa ruche, le lapin son terrier, le chien sa niche. Les animaux prennent soin de leur maison comme nous !",
+        "memo": "Oiseau → nid 🪹 | Abeille → ruche 🍯 | Chien → niche | Lapin → terrier",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Qui habite ici ?",
+            "consigne": "Montre des images d'animaux et demande à Aaron de dire leur nom : chien, chat, lapin, oiseau, poisson.",
+            "correction": "Activité orale de reconnaissance."
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Associe !",
+            "consigne": "Avec le doigt, relie : Oiseau ↔ nid | Chien ↔ niche | Abeille ↔ ruche | Poisson ↔ aquarium",
+            "correction": "Oiseau-nid | Chien-niche | Abeille-ruche | Poisson-aquarium"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "L'animal mystère",
+            "consigne": "Je vis dans une ruche, je fais du miel, j'ai des rayures jaunes et noires… Qui suis-je ?",
+            "correction": "L'abeille ! 🐝 Bravo !"
+          }
+        ],
+        "jeu": {
+          "titre": "Mime l'animal !",
+          "description": "Aaron mime un animal (il vole, rampe, saute…), l'adulte devine. Puis inversez !"
+        },
+        "defi": "Dessine l'animal que tu préfères dans sa maison !"
+      },
+      {
+        "id": "a4",
+        "titre": "Les formes partout !",
+        "matiere": "Maths",
+        "emoji": "🔷",
+        "lecon": "Il y a des formes partout ! Le cercle est tout rond comme une balle. Le carré a 4 côtés pareils. Le triangle a 3 pointes. Le rectangle est comme une porte.",
+        "memo": "⭕ cercle  🟥 carré  🔺 triangle  ▬ rectangle",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Montre-moi la forme",
+            "consigne": "Dessine dans l'air (avec les mains) un cercle, un carré, un triangle. Aaron les reconnaît-il ?",
+            "correction": "Activité de reconnaissance gestuelle."
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "C'est quelle forme ?",
+            "consigne": "Dans la maison, trouve quelque chose de rond, de carré, de triangulaire.",
+            "correction": "Ex : horloge/balle (rond), coussin/livre (carré), toit de jouet (triangle)"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Le robot de formes",
+            "consigne": "Dessine un robot fait de formes géométriques : carré pour le corps, cercle pour la tête, rectangles pour les bras !",
+            "correction": "Activité créative libre — valoriser chaque effort !"
+          }
+        ],
+        "jeu": {
+          "titre": "Simon dit… une forme !",
+          "description": "Simon dit : touche quelque chose de ROND ! Simon dit : montre un CARRÉ ! L'adulte et Aaron alternent le rôle de Simon."
+        },
+        "defi": "Construis une maison avec des Lego ou des blocs. Quelles formes as-tu utilisées ?"
+      },
+      {
+        "id": "a5",
+        "titre": "Les saisons défilent",
+        "matiere": "Découverte du monde",
+        "emoji": "🌤️",
+        "lecon": "Il y a 4 saisons : le printemps (fleurs 🌸), l'été (soleil ☀️), l'automne (feuilles 🍂) et l'hiver (neige ❄️). Chaque saison dure 3 mois !",
+        "memo": "Printemps 🌸 → Été ☀️ → Automne 🍂 → Hiver ❄️ → et ça recommence !",
+        "exercices": [
+          {
+            "niveau": 1,
+            "emoji": "⭐",
+            "titre": "Quelle saison ?",
+            "consigne": "C'est quelle saison si on voit de la neige ? Si on est à la plage ? Si les feuilles sont orange ?",
+            "correction": "Neige → Hiver | Plage → Été | Feuilles orange → Automne"
+          },
+          {
+            "niveau": 2,
+            "emoji": "⭐⭐",
+            "titre": "Habille-toi !",
+            "consigne": "Pour chaque saison, qu'est-ce qu'on met comme vêtements ? Été = ? Hiver = ? Printemps = ?",
+            "correction": "Été = t-shirt, short | Hiver = manteau, écharpe | Printemps = veste légère"
+          },
+          {
+            "niveau": 3,
+            "emoji": "⭐⭐⭐",
+            "titre": "Le carnet des saisons",
+            "consigne": "Dessine 4 arbres, un pour chaque saison. Comment est-il en hiver ? Au printemps ? En été ? En automne ?",
+            "correction": "Hiver: sans feuilles | Printemps: feuilles vertes | Été: plein de feuilles | Automne: feuilles rouges/orange"
+          }
+        ],
+        "jeu": {
+          "titre": "On est en quelle saison ?",
+          "description": "Regardez par la fenêtre ! Quelle saison est-il ? Cherchez 3 indices ensemble."
+        },
+        "defi": "Dessine ce que tu vois dehors aujourd'hui. Puis dessine ce que tu voudrais voir en été !"
+      }
+    ]
+  }
+}
