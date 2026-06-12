@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "version": "phase2-maya-complete",
-  "description": "Maya : contenu complet (5 matières). Aaron : démo (sera complété en phase 3)."
+  "version": "phase3-complete",
+  "description": "Contenu complet : Maya (5 matières CE1→CE2) + Aaron (5 domaines PS→MS)."
  },
  "rubriques": {
   "revision": {
@@ -1655,56 +1655,1581 @@
    "emoji": "🚀",
    "matieres": [
     {
-     "id": "demo_lang",
-     "nom": "Le Langage (démo)",
+     "id": "langage",
+     "nom": "Le Langage",
      "emoji": "🗣️",
      "revision": {
-      "intro": "Démo : on revoit un point de PS.",
+      "intro": "On revoit la PS : dire son prénom, nommer les objets du quotidien, écouter une histoire, répéter des comptines, reconnaître quelques images.",
       "exercices": [
        {
-        "consigne": "👨‍👩‍👧 Demande à Aaron de dire son prénom.",
-        "correction": "Aaron dit son prénom clairement.",
-        "explication": "Parent : encourage-le à parler fort."
+        "consigne": "👨‍👩‍👧 Demande à Aaron de dire son prénom et celui des membres de la famille.",
+        "correction": "Aaron dit clairement 'Aaron', puis 'Maman', 'Papa', 'Maya'…",
+        "explication": "Parent : encourage-le à parler fort et clairement. Se nommer et nommer ses proches est une base essentielle du langage en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre 5 objets de la maison (cuillère, ballon, livre, chaussure, tasse) : Aaron les nomme-t-il ?",
+        "correction": "Il nomme correctement chaque objet familier.",
+        "explication": "Parent : nomme l'objet avec lui s'il hésite. Enrichir le vocabulaire des objets du quotidien est central en maternelle."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Lis une petite histoire, puis demande : 'Qui était dans l'histoire ?'",
+        "correction": "Aaron cite un ou deux personnages de l'histoire.",
+        "explication": "Parent : raconte lentement en montrant les images. Se souvenir des personnages développe l'attention et la mémoire du récit."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Récite une comptine connue ('Une souris verte', 'Ainsi font font font') : Aaron complète-t-il les mots ?",
+        "correction": "Il complète les fins de phrases ou les gestes de la comptine.",
+        "explication": "Parent : laisse des blancs pour qu'il complète. Les comptines travaillent le rythme, la mémoire et les sons de la langue."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre des images d'animaux : Aaron fait-il le cri de l'animal ? (chat→miaou, vache→meuh)",
+        "correction": "Il associe l'animal à son cri.",
+        "explication": "Parent : exagère les cris, c'est rigolo ! Associer image et son est un jeu de langage très apprécié en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de montrer les parties de son corps : la tête, les mains, les pieds, le ventre.",
+        "correction": "Il pointe correctement chaque partie nommée.",
+        "explication": "Parent : chante 'Tête, épaules, genoux et pieds' pour réviser en bougeant ! Le vocabulaire du corps est important."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Pose une question simple : 'Tu veux le ballon rouge ou le bleu ?' Aaron répond-il par un choix ?",
+        "correction": "Il répond en nommant la couleur ou en montrant.",
+        "explication": "Parent : laisse-le vraiment choisir. Répondre à une question et faire un choix verbal développe l'expression."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande : 'Qu'est-ce que tu as mangé ce midi ?' Aaron raconte-t-il un peu ?",
+        "correction": "Il évoque un aliment ou un moment du repas.",
+        "explication": "Parent : pose des questions ouvertes au quotidien. Raconter un souvenir simple est un grand pas pour le langage."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre des images : 'grand' éléphant et 'petite' souris. Aaron dit-il qui est grand, qui est petit ?",
+        "correction": "Il associe grand/petit aux bonnes images.",
+        "explication": "Parent : compare des objets réels (grande/petite cuillère). Les mots grand/petit structurent la pensée et le langage."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Chantez une chanson ensemble : Aaron suit-il les gestes et quelques mots ?",
+        "correction": "Il fait les gestes et chante quelques mots.",
+        "explication": "Parent : les chansons gestuelles sont parfaites en PS. Le geste aide à mémoriser les mots et donne confiance."
        }
       ],
       "jeux": [
        {
+        "titre": "👨‍👩‍👧 Le sac à malices",
+        "description": "Mets des objets dans un sac. Aaron en sort un, le nomme, dit à quoi il sert. Parent : aide et félicite chaque mot !"
+       },
+       {
         "titre": "👨‍👩‍👧 Les cris des animaux",
-        "description": "Montre un animal, Aaron fait son cri !"
+        "description": "Montre une image d'animal, Aaron fait le cri ! Puis inversez : tu fais le cri, il devine l'animal."
+       },
+       {
+        "titre": "👨‍👩‍👧 La comptine à trous",
+        "description": "Récite une comptine connue et arrête-toi : 'Une souris…' Aaron complète 'verte !'. Rires garantis."
+       },
+       {
+        "titre": "👨‍👩‍👧 Jacques a dit (le corps)",
+        "description": "'Jacques a dit : touche ton nez !' Aaron pointe la bonne partie du corps. Travaille le vocabulaire en bougeant."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le téléphone des doudous",
+        "description": "Aaron 'téléphone' à son doudou et lui raconte sa journée. Parent : écoute et pose des questions au doudou !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Devine l'objet caché",
+        "description": "Cache un objet derrière ton dos, donne un indice ('c'est rond, ça roule'). Aaron devine : le ballon !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La chasse aux prénoms",
+        "description": "Montre des photos de famille, Aaron nomme chaque personne. Ajoute des amis, des cousins !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Grand ou petit ?",
+        "description": "Montre deux objets, Aaron dit lequel est grand et lequel est petit. Variez avec gros/mince, long/court !"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'imagier vivant",
+        "description": "Feuilletez un imagier. Aaron pointe et nomme. Tu poses des questions : 'Où est le chien ? De quelle couleur ?'"
+       },
+       {
+        "titre": "👨‍👩‍👧 Karaoké des comptines",
+        "description": "Chantez 3 comptines avec tous les gestes. Aaron mène la danse ! Filmez pour rire en famille."
        }
       ]
      },
      "preparation": {
-      "cours": "Démo : en MS, Aaron tapera les syllabes des mots.",
+      "cours": "🌉 EN ROUTE VERS LA MS ! En PS, Aaron a appris à nommer et à parler par petits mots. En MS, il va faire des PHRASES plus complètes ('Je veux le ballon rouge' au lieu de 'ballon'), enrichir son VOCABULAIRE, et commencer à entendre les SYLLABES dans les mots (ma-man = 2 syllabes, en tapant dans les mains). C'est le début du chemin vers la lecture ! Premier objectif tout doux : taper les syllabes des prénoms de la famille en frappant dans les mains. Conseil parent : tout passe par le jeu, l'oral et la manipulation. Aucune lecture ni écriture attendue à cet âge.",
       "exercices": [
        {
-        "consigne": "👨‍👩‍👧 Tapez les syllabes : MA-YA (2 tapes).",
-        "correction": "Il frappe 1 fois par syllabe.",
-        "explication": "Parent : exagère chaque syllabe.",
-        "ref": "Cours démo : les syllabes"
+        "consigne": "👨‍👩‍👧 Tapez les syllabes du prénom : MA-YA (2 tapes), A-A-RON (3 tapes). Aaron tape-t-il avec toi ?",
+        "correction": "Il frappe dans ses mains une fois par syllabe.",
+        "explication": "Parent : exagère bien chaque syllabe en tapant. Découper les mots en syllabes prépare la lecture future. C'est un jeu rythmé !",
+        "ref": "Cours : entendre les syllabes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande une phrase complète : au lieu de 'jus', encourage 'Je veux du jus, s'il te plaît'.",
+        "correction": "Aaron allonge sa demande en une petite phrase.",
+        "explication": "Parent : reformule en phrase complète et invite-le à répéter. Passer du mot à la phrase est l'objectif clé de la MS.",
+        "ref": "Cours : faire des phrases"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Compte les syllabes en tapant : CHO-CO-LAT, BA-NANE, PO-MME. Combien de tapes chacun ?",
+        "correction": "Chocolat = 3, banane = 2, pomme = 2.",
+        "explication": "Parent : tape lentement avec lui. Compter les syllabes est un jeu d'écoute fondamental pour la suite des apprentissages.",
+        "ref": "Cours : entendre les syllabes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre une image et demande : 'Raconte-moi ce que tu vois.' Aaron fait-il une phrase ?",
+        "correction": "Il décrit l'image avec quelques mots reliés : 'Le chien court dans le jardin.'",
+        "explication": "Parent : encourage les détails ('De quelle couleur ? Que fait-il ?'). Décrire une image enrichit le vocabulaire et la syntaxe.",
+        "ref": "Cours : décrire et raconter"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Jeu des contraires : tu dis 'grand', Aaron dit… ? Puis 'chaud' → ? 'jour' → ?",
+        "correction": "Petit | froid | nuit",
+        "explication": "Parent : illustre avec des objets réels. Les contraires développent le vocabulaire et la logique. Un mot en appelle un autre !",
+        "ref": "Cours : enrichir le vocabulaire"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Quel mot commence comme 'Maman' ? Propose : Moto, Banane, Maison. Aaron entend-il le 'M' ?",
+        "correction": "Maman, Moto et Maison commencent par le son 'mmm'.",
+        "explication": "Parent : insiste sur le son du début 'mmmaman'. Repérer le son initial est un premier pas vers la conscience des sons.",
+        "ref": "Cours : écouter les sons"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de raconter une histoire connue avec ses mots (les 3 petits cochons…).",
+        "correction": "Il raconte les grandes étapes à sa façon, même incomplètes.",
+        "explication": "Parent : aide avec les images du livre. Raconter une histoire dans l'ordre développe la mémoire et la structure du récit.",
+        "ref": "Cours : décrire et raconter"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Nomme 3 fruits, puis 3 animaux, puis 3 vêtements. Aaron complète-t-il les familles de mots ?",
+        "correction": "Il ajoute des mots dans chaque catégorie (fruits : pomme, poire, fraise…).",
+        "explication": "Parent : crée des catégories au quotidien. Classer les mots par familles structure le vocabulaire et la pensée.",
+        "ref": "Cours : enrichir le vocabulaire"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Tape ton prénom et celui d'un copain en syllabes. Lequel a le plus de syllabes ?",
+        "correction": "On compare : par exemple A-A-RON (3) a plus de syllabes que MA-YA (2).",
+        "explication": "Parent : compare en tapant. Comparer les longueurs de mots affine l'oreille et la conscience phonologique.",
+        "ref": "Cours : entendre les syllabes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Pose des questions sur sa journée : 'Qu'est-ce qui t'a plu ? Pourquoi ?' Aaron explique-t-il un peu ?",
+        "correction": "Il exprime une préférence avec un début d'explication.",
+        "explication": "Parent : valorise chaque tentative d'explication. Donner son avis et expliquer est un objectif riche de la MS.",
+        "ref": "Cours : s'exprimer et expliquer"
        }
       ],
       "jeux": [
        {
         "titre": "👨‍👩‍👧 Le tambour des syllabes",
-        "description": "Tapez les prénoms en syllabes sur une casserole !"
+        "description": "Tapez les prénoms, les fruits, les jouets en syllabes sur un tambour (ou une casserole) ! Une frappe par syllabe."
+       },
+       {
+        "titre": "👨‍👩‍👧 La phrase qui grandit",
+        "description": "Aaron dit 'chien'. Tu ajoutes : 'le chien'. Il ajoute : 'le chien court'. Allongez la phrase ensemble !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le roi des contraires",
+        "description": "Tu dis un mot, Aaron dit le contraire en mimant : grand (bras en l'air) / petit (accroupi) !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Ça commence comme…",
+        "description": "Cherchez des objets qui commencent par le même son que 'Maman' (mmm). Maison, moto, main !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le conteur du soir",
+        "description": "Aaron raconte une histoire connue à toute la famille avec le livre. Applaudissez le petit conteur !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Les familles de mots",
+        "description": "'Je pars en voyage et j'emporte un fruit…' Aaron en nomme un, puis toi, à tour de rôle, sans répéter !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Devine la fin",
+        "description": "Raconte une histoire et arrête-toi avant la fin. Aaron invente la suite avec ses mots !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le micro magique",
+        "description": "Donne un objet 'micro' à Aaron. Quand il l'a, c'est son tour de parler et de raconter. Apprend à attendre son tour !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Long ou court ?",
+        "description": "Tapez deux mots en syllabes (chat / crocodile). Aaron dit lequel est le plus long !"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'imagier des phrases",
+        "description": "Devant chaque image, Aaron invente une phrase complète. Parent : aide à enrichir ('Et que fait-il ?')."
        }
       ]
      },
      "etude": {
-      "cours": "Démo : programme MS — reconnaître son prénom écrit.",
+      "cours": "📚 PROGRAMME DE MS — MOBILISER LE LANGAGE. En Moyenne Section, Aaron va : 1) COMMUNIQUER : s'exprimer dans un langage de plus en plus clair, faire des phrases construites, raconter un événement vécu. 2) COMPRENDRE : écouter et comprendre des histoires plus longues, répondre à des questions sur le récit. 3) ENRICHIR LE VOCABULAIRE : apprendre de nombreux mots nouveaux par thèmes. 4) DÉCOUVRIR LES SONS (conscience phonologique) : repérer les syllabes, commencer à entendre les sons (rimes, son du début). 5) DÉCOUVRIR L'ÉCRIT : reconnaître son prénom écrit, comprendre qu'on lit de gauche à droite, manipuler des livres. Important parent : à cet âge, AUCUNE lecture ni écriture autonome n'est attendue. Tout reste oral, ludique et manipulé.",
       "exercices": [
        {
-        "consigne": "👨‍👩‍👧 Montre 'AARON' écrit. Le reconnaît-il ?",
-        "correction": "Il pointe son prénom grâce au 'A'.",
-        "explication": "Parent : écris son prénom en gros.",
-        "ref": "Cours démo : découvrir l'écrit"
+        "consigne": "👨‍👩‍👧 Montre le prénom 'AARON' écrit en majuscules. Aaron le reconnaît-il parmi d'autres prénoms ?",
+        "correction": "Il pointe son prénom en reconnaissant la première lettre 'A'.",
+        "explication": "Parent : écris son prénom en gros et montre-le souvent. Reconnaître son prénom écrit est un objectif phare de la MS.",
+        "ref": "Cours §5 : Découvrir l'écrit"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Lis une histoire un peu longue, puis demande : 'Que se passe-t-il au début ? Et à la fin ?'",
+        "correction": "Aaron restitue le début et la fin dans le bon ordre.",
+        "explication": "Parent : utilise les images pour l'aider. Comprendre la chronologie d'un récit (début/fin) développe la compréhension.",
+        "ref": "Cours §2 : Comprendre une histoire"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Trouve deux mots qui RIMENT (finissent pareil) : chat / rat, ou maison / poison.",
+        "correction": "Chat et rat riment (son 'a'). Maison et poison riment (son 'on').",
+        "explication": "Parent : exagère la fin des mots. Entendre les rimes affine l'oreille et prépare la lecture. C'est un jeu de sons amusant !",
+        "ref": "Cours §4 : Découvrir les sons"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de raconter un moment de SA journée (pas une histoire de livre).",
+        "correction": "Il raconte un événement vécu avec quelques phrases dans l'ordre.",
+        "explication": "Parent : pose des questions pour l'aider à structurer ('Et après ? Et ensuite ?'). Raconter le réel est un grand objectif de MS.",
+        "ref": "Cours §1 : Communiquer"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Combien de syllabes dans 'éléphant' ? Tapez ensemble : É-LÉ-PHANT.",
+        "correction": "3 syllabes.",
+        "explication": "Parent : tape clairement chaque syllabe. Compter les syllabes de mots plus longs renforce la conscience phonologique.",
+        "ref": "Cours §4 : Les syllabes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Apprends 3 mots nouveaux sur un thème (la cuisine : casserole, louche, passoire). Aaron les répète-t-il ?",
+        "correction": "Il répète et retient les nouveaux mots avec l'objet sous les yeux.",
+        "explication": "Parent : montre toujours l'objet réel. Apprendre du vocabulaire par thème, avec le concret, est très efficace en MS.",
+        "ref": "Cours §3 : Enrichir le vocabulaire"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre un livre : dans quel sens tourne-t-on les pages ? On lit de quel côté vers quel côté ?",
+        "correction": "On tourne les pages de droite à gauche et on lit de gauche à droite.",
+        "explication": "Parent : montre le geste en lisant. Comprendre le sens de la lecture est une découverte essentielle de l'écrit en MS.",
+        "ref": "Cours §5 : Découvrir l'écrit"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Quel mot commence par le son 'sss' : serpent, ballon, soleil ?",
+        "correction": "Serpent et soleil commencent par 'sss'.",
+        "explication": "Parent : siffle bien le 'sss'. Repérer le son du début est un jeu d'écoute qui ouvre la voie à la lecture.",
+        "ref": "Cours §4 : Découvrir les sons"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Pose une devinette simple : 'C'est jaune, c'est dans le ciel, ça chauffe…' Aaron devine-t-il ?",
+        "correction": "Le soleil !",
+        "explication": "Parent : adapte les devinettes à son vocabulaire. Résoudre une devinette mobilise la compréhension et le vocabulaire.",
+        "ref": "Cours §3 : Comprendre et raisonner"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron d'inventer une petite histoire (2-3 phrases) avec un personnage de son choix.",
+        "correction": "Il invente un mini-récit avec un héros et une action.",
+        "explication": "Parent : encourage l'imagination sans corriger. Inventer une histoire est une belle preuve de maîtrise grandissante du langage.",
+        "ref": "Cours §1 : S'exprimer et créer"
        }
       ],
       "jeux": [
        {
         "titre": "👨‍👩‍👧 La pêche aux prénoms",
-        "description": "Aaron pêche et reconnaît son prénom !"
+        "description": "Écris les prénoms de la famille sur des papiers. Aaron 'pêche' et reconnaît le sien grâce à la 1re lettre !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le memory des rimes",
+        "description": "Trouve des paires de mots qui riment (chat/rat, lune/prune). Aaron associe les sons qui sonnent pareil !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le journaliste",
+        "description": "Aaron 'interviewe' la famille avec un micro : 'Qu'as-tu fait aujourd'hui ?' Il écoute et pose des questions !"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'orchestre des syllabes",
+        "description": "Avec des instruments (ou casseroles), jouez les syllabes des mots. Une note par syllabe : é-lé-phant = 3 notes !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le sac à vocabulaire",
+        "description": "Chaque jour, un thème : aujourd'hui la cuisine ! Sortez les objets et nommez-les. Demain : la salle de bain !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Devinettes en folie",
+        "description": "À tour de rôle, posez des devinettes simples. 'C'est doux, ça miaule…' Le chat ! Inventez les vôtres !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le livre à l'envers",
+        "description": "Donne un livre à l'envers à Aaron. Saura-t-il le remettre dans le bon sens ? Montre-lui comment on lit !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La chasse aux sons",
+        "description": "Choisis un son (sss). Cherchez dans la maison tous les objets qui commencent par ce son : serpent en peluche, savon, sucre !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le conteur en herbe",
+        "description": "Aaron invente une histoire avec sa peluche préférée comme héros. Toute la famille écoute le spectacle !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Mon imagier perso",
+        "description": "Fabriquez un imagier maison : collez des images et Aaron nomme chaque mot. Ajoutez-en chaque semaine !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "maths",
+     "nom": "Les Mathématiques",
+     "emoji": "🔢",
+     "revision": {
+      "intro": "On revoit la PS : compter jusqu'à 3, reconnaître 'beaucoup/pas beaucoup', trier par couleur, empiler, reconnaître le rond et le carré.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Montre tes doigts : 1 doigt, puis 2, puis 3. Aaron sait-il les montrer ?",
+        "correction": "Il lève le bon nombre de doigts (1, 2, 3).",
+        "explication": "Parent : compte à voix haute avec lui. Montrer les petites quantités avec les doigts est la base du nombre en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Pose 1 jouet, puis 3 jouets. Où y en a-t-il BEAUCOUP ? Où y en a-t-il un seul ?",
+        "correction": "Il montre le tas de 3 pour 'beaucoup' et le seul jouet pour 'un'.",
+        "explication": "Parent : utilise des objets réels. Comparer les quantités (beaucoup/peu) précède le comptage exact."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Trie des objets par couleur : mets les rouges ensemble, les bleus ensemble.",
+        "correction": "Il regroupe correctement les objets de même couleur.",
+        "explication": "Parent : commence avec 2 couleurs seulement. Trier développe la logique et l'observation, bases des maths."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Empile 3 cubes les uns sur les autres. Aaron y arrive-t-il ?",
+        "correction": "Il construit une petite tour de 3 cubes.",
+        "explication": "Parent : montre l'exemple. Empiler travaille la motricité fine ET la notion de quantité qui augmente."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre un objet ROND (balle) et un objet CARRÉ (cube). Aaron les distingue-t-il ?",
+        "correction": "Il montre le bon objet quand tu dis 'rond' ou 'carré'.",
+        "explication": "Parent : fais-lui toucher les formes. Reconnaître rond et carré commence par la manipulation et le toucher."
+       },
+       {
+        "consigne": "👨‍👩‍👧 'Donne-moi UN bonbon (factice).' Puis 'Donne-moi DEUX bonbons.' Aaron donne-t-il le bon nombre ?",
+        "correction": "Il donne 1 puis 2 objets en comptant.",
+        "explication": "Parent : compte avec lui en donnant. Donner une quantité demandée montre qu'il associe le mot-nombre à la quantité."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Range 3 objets du plus petit au plus grand (petite, moyenne, grande cuillère).",
+        "correction": "Il ordonne les 3 objets par taille croissante.",
+        "explication": "Parent : commence par 2 objets si besoin. Ranger par taille développe la comparaison et l'ordre."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Cache un jouet sous un gobelet. Aaron se souvient-il qu'il est toujours là ?",
+        "correction": "Il soulève le gobelet pour retrouver le jouet.",
+        "explication": "Parent : ce petit jeu travaille la 'permanence de l'objet' et la mémoire. Très important en tout-petit !"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Suis un chemin avec le doigt : du chien jusqu'à sa niche (sur une image ou un parcours dessiné).",
+        "correction": "Il suit le tracé avec son doigt sans le perdre.",
+        "explication": "Parent : trace de gros chemins simples. Suivre un parcours prépare le repérage dans l'espace et l'écriture."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Compte les marches de l'escalier en montant : 'un, deux, trois…' avec Aaron.",
+        "correction": "Il compte les premières marches avec toi.",
+        "explication": "Parent : compte à voix haute à chaque montée. Compter en situation réelle ancre les nombres dans le quotidien."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 La tour la plus haute",
+        "description": "Empilez des cubes en comptant : un, deux, trois ! Jusqu'où monte la tour avant de tomber ? Rires assurés !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le tri des chaussettes",
+        "description": "Triez les chaussettes par couleur en faisant la lessive. Aaron range, tu nommes les couleurs !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Un, deux, trois doigts",
+        "description": "Tu montres des doigts (1 à 3), Aaron montre pareil ! Puis il commande et tu imites."
+       },
+       {
+        "titre": "👨‍👩‍👧 La chasse aux ronds",
+        "description": "Cherchez tous les objets ronds de la maison : assiette, balle, horloge ! Combien en trouvez-vous ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Beaucoup ou pas beaucoup",
+        "description": "Fais deux tas de jouets, Aaron montre celui qui a 'beaucoup'. Variez les quantités !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le gobelet magique",
+        "description": "Cache un objet sous un gobelet, mélange doucement, Aaron retrouve où il est ! Travaille mémoire et attention."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le train des tailles",
+        "description": "Alignez 3 objets du plus petit au plus grand pour faire un 'train'. Tchou-tchou !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Donne-moi…",
+        "description": "'Donne-moi 2 cuillères !' Aaron compte et donne. Joue à la dînette en comptant les couverts."
+       },
+       {
+        "titre": "👨‍👩‍👧 Marches comptées",
+        "description": "À chaque escalier, comptez les marches ensemble. Combien y en a-t-il ? C'est des maths dans la vraie vie !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le memory des formes",
+        "description": "Fabrique des paires rond/carré. Retourne et retrouve les paires de formes identiques !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LA MS ! En PS, Aaron compte jusqu'à 3. En MS, il va compter jusqu'à 5 et même au-delà, et surtout comprendre que le DERNIER nombre dit donne la quantité totale (si je compte 'un, deux, trois', il y a 3 objets EN TOUT). Il va aussi reconnaître de nouvelles formes (le triangle) et continuer à trier selon plusieurs critères (couleur ET taille). Premier objectif : compter une collection jusqu'à 5 en touchant chaque objet une seule fois. Conseil parent : on compte TOUJOURS avec des objets réels qu'on touche. La manipulation est reine en maternelle !",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Compte 5 jouets en les touchant un par un : un, deux, trois, quatre, cinq.",
+        "correction": "Il touche chaque jouet une fois en disant un nombre, jusqu'à 5.",
+        "explication": "Parent : guide sa main pour qu'il touche un seul objet par nombre. Compter en touchant évite d'en oublier ou d'en compter deux fois.",
+        "ref": "Cours : compter jusqu'à 5"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Après avoir compté 'un, deux, trois', demande : 'Alors, combien y en a-t-il EN TOUT ?'",
+        "correction": "Il répond 'trois' (le dernier nombre dit = la quantité totale).",
+        "explication": "Parent : insiste sur cette idée clé. Comprendre que le dernier mot-nombre donne le total est l'objectif central de la MS.",
+        "ref": "Cours : le dernier nombre = le total"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre un TRIANGLE (3 côtés). Aaron le reconnaît-il à côté d'un rond et d'un carré ?",
+        "correction": "Il pointe le triangle parmi les autres formes.",
+        "explication": "Parent : fais-lui suivre les 3 côtés du doigt. Le triangle est la nouvelle forme à découvrir en MS, après le rond et le carré.",
+        "ref": "Cours : découvrir le triangle"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Donne-moi 4 cubes. Aaron en prend-il exactement 4 ?",
+        "correction": "Il compte et donne précisément 4 cubes.",
+        "explication": "Parent : vérifie en recomptant ensemble. Constituer une collection d'un nombre donné montre la vraie compréhension du nombre.",
+        "ref": "Cours : constituer une collection"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Trie des objets selon DEUX critères : les GROS ronds d'un côté, les PETITS ronds de l'autre.",
+        "correction": "Il sépare les objets selon la taille tout en gardant la forme.",
+        "explication": "Parent : commence simple. Trier selon 2 critères (forme + taille) est plus difficile et développe la logique en MS.",
+        "ref": "Cours : trier selon plusieurs critères"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Quel tas a le PLUS ? Un tas de 2 et un tas de 4 jouets.",
+        "correction": "Le tas de 4 (en comptant ou en comparant).",
+        "explication": "Parent : aligne les objets pour comparer visuellement. Comparer des quantités plus grandes prépare les opérations.",
+        "ref": "Cours : comparer des quantités"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Continue la suite logique : rouge, bleu, rouge, bleu, … ? Quel objet vient après ?",
+        "correction": "Rouge ! (la suite alterne rouge-bleu)",
+        "explication": "Parent : utilise des objets colorés. Reconnaître et continuer un rythme (algorithme) est une compétence mathématique clé en MS.",
+        "ref": "Cours : les suites (algorithmes)"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre le chiffre 3 écrit. Aaron le reconnaît-il ? Associe-le à 3 objets.",
+        "correction": "Il associe le symbole '3' à une collection de 3 objets.",
+        "explication": "Parent : montre le chiffre puis compte 3 objets. Faire le lien entre le chiffre écrit et la quantité est un grand pas.",
+        "ref": "Cours : reconnaître les chiffres"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Combien de doigts sur UNE main ? Comptons ensemble.",
+        "correction": "5 doigts.",
+        "explication": "Parent : la main est un super outil de comptage toujours disponible ! Compter jusqu'à 5 sur les doigts est très utile.",
+        "ref": "Cours : compter jusqu'à 5"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Range 4 poupées de la plus petite à la plus grande.",
+        "correction": "Il ordonne les 4 objets par taille croissante.",
+        "explication": "Parent : augmente progressivement le nombre d'objets. Ranger par taille avec plus d'éléments affine la comparaison.",
+        "ref": "Cours : ranger par taille"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 La marchande compteuse",
+        "description": "Jouez à la marchande : 'Je voudrais 4 pommes !' Aaron compte et donne le bon nombre. Payez avec des jetons !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le triangle caché",
+        "description": "Cachez des formes dans la maison. Aaron doit rapporter UNIQUEMENT les triangles ! Vérifiez ensemble."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le collier à rythme",
+        "description": "Enfilez des perles en alternant les couleurs : rouge, bleu, rouge, bleu… Aaron continue la suite !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Combien dans la boîte ?",
+        "description": "Mets des objets dans une boîte en comptant à voix haute. Ferme : 'Combien y a-t-il dedans ?'"
+       },
+       {
+        "titre": "👨‍👩‍👧 La chasse au chiffre 3",
+        "description": "Cherchez le chiffre 3 partout (horloge, livre, télécommande). Puis comptez 3 objets à chaque fois !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le tri du grand chef",
+        "description": "Triez les pâtes ou les boutons par taille ET couleur. Les gros rouges ici, les petits bleus là !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Plus ou moins",
+        "description": "Fais deux tas, Aaron montre celui qui a le plus. Comptez pour vérifier ! Puis cherchez 'le moins'."
+       },
+       {
+        "titre": "👨‍👩‍👧 La comptine des nombres",
+        "description": "Chantez 'Un, deux, trois, nous irons au bois' en comptant sur les doigts. Apprenez à compter en musique !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le train des poupées",
+        "description": "Alignez les peluches de la plus petite à la plus grande. Tout le monde monte dans le train des tailles !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Cartes et doigts",
+        "description": "Montre une carte avec des points (1 à 5), Aaron montre le même nombre de doigts. Et inversement !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE MS — DÉCOUVRIR LES NOMBRES ET LES FORMES. En Moyenne Section, Aaron va : 1) LES NOMBRES JUSQU'À 5 (et plus) : compter, dénombrer (le dernier nombre = la quantité), reconnaître les chiffres écrits de 1 à 5, constituer une collection. 2) COMPARER : plus que / moins que / autant que. 3) LES FORMES : reconnaître et nommer le rond (cercle), le carré, le triangle, le rectangle ; les trier et les assembler. 4) LES GRANDEURS : comparer et ranger selon la taille, la longueur, la masse (lourd/léger). 5) SE REPÉRER DANS L'ESPACE : sur/sous, devant/derrière, dans/dehors, à côté. 6) LES SUITES (algorithmes) : reconnaître et prolonger un rythme. Tout reste manipulé, joué, vécu : pas de fiches abstraites à cet âge.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Dénombre une collection de 5 objets et dis combien il y en a EN TOUT.",
+        "correction": "Il compte jusqu'à 5 et annonce '5 en tout'.",
+        "explication": "Parent : insiste sur le total. Dénombrer (compter sans oublier ni répéter, et donner le total) est LA compétence-clé de la MS.",
+        "ref": "Cours §1 : Les nombres jusqu'à 5"
+       },
+       {
+        "consigne": "👨‍👩‍👧 'Plus, moins ou autant ?' Compare 3 pommes et 3 poires.",
+        "correction": "Il y en a AUTANT (le même nombre : 3 et 3).",
+        "explication": "Parent : aligne-les face à face pour montrer l'égalité. Comprendre 'autant que' (égalité) est aussi important que plus/moins.",
+        "ref": "Cours §2 : Comparer"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Nomme ces 4 formes : un cercle, un carré, un triangle, un rectangle.",
+        "correction": "Il nomme correctement les 4 formes.",
+        "explication": "Parent : fais suivre les côtés du doigt (le triangle en a 3, le carré et le rectangle 4). Nommer les formes est un objectif de MS.",
+        "ref": "Cours §3 : Les formes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Range 5 objets du plus LÉGER au plus LOURD (en les soupesant).",
+        "correction": "Il ordonne selon la masse ressentie dans ses mains.",
+        "explication": "Parent : laisse-le soupeser à deux mains. Comparer les masses (lourd/léger) développe les grandeurs, au-delà de la taille.",
+        "ref": "Cours §4 : Les grandeurs"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Mets le jouet SUR la table, puis SOUS la table, puis À CÔTÉ. Aaron suit-il ?",
+        "correction": "Il place l'objet selon la consigne spatiale.",
+        "explication": "Parent : exagère les positions. Le vocabulaire spatial (sur, sous, devant, derrière) structure le repérage dans l'espace.",
+        "ref": "Cours §5 : Se repérer dans l'espace"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Continue l'algorithme : grand, petit, grand, petit, … ? Que vient-il après ?",
+        "correction": "Grand ! (le rythme alterne grand-petit)",
+        "explication": "Parent : utilise des objets de tailles différentes. Prolonger un algorithme est un raisonnement logique fondamental en MS.",
+        "ref": "Cours §6 : Les suites"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre les chiffres 1, 2, 3, 4, 5 dans le désordre. Aaron les reconnaît-il ?",
+        "correction": "Il nomme chaque chiffre écrit.",
+        "explication": "Parent : associe chaque chiffre à une quantité d'objets. Reconnaître les chiffres écrits jusqu'à 5 est un objectif de fin de MS.",
+        "ref": "Cours §1 : Reconnaître les chiffres"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Assemble 2 triangles pour former un carré (avec des formes en papier). Aaron y arrive-t-il ?",
+        "correction": "Il combine les formes pour en créer une nouvelle.",
+        "explication": "Parent : montre l'exemple une fois. Assembler des formes développe la géométrie et la résolution de problèmes par manipulation.",
+        "ref": "Cours §3 : Assembler les formes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Donne 5 jetons. Demande : 'Si j'en enlève 1, combien en reste-t-il ?' (manipulé)",
+        "correction": "En comptant ce qui reste : 4 jetons.",
+        "explication": "Parent : fais-le manipuler réellement. Anticiper le résultat d'un retrait (vers la soustraction) se fait par manipulation en MS.",
+        "ref": "Cours §2 : Modifier une collection"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Trouve un objet plus LONG que ton crayon, et un objet plus COURT.",
+        "correction": "Il compare les longueurs en plaçant les objets côte à côte.",
+        "explication": "Parent : aligne les objets par un bout pour comparer. Comparer les longueurs (long/court) est une grandeur clé de la MS.",
+        "ref": "Cours §4 : Les grandeurs"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Le grand loto des nombres",
+        "description": "Fabrique des cartes 1 à 5 (chiffres et points). Aaron associe le chiffre à la bonne quantité de points !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Tangram des tout-petits",
+        "description": "Avec des formes en carton, assemblez un bonhomme, une maison, un bateau. La géométrie devient un puzzle !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La balance de la cuisine",
+        "description": "Soupesez des objets : lequel est le plus lourd ? Vérifiez avec une vraie balance ! Lourd ou léger ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Jacques a dit (l'espace)",
+        "description": "'Jacques a dit : mets-toi SOUS la table ! …DEVANT la chaise !' Aaron suit les consignes spatiales !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le collier savant",
+        "description": "Enfilez des perles selon un rythme de plus en plus dur : rouge-rouge-bleu, rouge-rouge-bleu… Continuez la suite !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La pêche aux quantités",
+        "description": "Pêche des poissons numérotés et donne autant de jetons que le chiffre pêché. Comptez ensemble !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Plus, moins, autant",
+        "description": "Trois assiettes de bonbons (factices). Aaron compare : laquelle a plus ? moins ? autant qu'une autre ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le sac à formes",
+        "description": "Mets des formes dans un sac. Aaron en attrape une et la devine au TOUCHER avant de la sortir : rond ou triangle ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 La course des escargots",
+        "description": "Range des objets du plus court au plus long pour faire une 'course d'escargots'. Qui est le plus long ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Cache-cache des chiffres",
+        "description": "Cache les chiffres 1 à 5 dans la maison. Aaron les retrouve et les remet dans l'ordre : 1, 2, 3, 4, 5 !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "monde",
+     "nom": "Explorer le Monde",
+     "emoji": "🌍",
+     "revision": {
+      "intro": "On revoit la PS : reconnaître les animaux familiers, les parties du corps, le jour et la nuit, toucher différentes matières, le chaud et le froid.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Montre des images d'animaux familiers (chien, chat, lapin, poule). Aaron les nomme-t-il ?",
+        "correction": "Il reconnaît et nomme les animaux du quotidien.",
+        "explication": "Parent : associe chaque animal à son cri. Reconnaître les animaux familiers est une découverte de base en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de montrer sa tête, ses yeux, sa bouche, ses mains, ses pieds.",
+        "correction": "Il pointe correctement chaque partie de son corps.",
+        "explication": "Parent : chantez 'Tête, épaules, genoux, pieds'. Connaître son corps est essentiel pour se construire et se repérer."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Quand fait-il jour ? Quand fait-il nuit ? (on joue, on dort)",
+        "correction": "Le jour on est réveillé et on joue ; la nuit il fait noir et on dort.",
+        "explication": "Parent : montre par la fenêtre. Distinguer le jour et la nuit structure les premiers repères de temps."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Fais toucher : quelque chose de DOUX (peluche) et de DUR (cube). Aaron sent-il la différence ?",
+        "correction": "Il distingue les matières douces et dures au toucher.",
+        "explication": "Parent : multiplie les expériences tactiles. Explorer les matières par le toucher éveille les sens et le vocabulaire."
+       },
+       {
+        "consigne": "👨‍👩‍👧 L'eau du bain : est-elle CHAUDE ou FROIDE ? Et un glaçon ?",
+        "correction": "Le bain est chaud (ou tiède), le glaçon est froid.",
+        "explication": "Parent : fais-lui sentir la différence prudemment. Le chaud et le froid sont des sensations à nommer en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre où poussent les fruits : sur un arbre ou sous la terre ? (une pomme)",
+        "correction": "La pomme pousse sur l'arbre (le pommier).",
+        "explication": "Parent : montre des images ou de vrais arbres. Découvrir d'où vient la nourriture éveille la curiosité sur le vivant."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Trie les aliments : ce qu'on MANGE (pomme, pain) et ce qu'on ne mange pas (caillou, jouet).",
+        "correction": "Il sépare le comestible du non-comestible.",
+        "explication": "Parent : c'est aussi une question de sécurité ! Savoir ce qui se mange ou non est une découverte importante."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Que met-on quand il fait froid dehors ? (manteau, bonnet) Et quand il fait chaud ?",
+        "correction": "Froid : manteau, écharpe. Chaud : t-shirt, short.",
+        "explication": "Parent : relie au temps qu'il fait dehors. Adapter ses vêtements au temps développe le repérage du monde."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Imite la démarche des animaux : marche comme un canard, saute comme une grenouille !",
+        "correction": "Il imite les déplacements des animaux.",
+        "explication": "Parent : faites-le ensemble, c'est physique et drôle ! Imiter les animaux développe la motricité et l'observation."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre un objet qui FLOTTE (bouchon) et un qui COULE (caillou) dans l'eau du bain.",
+        "correction": "Il observe que le bouchon flotte et le caillou coule.",
+        "explication": "Parent : transforme le bain en labo ! Observer ce qui flotte ou coule est une première expérience scientifique."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 La ferme des cris",
+        "description": "Montre un animal, Aaron fait son cri et imite sa démarche ! Le canard se dandine, la grenouille saute !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le sac à toucher",
+        "description": "Mets des objets de matières différentes dans un sac. Aaron devine au toucher : doux, dur, rugueux ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Jour et nuit",
+        "description": "Tu dis 'jour', Aaron mime qu'il joue. Tu dis 'nuit', il fait semblant de dormir ! Alternez vite !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Flotte ou coule ?",
+        "description": "Dans le bain ou une bassine, testez des objets. Aaron devine avant : ça flotte ou ça coule ? Vérifiez !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Chaud-froid",
+        "description": "Fais toucher (prudemment) de l'eau chaude, tiède, froide, un glaçon. Aaron classe du plus froid au plus chaud !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le pantin",
+        "description": "Tu nommes une partie du corps, Aaron la bouge ! 'Bouge ta main ! Secoue ta tête !' Comme un pantin rigolo !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Mange ou mange pas",
+        "description": "Montre des images, Aaron dit si ça se mange. Attention aux pièges (un savon en forme de fruit ?) !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le jardin secret",
+        "description": "Plantez une graine ensemble et observez-la pousser. Aaron l'arrose et regarde la nature à l'œuvre !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La danse des animaux",
+        "description": "Musique ! Quand tu cries un animal, Aaron danse comme lui : le serpent rampe, l'oiseau vole !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Habille la météo",
+        "description": "Regarde dehors. Aaron choisit les bons vêtements pour la poupée selon le temps : pluie, soleil, froid !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LA MS ! En PS, Aaron a exploré le monde par ses sens. En MS, il va commencer à COMPRENDRE et à CLASSER : reconnaître les besoins des êtres vivants (manger, boire, grandir), distinguer les animaux par où ils vivent (eau, terre, air), repérer les moments de la journée (matin, midi, soir) et découvrir les objets techniques (à quoi ils servent). Premier objectif tout en douceur : nommer les 3 grands moments de la journée et ce qu'on y fait. Conseil parent : tout passe par l'observation du réel, les expériences simples et les images. Pas de leçon abstraite !",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Range les moments de la journée : le matin, le midi, le soir. Que fait-on à chacun ?",
+        "correction": "Matin : on se réveille, on déjeune. Midi : on mange. Soir : on dîne, on se couche.",
+        "explication": "Parent : relie aux activités réelles d'Aaron. Repérer les moments de la journée construit les premiers repères temporels.",
+        "ref": "Cours : les moments de la journée"
+       },
+       {
+        "consigne": "👨‍👩‍👧 De quoi un animal a-t-il besoin pour vivre ? (comme nous)",
+        "correction": "De manger, de boire de l'eau, et de dormir/grandir.",
+        "explication": "Parent : compare avec ses propres besoins. Comprendre les besoins des vivants est un objectif de découverte du monde en MS.",
+        "ref": "Cours : les besoins des vivants"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Où vit le poisson : dans l'eau, sur la terre ou dans l'air ?",
+        "correction": "Dans l'eau.",
+        "explication": "Parent : montre des images de milieux. Classer les animaux selon où ils vivent (eau/terre/air) développe l'observation.",
+        "ref": "Cours : où vivent les animaux"
+       },
+       {
+        "consigne": "👨‍👩‍👧 À quoi sert une cuillère ? Un parapluie ? Aaron explique-t-il l'usage des objets ?",
+        "correction": "La cuillère sert à manger, le parapluie à se protéger de la pluie.",
+        "explication": "Parent : manipule les objets avec lui. Comprendre à quoi servent les objets du quotidien est une découverte technique de la MS.",
+        "ref": "Cours : les objets et leurs usages"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Un oiseau vole dans… ? Un poisson nage dans… ? Une taupe creuse dans… ?",
+        "correction": "L'oiseau dans l'air, le poisson dans l'eau, la taupe dans la terre.",
+        "explication": "Parent : mime les déplacements ! Associer animal et milieu de vie est un classement scientifique adapté à la MS.",
+        "ref": "Cours : où vivent les animaux"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Trie : ce qui est VIVANT (chat, fleur) et ce qui ne l'est PAS (table, voiture).",
+        "correction": "Vivant : chat, fleur. Pas vivant : table, voiture.",
+        "explication": "Parent : un être vivant grandit et a besoin de manger/boire. Distinguer vivant et non-vivant débute en MS.",
+        "ref": "Cours : le vivant et le non-vivant"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Plante une graine et observe : de quoi a-t-elle besoin pour pousser ?",
+        "correction": "D'eau et de lumière (soleil).",
+        "explication": "Parent : faites l'expérience sur plusieurs jours ! Observer la croissance d'une plante montre concrètement les besoins du vivant.",
+        "ref": "Cours : les besoins des vivants"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Quel temps fait-il aujourd'hui ? (soleil, pluie, nuages, vent)",
+        "correction": "Il décrit le temps observé par la fenêtre.",
+        "explication": "Parent : observez le ciel chaque jour. Décrire la météo développe l'observation et le vocabulaire du monde.",
+        "ref": "Cours : observer la météo"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre comment on utilise des ciseaux (avec un adulte) : pour quoi faire ?",
+        "correction": "Les ciseaux servent à couper le papier.",
+        "explication": "Parent : surveille toujours l'usage des ciseaux ! Apprendre à utiliser un objet technique en sécurité est un objectif de MS.",
+        "ref": "Cours : les objets et leurs usages"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Que se passe-t-il quand on met de l'eau au congélateur ? Observez ensemble.",
+        "correction": "L'eau devient dure et froide : c'est de la glace !",
+        "explication": "Parent : faites l'expérience ! Observer l'eau qui gèle est une première expérience sur les transformations de la matière.",
+        "ref": "Cours : explorer la matière"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Eau, terre ou air ?",
+        "description": "Montre un animal, Aaron court vers la zone 'eau', 'terre' ou 'air' de la pièce ! Où vit-il ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 La frise de ma journée",
+        "description": "Dessinez ensemble le matin, le midi, le soir avec ce qu'on y fait. Aaron remet les images dans l'ordre !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le labo des glaçons",
+        "description": "Mettez de l'eau colorée au congélateur. Le lendemain : surprise, de la glace ! Observez-la fondre ensuite."
+       },
+       {
+        "titre": "👨‍👩‍👧 À quoi ça sert ?",
+        "description": "Montre un objet (cuillère, brosse, parapluie), Aaron mime son utilisation ! Devinez ses gestes."
+       },
+       {
+        "titre": "👨‍👩‍👧 Vivant ou pas",
+        "description": "Promenade dehors : Aaron montre ce qui est vivant (oiseau, arbre) et pas vivant (banc, caillou) !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le jardinier en herbe",
+        "description": "Plantez des lentilles dans du coton. Chaque jour, Aaron arrose et observe : ça pousse ! De quoi a besoin la graine ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 La station météo",
+        "description": "Chaque matin, Aaron place le bon symbole météo (soleil, nuage, pluie) sur un tableau. Tenez un journal du temps !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le tri des habitats",
+        "description": "Triez des images d'animaux dans 3 boîtes : eau, terre, ciel. Discutez des animaux qui vont dans deux (le canard ?) !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Matin, midi, soir",
+        "description": "Tu dis un moment, Aaron mime l'activité : matin = s'étirer, midi = manger, soir = dormir !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Les besoins de la peluche",
+        "description": "La peluche a faim, soif, sommeil ! Aaron devine de quoi elle a besoin et 's'en occupe'. Comme un vrai vivant !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE MS — EXPLORER LE MONDE. En Moyenne Section, Aaron va : 1) LE VIVANT : reconnaître les caractéristiques du vivant (naître, grandir, se nourrir, se reproduire, mourir), connaître les besoins des animaux et des plantes, les parties du corps. 2) LA MATIÈRE : explorer l'eau (liquide, glace), l'air (le vent, ça souffle), les matières (bois, plastique, tissu, métal). 3) LE TEMPS : les moments de la journée, hier/aujourd'hui/demain, la chronologie d'une histoire, les saisons. 4) L'ESPACE : se repérer (dans la classe, sur un parcours), un plan simple, le vocabulaire spatial. 5) LES OBJETS : reconnaître, nommer et utiliser des objets techniques, construire et assembler. Tout passe par l'observation, l'expérience concrète et le jeu. Aucune leçon abstraite à cet âge.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Qu'est-ce qu'un être vivant fait pendant sa vie ? (naître, grandir…)",
+        "correction": "Il naît, il grandit, il se nourrit et un jour il meurt.",
+        "explication": "Parent : compare avec la croissance d'Aaron lui-même (bébé → enfant). Comprendre les étapes de la vie est un objectif de MS.",
+        "ref": "Cours §1 : Le vivant"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Range les saisons dans l'ordre en commençant par l'hiver : hiver, …, …, …",
+        "correction": "Hiver → printemps → été → automne.",
+        "explication": "Parent : associe chaque saison à une image (neige, fleurs, soleil, feuilles). Ordonner les saisons construit le repère du temps.",
+        "ref": "Cours §3 : Le temps - les saisons"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Souffle sur une plume, puis sur un caillou. Lequel bouge ? Pourquoi ?",
+        "correction": "La plume bouge car elle est légère ; le caillou reste car il est lourd.",
+        "explication": "Parent : l'air (le souffle) déplace les objets légers. C'est une première expérience sur l'air et la matière en MS.",
+        "ref": "Cours §2 : La matière - l'air"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Classe ces matières : le bois, le tissu, le métal, le plastique. Lequel est mou ? Lequel est dur et froid ?",
+        "correction": "Mou : le tissu. Dur et froid : le métal.",
+        "explication": "Parent : fais-lui toucher de vrais objets. Reconnaître et nommer les matières par leurs propriétés est un objectif de MS.",
+        "ref": "Cours §2 : La matière - les matériaux"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Hier, aujourd'hui, demain : quand est ton anniversaire si c'est 'demain' ?",
+        "correction": "C'est le jour qui vient APRÈS aujourd'hui.",
+        "explication": "Parent : utilise un calendrier simple. Comprendre hier/aujourd'hui/demain est un grand pas dans le repérage du temps.",
+        "ref": "Cours §3 : Le temps"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Raconte une histoire connue dans l'ordre : que se passe-t-il au début, au milieu, à la fin ?",
+        "correction": "Il restitue les 3 grandes étapes de l'histoire dans l'ordre.",
+        "explication": "Parent : aide-toi des images du livre. Remettre une histoire dans l'ordre développe la chronologie, essentielle en MS.",
+        "ref": "Cours §3 : La chronologie"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Suis un parcours : passe SOUS la table, AUTOUR de la chaise, DERRIÈRE le canapé.",
+        "correction": "Il réalise le parcours en respectant les positions.",
+        "explication": "Parent : transforme le salon en parcours ! Le vocabulaire spatial (sous, autour, derrière) se vit avec le corps en MS.",
+        "ref": "Cours §4 : L'espace"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Avec quoi peut-on construire une tour qui tient debout : des cubes ou de l'eau ?",
+        "correction": "Avec des cubes (l'eau ne tient pas en tour !).",
+        "explication": "Parent : laisse-le tester et se tromper. Choisir le bon matériau pour construire développe la pensée technique de la MS.",
+        "ref": "Cours §5 : Les objets - construire"
+       },
+       {
+        "consigne": "👨‍👩‍👧 De quoi une plante a-t-elle besoin pour grandir ? (eau, lumière)",
+        "correction": "D'eau et de lumière (et d'un peu de terre).",
+        "explication": "Parent : refaites l'expérience de la graine. Les besoins des plantes sont un classique de l'exploration du vivant en MS.",
+        "ref": "Cours §1 : Les besoins des plantes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Nomme 3 parties du corps qui servent à bouger.",
+        "correction": "Les jambes, les bras, les pieds (ou les mains).",
+        "explication": "Parent : faites bouger chaque partie nommée. Connaître son corps et son rôle est un apprentissage du vivant en MS.",
+        "ref": "Cours §1 : Le corps"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 La roue des saisons",
+        "description": "Fabrique une roue à 4 parts (hiver, printemps, été, automne). Tournez et mimez la saison tombée !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Souffle-souffle",
+        "description": "Course de plumes ou de cotons soufflés sur la table ! Qui pousse le sien le plus loin avec l'air de sa bouche ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le détective des matières",
+        "description": "Donne 5 objets à Aaron, il les classe : mou/dur, lisse/rugueux, lourd/léger. Discutez de chacun !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le parcours de l'explorateur",
+        "description": "Crée un parcours dans le salon : sous la table, autour du tapis, par-dessus le coussin ! Aaron explore l'espace."
+       },
+       {
+        "titre": "👨‍👩‍👧 Hier, aujourd'hui, demain",
+        "description": "Le soir, racontez : qu'a-t-on fait aujourd'hui ? Qu'a-t-on fait hier ? Que fera-t-on demain ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le conteur dans l'ordre",
+        "description": "Mélangez 3 images d'une histoire. Aaron les remet dans le bon ordre et raconte : début, milieu, fin !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Les petits bâtisseurs",
+        "description": "Construisez la plus belle tour ou maison avec des cubes. Quel matériau tient le mieux ? Testez !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le jardin qui pousse",
+        "description": "Plantez plusieurs graines : une à la lumière, une dans le noir. Laquelle pousse le mieux ? Observez sur 1 semaine !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le corps en mouvement",
+        "description": "Musique ! Tu cries une partie du corps, Aaron ne bouge QUE celle-là. Tête… mains… pieds… tout le corps !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Glace ou eau ?",
+        "description": "Faites des glaçons colorés. Observez-les fondre dans un verre. Aaron raconte : la glace devient de l'eau !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "sport",
+     "nom": "Bouger & le Sport",
+     "emoji": "🤸",
+     "revision": {
+      "intro": "On revoit la PS : marcher, courir, sauter, ramper, lancer une balle, garder l'équilibre, danser au rythme de la musique.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de marcher, puis courir, puis s'arrêter net au signal 'STOP !'",
+        "correction": "Il alterne marche/course et s'arrête au signal.",
+        "explication": "Parent : varie les signaux. Démarrer et s'arrêter sur consigne développe l'écoute et le contrôle du corps en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Aaron saute-t-il à pieds joints par-dessus une ligne au sol (une corde posée) ?",
+        "correction": "Il saute des deux pieds en même temps par-dessus la ligne.",
+        "explication": "Parent : trace une ligne large d'abord. Sauter à pieds joints est une étape clé de la motricité en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Fais ramper Aaron sous une chaise ou une table comme un petit serpent.",
+        "correction": "Il rampe en passant sous l'obstacle.",
+        "explication": "Parent : sécurise l'espace. Ramper et passer sous des obstacles développe la motricité globale et la coordination."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Lance une balle molle dans un grand carton. Aaron vise-t-il ?",
+        "correction": "Il lance la balle vers la cible (le carton).",
+        "explication": "Parent : rapproche la cible au début. Lancer vers un but travaille la coordination œil-main, base de nombreux gestes."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Aaron tient-il en équilibre sur un pied quelques secondes ?",
+        "correction": "Il garde l'équilibre sur un pied 2-3 secondes.",
+        "explication": "Parent : propose de tenir ta main au début. L'équilibre sur un pied est un grand défi moteur pour un PS, à encourager."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Danse avec Aaron sur une musique : bouge vite sur la musique rapide, lentement sur la musique douce.",
+        "correction": "Il adapte ses mouvements au rythme de la musique.",
+        "explication": "Parent : exagère les contrastes. Bouger selon le rythme développe l'écoute et l'expression corporelle."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Fais marcher Aaron sur la pointe des pieds, puis comme un géant, puis tout petit.",
+        "correction": "Il varie sa façon de marcher selon la consigne.",
+        "explication": "Parent : mime avec lui. Varier les déplacements enrichit le répertoire moteur et l'imagination."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Aaron attrape-t-il un gros ballon que tu lui lances doucement ?",
+        "correction": "Il tend les bras et attrape (ou bloque) le ballon.",
+        "explication": "Parent : lance tout près et doucement. Attraper est plus difficile que lancer : encourage chaque tentative !"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Roule comme une bûche sur un tapis, d'un bout à l'autre.",
+        "correction": "Il roule sur lui-même en restant droit.",
+        "explication": "Parent : un tapis ou un lit moelleux. Rouler développe la conscience du corps dans l'espace et fait beaucoup rire !"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Tape dans tes mains en marchant : un pas, une tape. Aaron coordonne-t-il ?",
+        "correction": "Il marche en tapant dans ses mains en rythme.",
+        "explication": "Parent : ralentis pour qu'il suive. Coordonner deux actions (marcher + taper) est un beau progrès moteur."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 1, 2, 3, soleil !",
+        "description": "Aaron avance quand tu es retourné, se fige quand tu te retournes ! Le grand classique du contrôle du corps."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le parcours du lapin",
+        "description": "Saute par-dessus des coussins, rampe sous une chaise, tourne autour d'un seau ! Un parcours d'aventurier."
+       },
+       {
+        "titre": "👨‍👩‍👧 La statue musicale",
+        "description": "Dansez sur la musique. Quand elle s'arrête, on devient une statue immobile ! Qui tient le mieux ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le panier de basket",
+        "description": "Lancez des balles molles (ou chaussettes en boule) dans un carton. Reculez à chaque réussite !"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'équilibriste",
+        "description": "Marche sur une ligne tracée au sol (ou une corde) sans tomber, les bras écartés comme un funambule !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le miroir",
+        "description": "Tu fais un mouvement, Aaron t'imite comme un miroir ! Lève un bras, saute, tourne. Puis inversez."
+       },
+       {
+        "titre": "👨‍👩‍👧 La course des animaux",
+        "description": "Traversez la pièce en canard, en grenouille, en crabe, en serpent ! Quel animal va le plus vite ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Chamboule-tout",
+        "description": "Empilez des gobelets et faites-les tomber avec une balle ! Comptez ceux qui tombent."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le tunnel",
+        "description": "Fabriquez un tunnel avec des chaises et une couverture. Aaron rampe à travers en explorateur !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Jacques a dit (le corps)",
+        "description": "'Jacques a dit : saute ! …tourne ! …touche tes pieds !' Aaron bouge selon les consignes !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LA MS ! En PS, Aaron a appris à courir, sauter, lancer. En MS, ses mouvements deviennent plus PRÉCIS et plus COORDONNÉS : il va apprendre à enchaîner plusieurs actions (courir PUIS sauter), à viser une cible plus précisément, à se déplacer en rythme, et à coopérer dans des petits jeux collectifs (à plusieurs, on respecte des règles simples). Premier objectif tout en douceur : enchaîner deux actions à la suite, comme courir puis sauter dans un cerceau. Conseil parent : laisse-le essayer, se tromper, recommencer. Le plaisir de bouger compte plus que la performance !",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Enchaîne deux actions : cours jusqu'au mur PUIS saute. Aaron y arrive-t-il ?",
+        "correction": "Il court puis saute, en enchaînant les deux mouvements.",
+        "explication": "Parent : montre l'exemple d'abord. Enchaîner deux actions est un progrès important de la coordination en MS.",
+        "ref": "Cours : enchaîner des actions"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Vise une cible plus précise : lance la balle dans un seau placé un peu plus loin.",
+        "correction": "Il ajuste son lancer pour atteindre le seau.",
+        "explication": "Parent : félicite les progrès, pas seulement les réussites. Viser plus précisément affine la coordination œil-main en MS.",
+        "ref": "Cours : viser une cible"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Marche en rythme sur un tambourin : un coup = un pas. Aaron suit-il le rythme ?",
+        "correction": "Il cale ses pas sur le rythme donné.",
+        "explication": "Parent : commence lentement. Se déplacer en rythme développe l'écoute et la coordination, utiles en danse et en sport.",
+        "ref": "Cours : se déplacer en rythme"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Saute sur un pied, puis sur l'autre. Aaron tient-il sur chaque pied ?",
+        "correction": "Il sautille sur un pied puis change de pied.",
+        "explication": "Parent : tiens sa main si besoin. Sauter sur un pied demande équilibre et force : un défi typique de la MS.",
+        "ref": "Cours : équilibre et sauts"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Jouez à un jeu à deux avec une règle simple : on se passe le ballon chacun son tour.",
+        "correction": "Il respecte le tour de rôle dans le jeu.",
+        "explication": "Parent : rappelle gentiment la règle. Coopérer et respecter son tour est le début des jeux collectifs en MS.",
+        "ref": "Cours : jeux collectifs et règles"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Lance la balle en HAUT et essaie de la rattraper. Aaron tente-t-il ?",
+        "correction": "Il lance vers le haut et essaie de rattraper.",
+        "explication": "Parent : un ballon léger et lent. Lancer et rattraper soi-même est un enchaînement moteur difficile, à encourager.",
+        "ref": "Cours : lancer et rattraper"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Traverse la pièce en marchant sur une ligne SANS sortir. Puis plus vite.",
+        "correction": "Il suit la ligne en gardant l'équilibre.",
+        "explication": "Parent : élargis la ligne au début. Marcher sur une ligne fine développe l'équilibre et la maîtrise du corps en MS.",
+        "ref": "Cours : l'équilibre"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Imite un parcours montré : saute, tourne, accroupis-toi. Aaron mémorise-t-il l'ordre ?",
+        "correction": "Il reproduit la suite de mouvements dans l'ordre.",
+        "explication": "Parent : commence par 2 mouvements. Mémoriser et reproduire une suite de gestes développe mémoire et coordination.",
+        "ref": "Cours : mémoriser un enchaînement"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Roule un ballon vers une quille pour la faire tomber (comme au bowling).",
+        "correction": "Il fait rouler le ballon vers la cible.",
+        "explication": "Parent : rapproche la quille. Faire rouler en visant développe le contrôle du geste, différent du lancer.",
+        "ref": "Cours : viser une cible"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Danse en suivant 3 gestes : taper des mains, tourner, sauter. Dans l'ordre !",
+        "correction": "Il enchaîne les 3 gestes en musique.",
+        "explication": "Parent : fais-le avec lui. Enchaîner des gestes en rythme prépare aux rondes et danses collectives de la MS.",
+        "ref": "Cours : se déplacer en rythme"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Le parcours sportif",
+        "description": "Cours, saute dans le cerceau, rampe sous la chaise, lance la balle ! Enchaîne tout sans s'arrêter !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le bowling maison",
+        "description": "Alignez des bouteilles en plastique. Aaron roule le ballon pour les faire tomber. Comptez les quilles !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La balle au tambour",
+        "description": "Aaron bouge tant que tu tapes le tambour, se fige au silence. Variez vite/lent !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La marelle des petits",
+        "description": "Dessine une marelle simple. Aaron saute de case en case à cloche-pied ou pieds joints !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Passe à passe",
+        "description": "Asseyez-vous face à face et faites rouler/lancer le ballon chacun son tour. Comptez les passes réussies !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La danse des consignes",
+        "description": "Musique ! 'Tournez ! Sautez ! Tapez des mains !' Aaron enchaîne les gestes que tu annonces."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le funambule",
+        "description": "Marche sur une corde posée au sol, d'abord lentement, puis en portant un objet sur la tête !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le facteur",
+        "description": "Aaron 'livre' des objets en traversant un parcours d'obstacles sans les faire tomber !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le ballon prisonnier doux",
+        "description": "Avec un ballon mou, essayez de toucher gentiment les jambes de l'autre. Esquivez et riez !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La chenille",
+        "description": "Mettez-vous en file et imitez le meneur : il saute, vous sautez ! Il tourne, vous tournez !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE MS — AGIR, S'EXPRIMER, COMPRENDRE PAR L'ACTIVITÉ PHYSIQUE. En Moyenne Section, Aaron va : 1) AGIR DANS L'ESPACE : courir vite, sauter loin et haut, lancer loin et viser, grimper, rouler, se déplacer de multiples façons. 2) ÉQUILIBRE ET COORDINATION : marcher sur une poutre basse, sauter sur un pied, enchaîner plusieurs actions. 3) S'EXPRIMER : danser, faire des rondes, mimer, exprimer des émotions avec son corps, suivre un rythme. 4) COOPÉRER ET S'OPPOSER : jeux collectifs avec des règles, jeux de poursuite (loup), coopérer en équipe, accepter de gagner et de perdre. 5) ADAPTER SES DÉPLACEMENTS à des environnements variés (parcours, obstacles). L'objectif est le plaisir de bouger, la confiance en soi et le vivre-ensemble.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Cours le plus VITE possible jusqu'au mur, puis reviens en MARCHANT.",
+        "correction": "Il adapte sa vitesse : course rapide à l'aller, marche au retour.",
+        "explication": "Parent : chronomètre pour l'encourager. Courir vite et savoir varier sa vitesse est un objectif moteur de la MS.",
+        "ref": "Cours §1 : Agir dans l'espace"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Marche sur une poutre basse (ou une planche posée au sol) sans tomber.",
+        "correction": "Il avance en gardant l'équilibre sur la poutre.",
+        "explication": "Parent : tiens-toi à côté pour rassurer. Marcher en équilibre sur une poutre est un grand défi moteur de la MS.",
+        "ref": "Cours §2 : Équilibre"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Joue au loup : Aaron court pour ne pas être attrapé. Comprend-il la règle ?",
+        "correction": "Il fuit le loup et comprend qu'il ne faut pas se faire toucher.",
+        "explication": "Parent : commence par être le loup gentil. Les jeux de poursuite avec règle développent la coopération et l'opposition en MS.",
+        "ref": "Cours §4 : Coopérer et s'opposer"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Saute le plus LOIN possible à pieds joints. Marque où il arrive.",
+        "correction": "Il pousse sur ses jambes pour sauter loin.",
+        "explication": "Parent : mesure et compare à la fois précédente. Sauter loin (vers la performance) motive et développe la force en MS.",
+        "ref": "Cours §1 : Sauter loin"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Fais une ronde en chantant et en tournant tous ensemble.",
+        "correction": "Il participe à la ronde en se tenant et en tournant en rythme.",
+        "explication": "Parent : invitez toute la famille ! Les rondes développent l'expression collective et le sens du rythme en MS.",
+        "ref": "Cours §3 : S'exprimer - les rondes"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Mime une émotion avec ton corps : la joie (sauter), la colère (taper du pied), la peur (se cacher).",
+        "correction": "Il exprime chaque émotion par une attitude corporelle.",
+        "explication": "Parent : devine ses mimes ! Exprimer des émotions avec le corps relie le sport et le développement affectif en MS.",
+        "ref": "Cours §3 : S'exprimer avec son corps"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Grimpe sur une structure adaptée (toboggan, module de jeu) en sécurité.",
+        "correction": "Il grimpe en s'agrippant et en posant bien ses pieds.",
+        "explication": "Parent : surveille toujours et sécurise. Grimper développe la force, l'agilité et la confiance, objectifs de la MS.",
+        "ref": "Cours §1 : Grimper"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Lance un objet le plus LOIN possible, puis essaie de VISER une cible. Quelle différence ?",
+        "correction": "Pour aller loin, on lance fort ; pour viser, on lance précis (pas forcément fort).",
+        "explication": "Parent : fais les deux et compare. Distinguer 'lancer loin' et 'lancer précis' affine le geste et la pensée en MS.",
+        "ref": "Cours §1 : Lancer loin et viser"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Joue à un jeu d'équipe simple : transportez tous ensemble des objets d'un point à un autre.",
+        "correction": "Il coopère avec les autres pour réussir ensemble.",
+        "explication": "Parent : valorise l'entraide, pas la compétition. Coopérer en équipe est un apprentissage social majeur de la MS.",
+        "ref": "Cours §4 : Coopérer en équipe"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Après un jeu, demande : 'As-tu gagné ou perdu ? Comment te sens-tu ?'",
+        "correction": "Il accepte le résultat et exprime son ressenti.",
+        "explication": "Parent : dédramatise la défaite, c'est juste un jeu ! Apprendre à gagner ET à perdre sereinement est essentiel en MS.",
+        "ref": "Cours §4 : Accepter de gagner et perdre"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Le loup glacé",
+        "description": "Le loup poursuit, ceux qu'il touche sont 'gelés' jusqu'à ce qu'un copain les délivre ! Jeu de poursuite coopératif."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le grand saut",
+        "description": "Marque une ligne de départ. Chacun saute le plus loin possible à pieds joints. Mesurez les sauts !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La ronde des saisons",
+        "description": "Faites une ronde en chantant. À chaque saison nommée, changez de geste (sauter, tourner, s'accroupir) !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le déménageur",
+        "description": "En équipe, transportez tous les coussins d'un coin à l'autre le plus vite possible. On gagne ensemble !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le théâtre des émotions",
+        "description": "Mime une émotion avec tout ton corps, les autres devinent : joie, colère, peur, tristesse !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La poutre aux trésors",
+        "description": "Marche sur une planche au sol pour aller chercher un 'trésor' de l'autre côté sans tomber !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Béret sportif",
+        "description": "Deux équipes, un objet au milieu. Au signal du numéro, on court le chercher ! Apprend les règles d'équipe."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le parcours du champion",
+        "description": "Enchaîne : grimper, sauter, ramper, viser, courir ! Un vrai mini-parcours sportif chronométré."
+       },
+       {
+        "titre": "👨‍👩‍👧 La danse libre",
+        "description": "Sur différentes musiques, danse comme tu le ressens : doucement, vite, en sautant ! Exprime-toi !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Gagner et perdre",
+        "description": "Jouez plusieurs petites manches. Apprenez à dire 'bravo' au gagnant et 'on rejoue !' sans bouder."
+       }
+      ]
+     }
+    },
+    {
+     "id": "arts",
+     "nom": "Dessin & Musique",
+     "emoji": "🎨",
+     "revision": {
+      "intro": "On revoit la PS : gribouiller et dessiner, reconnaître les couleurs, coller, écouter des sons et chanter des comptines, taper en rythme.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Donne un crayon à Aaron : fait-il des traits, des ronds, des gribouillis volontaires ?",
+        "correction": "Il trace des traits et des formes en contrôlant son geste.",
+        "explication": "Parent : ne corrige pas, encourage ! Le gribouillage volontaire est la première étape essentielle du dessin en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Montre les couleurs : rouge, bleu, jaune, vert. Aaron les nomme-t-il ou les montre-t-il ?",
+        "correction": "Il reconnaît et nomme (ou montre) les couleurs de base.",
+        "explication": "Parent : nomme les couleurs des objets du quotidien. Reconnaître les couleurs est un objectif central de la PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Colle des gommettes (ou papiers) sur une feuille. Aaron décolle-t-il et colle-t-il ?",
+        "correction": "Il manipule et colle les gommettes sur la feuille.",
+        "explication": "Parent : montre le geste. Coller développe la motricité fine des doigts, importante pour la suite (écriture)."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Chante une comptine connue avec les gestes (Ainsi font font font…).",
+        "correction": "Il chante et fait les gestes de la comptine.",
+        "explication": "Parent : refais les gestes avec lui. Les comptines gestuelles développent la mémoire, le rythme et le langage."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Tape dans tes mains en rythme : Aaron t'imite-t-il ? (lent, puis rapide)",
+        "correction": "Il reproduit le rythme tapé dans les mains.",
+        "explication": "Parent : commence très simple. Reproduire un rythme est la base de l'écoute musicale et de la coordination."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Peins avec les doigts (peinture lavable) : Aaron explore-t-il les traces de couleur ?",
+        "correction": "Il étale la peinture et observe les traces de ses doigts.",
+        "explication": "Parent : prévois un tablier ! La peinture aux doigts est une exploration sensorielle et créative idéale en PS."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Écoute : est-ce un son FORT ou DOUX ? (tape fort, puis chuchote)",
+        "correction": "Il distingue les sons forts des sons doux.",
+        "explication": "Parent : exagère le contraste. Distinguer fort/doux développe l'écoute, base de l'éducation musicale."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Reconnais un bruit familier les yeux fermés : la sonnette, l'eau, une cuillère qui tinte.",
+        "correction": "Il identifie le bruit entendu.",
+        "explication": "Parent : fais des bruits du quotidien. Reconnaître les sons développe l'attention auditive et le vocabulaire."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Fais des empreintes avec un objet trempé dans la peinture (bouchon, éponge).",
+        "correction": "Il tamponne et observe les empreintes obtenues.",
+        "explication": "Parent : varie les objets. Les empreintes font découvrir les formes et textures de façon ludique."
+       },
+       {
+        "consigne": "👨‍👩‍👧 Danse librement sur une musique joyeuse. Aaron bouge-t-il avec plaisir ?",
+        "correction": "Il danse et bouge spontanément sur la musique.",
+        "explication": "Parent : danse avec lui sans jugement ! Bouger sur la musique développe l'expression et le plaisir artistique."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 La peinture à doigts",
+        "description": "Mettez de la peinture lavable, et hop, des tableaux avec les doigts et les mains ! Photographiez les chefs-d'œuvre."
+       },
+       {
+        "titre": "👨‍👩‍👧 L'orchestre de casseroles",
+        "description": "Tapez sur des casseroles, des boîtes, avec des cuillères ! Faites un rythme tous ensemble."
+       },
+       {
+        "titre": "👨‍👩‍👧 La chasse aux couleurs",
+        "description": "Tu dis une couleur, Aaron court toucher un objet de cette couleur ! Le plus vite possible."
+       },
+       {
+        "titre": "👨‍👩‍👧 Les gommettes magiques",
+        "description": "Collez des gommettes pour décorer un dessin ou une carte. Où les colle-t-on ? Sur le soleil, les fleurs ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 Fort ou doux ?",
+        "description": "Joue un son fort puis doux. Aaron se fait grand (fort) ou tout petit (doux) selon ce qu'il entend !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le karaoké des comptines",
+        "description": "Chantez 3 comptines avec tous les gestes. Aaron mène la chorale familiale !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Les empreintes mystères",
+        "description": "Trempez des objets dans la peinture, faites des empreintes. Devinez quel objet a fait quelle trace !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La boîte à sons",
+        "description": "Cache des objets qui font du bruit (clés, riz dans une boîte). Aaron devine le son les yeux fermés !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le gribouillage géant",
+        "description": "Sur une grande feuille (ou du papier kraft), gribouillez ensemble en grand ! Avec les bras, c'est plus drôle."
+       },
+       {
+        "titre": "👨‍👩‍👧 La danse des foulards",
+        "description": "Avec des foulards légers, dansez en les faisant voler sur une musique douce ! Bougez comme le vent."
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LA MS ! En PS, Aaron a gribouillé et exploré les couleurs et les sons. En MS, son dessin va devenir plus PRÉCIS et plus REPRÉSENTATIF : il va dessiner un bonhomme avec plus de détails (tête, corps, bras, jambes), mélanger les couleurs pour en découvrir de nouvelles, reconnaître quelques chansons, et reproduire des rythmes simples. Premier objectif tout en douceur : dessiner un 'bonhomme' qui a une tête, un corps, des bras et des jambes. Conseil parent : valorise chaque progrès et ne fais jamais le dessin à sa place. L'important est qu'il ose et qu'il prenne plaisir à créer !",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de dessiner un bonhomme. A-t-il une tête, un corps, des bras, des jambes ?",
+        "correction": "Il dessine un bonhomme avec plusieurs parties du corps.",
+        "explication": "Parent : nomme les parties manquantes sans dessiner à sa place. Le 'bonhomme' qui s'enrichit est un grand marqueur de la MS.",
+        "ref": "Cours : dessiner un bonhomme"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Mélange deux peintures : jaune + bleu. Quelle couleur obtient-on ?",
+        "correction": "Du vert !",
+        "explication": "Parent : laisse-le mélanger lui-même, c'est magique ! Découvrir qu'on crée des couleurs par mélange émerveille en MS.",
+        "ref": "Cours : mélanger les couleurs"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Reproduis un rythme simple : tape 'ta-ta-TI-ta'. Aaron le refait-il ?",
+        "correction": "Il reproduit le rythme tapé.",
+        "explication": "Parent : commence par 2-3 frappes. Reproduire un rythme plus élaboré développe l'écoute et la mémoire musicale en MS.",
+        "ref": "Cours : reproduire un rythme"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Colorie à l'intérieur d'une grande forme (un rond) sans trop dépasser.",
+        "correction": "Il colorie en essayant de rester dans la forme.",
+        "explication": "Parent : choisis de grandes formes simples. Colorier en limitant les débordements affine le contrôle du geste en MS.",
+        "ref": "Cours : maîtriser son geste"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Reconnais une chanson connue dès les premières notes. Aaron la nomme-t-il ?",
+        "correction": "Il reconnaît la chanson et peut la nommer ou la chanter.",
+        "explication": "Parent : refais souvent les mêmes chansons. Reconnaître une mélodie développe la mémoire auditive en MS.",
+        "ref": "Cours : reconnaître des chansons"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Découpe (avec des ciseaux adaptés, sous surveillance) le long d'un trait épais.",
+        "correction": "Il découpe en suivant approximativement le trait.",
+        "explication": "Parent : surveille toujours et choisis des ciseaux à bouts ronds. Découper développe la motricité fine, étape clé de la MS.",
+        "ref": "Cours : découper"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Quelle couleur obtient-on avec rouge + jaune ? Essaie !",
+        "correction": "Du orange !",
+        "explication": "Parent : faites l'expérience avec de la peinture. Chaque mélange est une découverte joyeuse qui ancre les couleurs en MS.",
+        "ref": "Cours : mélanger les couleurs"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Joue d'un instrument (maracas, tambourin) en suivant une musique. Aaron suit-il le tempo ?",
+        "correction": "Il accompagne la musique en rythme avec l'instrument.",
+        "explication": "Parent : un instrument simple suffit. Accompagner une musique en rythme développe le sens musical en MS.",
+        "ref": "Cours : jouer en rythme"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Dessine ce que tu veux, puis raconte ce que tu as dessiné.",
+        "correction": "Il dessine et explique son dessin avec des mots.",
+        "explication": "Parent : écoute son explication avec intérêt. Raconter son dessin relie l'art et le langage, objectif de la MS.",
+        "ref": "Cours : créer et raconter"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Range les crayons par couleur dans des pots. Aaron trie-t-il correctement ?",
+        "correction": "Il classe les crayons selon leur couleur.",
+        "explication": "Parent : transforme le rangement en jeu. Trier par couleur prépare le travail soigné et organisé en MS.",
+        "ref": "Cours : reconnaître les couleurs"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Le bonhomme rigolo",
+        "description": "Dessinez chacun un bonhomme. Qui a pensé aux yeux, au nez, aux doigts ? Comparez et ajoutez des détails !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La cuisine des couleurs",
+        "description": "Mélangez les peintures comme un chef : jaune+bleu, rouge+jaune ! Quelles nouvelles couleurs apparaissent ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'écho rythmique",
+        "description": "Tu tapes un rythme, Aaron le répète comme un écho ! Compliquez petit à petit."
+       },
+       {
+        "titre": "👨‍👩‍👧 Le coloriage géant",
+        "description": "Dessine de grandes formes simples, Aaron les colorie chacune d'une couleur. Reste dans les lignes !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Blind test des comptines",
+        "description": "Fredonne une comptine sans les paroles, Aaron devine laquelle c'est et la chante !"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'atelier découpage",
+        "description": "Avec des ciseaux à bouts ronds, découpez des bandes de papier pour faire des guirlandes (sous surveillance) !"
+       },
+       {
+        "titre": "👨‍👩‍👧 L'orchestre rythmé",
+        "description": "Chacun un instrument (maracas, tambour). Suivez le rythme d'une chanson tous ensemble !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Mon histoire en dessin",
+        "description": "Aaron dessine puis raconte une histoire à partir de son dessin. Toute la famille écoute !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le tri arc-en-ciel",
+        "description": "Mélangez tous les crayons, puis triez-les par couleur le plus vite possible dans des pots !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Peinture en musique",
+        "description": "Peignez en écoutant de la musique : couleurs vives sur musique gaie, douces sur musique calme !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE MS — AGIR, S'EXPRIMER PAR LES ACTIVITÉS ARTISTIQUES. En Moyenne Section, Aaron va : 1) DESSINER ET PRODUIRE : représenter (bonhomme détaillé, maison, animaux), utiliser le dessin pour raconter, expérimenter des outils (pinceau, éponge, craies) et des supports variés. 2) LES COULEURS : nommer, trier, mélanger les couleurs primaires pour créer des couleurs secondaires (vert, orange, violet). 3) COMPOSER : organiser des formes et couleurs, faire des collages, des assemblages, des empreintes et des traces. 4) LA MUSIQUE : chanter juste des comptines et chansons, reproduire et inventer des rythmes, reconnaître et jouer d'instruments simples, écouter et reconnaître des sons. 5) LE SPECTACLE VIVANT : danser, mimer, participer à une petite ronde ou un spectacle. L'objectif est l'expression libre, la sensibilité et le plaisir de créer.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Dessine un bonhomme COMPLET : tête, corps, 2 bras, 2 jambes, et des détails (yeux, bouche, cheveux).",
+        "correction": "Il dessine un bonhomme avec le visage et les membres détaillés.",
+        "explication": "Parent : observe les progrès au fil de l'été. Le bonhomme détaillé est un marqueur précis du développement en MS.",
+        "ref": "Cours §1 : Dessiner et représenter"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Crée les 3 couleurs secondaires : vert (?), orange (?), violet (?). Quels mélanges ?",
+        "correction": "Vert = bleu+jaune, orange = rouge+jaune, violet = rouge+bleu.",
+        "explication": "Parent : faites les 3 mélanges avec de la peinture. Maîtriser les mélanges des couleurs primaires est un objectif clé de MS.",
+        "ref": "Cours §2 : Les couleurs"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Chante une chanson connue en entier, le plus juste possible.",
+        "correction": "Il chante la chanson en respectant à peu près la mélodie.",
+        "explication": "Parent : chante avec lui régulièrement. Chanter juste une chanson complète est un bel objectif musical de la MS.",
+        "ref": "Cours §4 : La musique - chanter"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Fais un collage : organise des morceaux de papier pour créer une image (un paysage, un visage).",
+        "correction": "Il dispose et colle les morceaux pour composer une image.",
+        "explication": "Parent : laisse-le organiser librement. Composer un collage développe la créativité et le sens de l'espace en MS.",
+        "ref": "Cours §3 : Composer"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Invente un rythme et tape-le. Aaron crée-t-il sa propre suite de frappes ?",
+        "correction": "Il invente et reproduit son propre rythme.",
+        "explication": "Parent : encourage l'invention. Créer un rythme (et pas seulement imiter) montre une vraie appropriation musicale en MS.",
+        "ref": "Cours §4 : Inventer un rythme"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Utilise 3 outils différents pour peindre (pinceau, éponge, doigts). Quelle trace fait chacun ?",
+        "correction": "Il observe que chaque outil laisse une trace différente.",
+        "explication": "Parent : compare les traces ensemble. Expérimenter des outils variés enrichit le geste artistique en MS.",
+        "ref": "Cours §1 : Expérimenter les outils"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Participe à une petite ronde dansée avec d'autres (famille). Suit-il les pas ?",
+        "correction": "Il danse en rythme et suit les mouvements du groupe.",
+        "explication": "Parent : organisez une ronde familiale ! Le spectacle vivant et la danse collective développent l'expression en MS.",
+        "ref": "Cours §5 : Le spectacle vivant"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Reconnais 3 instruments à leur son (tambour, maracas, clochette) les yeux fermés.",
+        "correction": "Il identifie chaque instrument à son timbre.",
+        "explication": "Parent : fais-les sonner un par un d'abord. Reconnaître les instruments affine l'écoute musicale en MS.",
+        "ref": "Cours §4 : Reconnaître les instruments"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Dessine une histoire en plusieurs images (comme une petite BD de 2-3 cases).",
+        "correction": "Il dessine une suite d'images qui racontent quelque chose.",
+        "explication": "Parent : aide-le à raconter chaque case. Utiliser le dessin pour raconter relie l'art et le récit, objectif de MS.",
+        "ref": "Cours §1 : Dessiner pour raconter"
+       },
+       {
+        "consigne": "👨‍👩‍👧 Mime un personnage ou un animal en musique. Les autres devinent qui c'est.",
+        "correction": "Il exprime un personnage par ses gestes et sa posture.",
+        "explication": "Parent : devine ses mimes avec enthousiasme ! Le mime développe l'expression corporelle et l'imaginaire en MS.",
+        "ref": "Cours §5 : Mimer et s'exprimer"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Le concours de bonhommes",
+        "description": "Chacun dessine un bonhomme le plus détaillé possible. Comptez les détails : yeux, doigts, cheveux !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le laboratoire des couleurs",
+        "description": "Créez TOUTES les couleurs secondaires en mélangeant. Notez les 'recettes' : bleu+jaune=vert !"
+       },
+       {
+        "titre": "👨‍👩‍👧 La chorale familiale",
+        "description": "Préparez un mini-concert de 3 chansons à présenter au reste de la famille. Aaron est la star !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le grand collage",
+        "description": "Avec de vieux magazines, créez ensemble un grand tableau-collage sur un thème : les animaux, la mer…"
+       },
+       {
+        "titre": "👨‍👩‍👧 Compositeur en herbe",
+        "description": "Aaron invente un rythme, toute la famille le reproduit ! Puis c'est au tour de quelqu'un d'autre."
+       },
+       {
+        "titre": "👨‍👩‍👧 L'atelier des traces",
+        "description": "Peignez avec plein d'outils différents (fourchette, éponge, coton). Quelle trace préférez-vous ?"
+       },
+       {
+        "titre": "👨‍👩‍👧 La ronde des familles",
+        "description": "Faites une vraie ronde dansée en chantant 'Dansons la capucine' ou une autre comptine à gestes !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Devine l'instrument",
+        "description": "Cache-toi et joue d'un instrument. Aaron devine lequel c'est rien qu'au son !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Ma BD à moi",
+        "description": "Dessine une histoire en 3 cases et raconte-la. Affichez la BD d'Aaron sur le frigo !"
+       },
+       {
+        "titre": "👨‍👩‍👧 Le théâtre des animaux",
+        "description": "Mime un animal en musique, les autres devinent ! Puis inventez une petite histoire mimée ensemble."
        }
       ]
      }
