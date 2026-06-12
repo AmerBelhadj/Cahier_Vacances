@@ -3,92 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Le cahier de vacances interactif de Maya et Aaron — activités pédagogiques CE1→CE2 et PS→MS" />
-
-  <!-- PWA -->
+  <meta name="description" content="Le cahier de vacances interactif de Maya et Aaron" />
   <link rel="manifest" href="./manifest.json" />
   <meta name="theme-color" content="#FF6B9D" />
-
-  <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="Maya & Aaron" />
   <link rel="apple-touch-icon" href="./assets/icons/icon-192.png" />
-
-  <!-- Styles -->
   <link rel="stylesheet" href="./assets/css/main.css" />
-
-  <!-- Google Fonts — Nunito (chargé en async pour perf) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet" />
-
   <title>Les Vacances de Maya et Aaron 🦋🚀</title>
 </head>
 <body>
-
-  <!-- ========================================
-       ÉCRAN DE CHARGEMENT
-  ========================================= -->
   <div id="loading-screen" role="status" aria-live="polite">
     <div class="loader-emojis">🦋🚀</div>
     <div class="loader-title">Les Vacances de<br>Maya et Aaron…</div>
   </div>
 
-  <!-- ========================================
-       APPLICATION PRINCIPALE
-  ========================================= -->
   <main id="app" role="main">
-
-    <!-- Écran accueil -->
-    <div id="screen-home" class="screen active" role="region" aria-label="Accueil">
-      <!-- Rendu dynamique par renderHome() -->
-    </div>
-
-    <!-- Écran enfant (liste sessions) -->
-    <div id="screen-child" class="screen" role="region" aria-label="Activités de l'enfant">
-      <!-- Rendu dynamique par showChildScreen() -->
-    </div>
-
-    <!-- Écran session (détail) -->
-    <div id="screen-session" class="screen" role="region" aria-label="Activité en cours">
-      <!-- Rendu dynamique par showSession() -->
-    </div>
-
-    <!-- Écran progression -->
-    <div id="screen-progress" class="screen" role="region" aria-label="Progression">
-      <!-- Rendu dynamique par renderProgress() -->
-    </div>
-
+    <div id="screen-home" class="screen active" aria-label="Accueil"></div>
+    <div id="screen-child" class="screen" aria-label="Matières"></div>
+    <div id="screen-rubriques" class="screen" aria-label="Étapes"></div>
+    <div id="screen-content" class="screen" aria-label="Contenu"></div>
+    <div id="screen-progress" class="screen" aria-label="Progression"></div>
   </main>
 
-  <!-- ========================================
-       NAVIGATION PRINCIPALE (bottom nav)
-  ========================================= -->
   <nav id="main-nav" role="navigation" aria-label="Navigation principale">
-    <button class="nav-btn active" data-screen="home" aria-label="Accueil">
-      <span class="nav-icon">🏠</span>
-      <span class="nav-label">Accueil</span>
-    </button>
-    <button class="nav-btn" data-screen="maya" aria-label="Cahier de Maya">
-      <span class="nav-icon">🦋</span>
-      <span class="nav-label">Maya</span>
-    </button>
-    <button class="nav-btn" data-screen="aaron" aria-label="Cahier d'Aaron">
-      <span class="nav-icon">🚀</span>
-      <span class="nav-label">Aaron</span>
-    </button>
-    <button class="nav-btn" data-screen="progress" aria-label="Ma progression">
-      <span class="nav-icon">🏆</span>
-      <span class="nav-label">Progrès</span>
-    </button>
+    <button class="nav-btn active" data-screen="home"><span class="nav-icon">🏠</span><span class="nav-label">Accueil</span></button>
+    <button class="nav-btn" data-screen="maya"><span class="nav-icon">🦋</span><span class="nav-label">Maya</span></button>
+    <button class="nav-btn" data-screen="aaron"><span class="nav-icon">🚀</span><span class="nav-label">Aaron</span></button>
+    <button class="nav-btn" data-screen="progress"><span class="nav-icon">🏆</span><span class="nav-label">Progrès</span></button>
   </nav>
 
-  <!-- ========================================
-       SCRIPTS
-  ========================================= -->
   <script src="./assets/js/progress.js"></script>
   <script src="./assets/js/app.js"></script>
-
 </body>
 </html>

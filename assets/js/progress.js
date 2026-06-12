@@ -1,79 +1,58 @@
-// progress.js — Gestion de la progression locale (localStorage)
-// Les Vacances de Maya et Aaron
+// progress.js — Progression locale (Phase 1)
+// Granularité : enfant > matière > rubrique
 
-const STORAGE_KEY = 'maya-aaron-progress-v1';
+const STORAGE_KEY = 'maya-aaron-progress-v2';
 
 const Progress = (() => {
+  const defaultState = () => ({ maya: {}, aaron: {}, lastVisit: null });
+  // Structure : state[child][matiereId] = { revision: bool, preparation: bool, etude: bool }
 
-  // État initial
-  const defaultState = () => ({
-    maya: { completed: [], stars: 0 },
-    aaron: { completed: [], stars: 0 },
-    lastVisit: null
-  });
-
-  // Chargement depuis localStorage
   function load() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return defaultState();
       const parsed = JSON.parse(raw);
-      // Vérification structure
       if (!parsed.maya || !parsed.aaron) return defaultState();
       return parsed;
-    } catch {
-      return defaultState();
-    }
+    } catch { return defaultState(); }
   }
 
-  // Sauvegarde dans localStorage
   function save(state) {
     try {
       state.lastVisit = new Date().toISOString();
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (e) {
-      console.warn('[Progress] Impossible de sauvegarder:', e);
-    }
+    } catch (e) { console.warn('[Progress] save échouée:', e); }
   }
 
-  // Marquer une session comme terminée
-  function completeSession(child, sessionId) {
+  function complete(child, matiereId, rubrique) {
     const state = load();
-    if (!state[child].completed.includes(sessionId)) {
-      state[child].completed.push(sessionId);
-      state[child].stars += 1;
-    }
+    if (!state[child][matiereId]) state[child][matiereId] = {};
+    state[child][matiereId][rubrique] = true;
     save(state);
     return state;
   }
 
-  // Vérifier si une session est terminée
-  function isCompleted(child, sessionId) {
+  function isDone(child, matiereId, rubrique) {
     const state = load();
-    return state[child].completed.includes(sessionId);
+    return !!(state[child][matiereId] && state[child][matiereId][rubrique]);
   }
 
-  // Obtenir le nombre de sessions terminées pour un enfant
-  function getCompletedCount(child) {
-    return load()[child].completed.length;
+  // Nombre de rubriques complétées pour un enfant
+  function countDone(child) {
+    const state = load();
+    let n = 0;
+    for (const mat in state[child]) {
+      for (const rub in state[child][mat]) {
+        if (state[child][mat][rub]) n++;
+      }
+    }
+    return n;
   }
 
-  // Obtenir les étoiles d'un enfant
-  function getStars(child) {
-    return load()[child].stars;
-  }
+  function getState() { return load(); }
+  function reset() { save(defaultState()); }
 
-  // Obtenir l'état complet
-  function getState() {
-    return load();
-  }
-
-  // Réinitialiser
-  function reset() {
-    save(defaultState());
-  }
-
-  return { completeSession, isCompleted, getCompletedCount, getStars, getState, reset };
+  return { complete, isDone, countDone, getState, reset };
 })();
 
 window.Progress = Progress;
