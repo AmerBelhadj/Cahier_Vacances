@@ -1,97 +1,1715 @@
 {
-  "_meta": {
-    "version": "phase1-demo",
-    "description": "Contenu de démonstration pour valider l'architecture. Sera remplacé par le contenu complet en phases 2 et 3."
+ "_meta": {
+  "version": "phase2-maya-complete",
+  "description": "Maya : contenu complet (5 matières). Aaron : démo (sera complété en phase 3)."
+ },
+ "rubriques": {
+  "revision": {
+   "label": "Révision",
+   "emoji": "🔄",
+   "couleur": "#5B8DEF",
+   "desc": "Je revois l'année qui se termine"
   },
-  "rubriques": {
-    "revision": { "label": "Révision", "emoji": "🔄", "couleur": "#5B8DEF", "desc": "Je revois l'année qui se termine" },
-    "preparation": { "label": "Préparation", "emoji": "🌉", "couleur": "#FFA64D", "desc": "Je prépare la transition en douceur" },
-    "etude": { "label": "Étude", "emoji": "🚀", "couleur": "#52C75D", "desc": "Je découvre l'année prochaine" }
+  "preparation": {
+   "label": "Préparation",
+   "emoji": "🌉",
+   "couleur": "#FFA64D",
+   "desc": "Je prépare la transition en douceur"
   },
-  "enfants": {
-    "maya": {
-      "nom": "Maya",
-      "niveau": "CE1 → CE2",
-      "age": "7-8 ans",
-      "couleur": "#FF6B9D",
-      "emoji": "🦋",
-      "matieres": [
-        {
-          "id": "demo_fr",
-          "nom": "Français (démo)",
-          "emoji": "🔠",
-          "revision": {
-            "intro": "Démo : on révise un point de CE1.",
-            "exercices": [
-              { "consigne": "Écris o, au ou eau : un bat_, un chap_", "correction": "bateau, chapeau", "explication": "Le son [o] s'écrit souvent 'eau' en fin de mot." },
-              { "consigne": "Mets au pluriel : un cheval → des …", "correction": "des chevaux", "explication": "Les mots en -al font leur pluriel en -aux." }
-            ],
-            "jeux": [
-              { "titre": "La chasse aux sons", "description": "Trouve 5 mots avec le son [o] en 2 minutes !" },
-              { "titre": "Le pendu", "description": "Fais deviner un mot lettre par lettre." }
-            ]
-          },
-          "preparation": {
-            "cours": "Démo : en CE2, tu découvriras le futur des verbes. Exemple : je chanterai.",
-            "exercices": [
-              { "consigne": "Conjugue 'jouer' au futur : je …", "correction": "je jouerai", "explication": "Futur = verbe entier + ai.", "ref": "Cours démo : le futur" }
-            ],
-            "jeux": [
-              { "titre": "Machine à voyager dans le temps", "description": "Transforme une phrase du présent au futur !" }
-            ]
-          },
-          "etude": {
-            "cours": "Démo : programme CE2 — l'imparfait raconte le passé. Terminaisons : -ais, -ait, -aient.",
-            "exercices": [
-              { "consigne": "Conjugue 'parler' à l'imparfait : je …", "correction": "je parlais", "explication": "Imparfait = radical + ais.", "ref": "Cours démo : l'imparfait" }
-            ],
-            "jeux": [
-              { "titre": "Il était une fois", "description": "Invente une histoire à l'imparfait !" }
-            ]
-          }
-        }
-      ]
-    },
-    "aaron": {
-      "nom": "Aaron",
-      "niveau": "PS → MS",
-      "age": "3-4 ans",
-      "couleur": "#4ECDC4",
-      "emoji": "🚀",
-      "matieres": [
-        {
-          "id": "demo_lang",
-          "nom": "Le Langage (démo)",
-          "emoji": "🗣️",
-          "revision": {
-            "intro": "Démo : on revoit un point de PS.",
-            "exercices": [
-              { "consigne": "👨‍👩‍👧 Demande à Aaron de dire son prénom.", "correction": "Aaron dit son prénom clairement.", "explication": "Parent : encourage-le à parler fort." }
-            ],
-            "jeux": [
-              { "titre": "👨‍👩‍👧 Les cris des animaux", "description": "Montre un animal, Aaron fait son cri !" }
-            ]
-          },
-          "preparation": {
-            "cours": "Démo : en MS, Aaron tapera les syllabes des mots.",
-            "exercices": [
-              { "consigne": "👨‍👩‍👧 Tapez les syllabes : MA-YA (2 tapes).", "correction": "Il frappe 1 fois par syllabe.", "explication": "Parent : exagère chaque syllabe.", "ref": "Cours démo : les syllabes" }
-            ],
-            "jeux": [
-              { "titre": "👨‍👩‍👧 Le tambour des syllabes", "description": "Tapez les prénoms en syllabes sur une casserole !" }
-            ]
-          },
-          "etude": {
-            "cours": "Démo : programme MS — reconnaître son prénom écrit.",
-            "exercices": [
-              { "consigne": "👨‍👩‍👧 Montre 'AARON' écrit. Le reconnaît-il ?", "correction": "Il pointe son prénom grâce au 'A'.", "explication": "Parent : écris son prénom en gros.", "ref": "Cours démo : découvrir l'écrit" }
-            ],
-            "jeux": [
-              { "titre": "👨‍👩‍👧 La pêche aux prénoms", "description": "Aaron pêche et reconnaît son prénom !" }
-            ]
-          }
-        }
-      ]
-    }
+  "etude": {
+   "label": "Étude",
+   "emoji": "🚀",
+   "couleur": "#52C75D",
+   "desc": "Je découvre l'année prochaine"
   }
+ },
+ "enfants": {
+  "maya": {
+   "nom": "Maya",
+   "niveau": "CE1 → CE2",
+   "age": "7-8 ans",
+   "couleur": "#FF6B9D",
+   "emoji": "🦋",
+   "matieres": [
+    {
+     "id": "fr",
+     "nom": "Français",
+     "emoji": "🔠",
+     "revision": {
+      "intro": "On révise le programme de CE1 : sons, lecture, phrases, conjugaison au présent, genre et nombre.",
+      "exercices": [
+       {
+        "consigne": "Écris o, au ou eau : un bat_, un styl_, un chap_, une ép_le, un g_teau",
+        "correction": "bateau, stylo, chapeau, épaule, gâteau",
+        "explication": "Le son [o] s'écrit de 3 façons. En fin de mot, c'est souvent 'eau' (bateau, chapeau). 'au' se trouve souvent au milieu (épaule, gâteau)."
+       },
+       {
+        "consigne": "Sépare les mots et recopie la phrase : Lechatdortsurlecanapé",
+        "correction": "Le chat dort sur le canapé.",
+        "explication": "Une phrase commence par une majuscule, se termine par un point, et chaque mot est séparé par un espace."
+       },
+       {
+        "consigne": "Mets au pluriel : un chat → des … | un cheval → des … | un jeu → des …",
+        "correction": "des chats, des chevaux, des jeux",
+        "explication": "Le pluriel prend souvent un -s (chats). Les mots en -al deviennent -aux (chevaux). Les mots en -eu prennent un -x (jeux)."
+       },
+       {
+        "consigne": "Conjugue 'chanter' au présent : je …, tu …, il …, nous …, vous …, ils …",
+        "correction": "je chante, tu chantes, il chante, nous chantons, vous chantez, ils chantent",
+        "explication": "Les verbes en -er au présent : -e, -es, -e, -ons, -ez, -ent. Attention : 'tu' prend toujours un -s !"
+       },
+       {
+        "consigne": "Entoure le verbe : 1) Maya lit un livre. 2) Les oiseaux volent haut. 3) Nous mangeons une glace.",
+        "correction": "lit | volent | mangeons",
+        "explication": "Le verbe est le mot qui dit l'action. Pour le trouver, change le temps de la phrase : le mot qui change est le verbe (Maya lisait un livre → 'lit' a changé)."
+       },
+       {
+        "consigne": "Féminin ou masculin ? Ajoute un ou une : … table, … ballon, … école, … arbre, … maison",
+        "correction": "une table, un ballon, une école, un arbre, une maison",
+        "explication": "On met 'une' devant les noms féminins et 'un' devant les noms masculins. Astuce : remplace par 'la' ou 'le' pour vérifier."
+       },
+       {
+        "consigne": "Range dans l'ordre alphabétique : pomme, abricot, melon, cerise, banane",
+        "correction": "abricot, banane, cerise, melon, pomme",
+        "explication": "On regarde la première lettre de chaque mot et on suit l'ordre de l'alphabet : a, b, c, d… A vient avant B, B avant C, etc."
+       },
+       {
+        "consigne": "Complète avec 'et' ou 'est' : Maya … contente. Elle joue avec Aaron … Papa.",
+        "correction": "Maya est contente. Elle joue avec Aaron et Papa.",
+        "explication": "'est' = verbe être (on peut dire 'était'). 'et' = pour ajouter (on peut dire 'et puis'). Maya ÉTAIT contente ✔ → est. Aaron ET PUIS Papa ✔ → et."
+       },
+       {
+        "consigne": "Trouve le contraire : grand → … | jour → … | monter → … | chaud → …",
+        "correction": "petit | nuit | descendre | froid",
+        "explication": "Le contraire (ou antonyme) est un mot qui veut dire l'inverse. Grand/petit, jour/nuit sont des paires de contraires."
+       },
+       {
+        "consigne": "Recopie la phrase en mettant la majuscule et le point : maya et aaron jouent dans le jardin",
+        "correction": "Maya et Aaron jouent dans le jardin.",
+        "explication": "Toute phrase commence par une majuscule et finit par un point. Les prénoms (Maya, Aaron) prennent TOUJOURS une majuscule."
+       },
+       {
+        "consigne": "Écris le son [è] : la r…gle, la t…te, le p…re, la f…te (è, ê ou ai ?)",
+        "correction": "la règle, la tête, le père, la fête",
+        "explication": "Le son [è] s'écrit è (règle, père), ê (tête, fête) ou ai (maison → 'ai' dans d'autres mots). Il faut mémoriser l'orthographe de chaque mot."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le pendu des mots de CE1",
+        "description": "Choisis un mot appris cette année, l'autre joueur devine lettre par lettre. 8 erreurs maximum !"
+       },
+       {
+        "titre": "La chasse aux sons",
+        "description": "Choisis un son ([o], [è], [ou]…). En 2 minutes, écris le plus de mots possible contenant ce son. 1 point par mot bien orthographié !"
+       },
+       {
+        "titre": "Le memory des contraires",
+        "description": "Écris 8 paires de contraires sur 16 petits papiers. Retourne-les face cachée et retrouve les paires !"
+       },
+       {
+        "titre": "La phrase la plus longue",
+        "description": "À tour de rôle, ajoute UN mot pour allonger la phrase. 'Le chat'… 'Le chat noir'… 'Le chat noir dort'… Le premier qui casse la grammaire a perdu !"
+       },
+       {
+        "titre": "Mots croisés maison",
+        "description": "Un adulte donne 5 définitions de mots de CE1, tu écris les réponses qui se croisent sur une grille."
+       },
+       {
+        "titre": "Le béret des verbes",
+        "description": "L'adulte dit un verbe et un pronom ('chanter, nous'). Tu dois conjuguer le plus vite possible : 'nous chantons !'"
+       },
+       {
+        "titre": "L'intrus de l'alphabet",
+        "description": "L'adulte écrit 5 mots dont 4 dans l'ordre alphabétique et 1 mal placé. Trouve l'intrus !"
+       },
+       {
+        "titre": "Pigeon vole grammatical",
+        "description": "L'adulte dit des mots. Lève la main seulement si c'est un VERBE. Attention aux pièges !"
+       },
+       {
+        "titre": "Le téléphone orthographique",
+        "description": "L'adulte épelle un mot à l'oreille, tu l'écris, puis tu épelles un mot à ton tour. Comparez vos résultats !"
+       },
+       {
+        "titre": "Le cadavre exquis",
+        "description": "Chacun écrit un mot sans voir les autres (sujet, verbe, complément), puis on lit la phrase rigolote obtenue !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LE CE2 ! Cette année, tu as appris le présent des verbes en -er. En CE2, tu vas conjuguer à de nouveaux temps : le FUTUR (demain, je chanterai) et l'IMPARFAIT (hier, je chantais). Tu vas aussi découvrir les COMPLÉMENTS dans la phrase : ils donnent des précisions sur le lieu (où ?), le temps (quand ?) ou l'objet de l'action (quoi ?). Commençons en douceur : le futur des verbes en -er se forme avec le verbe entier + les terminaisons -ai, -as, -a, -ons, -ez, -ont. Exemple : chanter → je chanterai, tu chanteras, il chantera…",
+      "exercices": [
+       {
+        "consigne": "Souligne les phrases qui parlent du futur : 1) Demain, j'irai à la plage. 2) Hier, j'ai mangé une glace. 3) L'année prochaine, je serai en CE2.",
+        "correction": "Phrases 1 et 3",
+        "explication": "Les mots 'demain' et 'l'année prochaine' indiquent le futur : l'action n'a pas encore eu lieu.",
+        "ref": "Le futur = ce qui n'est pas encore arrivé"
+       },
+       {
+        "consigne": "Conjugue 'jouer' au futur : je …, tu …, elle …",
+        "correction": "je jouerai, tu joueras, elle jouera",
+        "explication": "Verbe entier (jouer) + terminaison : jouer+ai, jouer+as, jouer+a.",
+        "ref": "Futur = verbe entier + ai, as, a, ons, ez, ont"
+       },
+       {
+        "consigne": "Futur ou présent ? 1) Nous chanterons à la fête. 2) Nous chantons sous la douche.",
+        "correction": "1) Futur 2) Présent",
+        "explication": "'chanterons' contient le verbe entier 'chanter' + ons → futur. 'chantons' n'a pas le 'er' → présent.",
+        "ref": "Repère le 'r' du verbe entier : chanteRons = futur"
+       },
+       {
+        "consigne": "Complète au futur : Demain, Maya (regarder) … un film. Aaron (écouter) … une histoire.",
+        "correction": "regardera | écoutera",
+        "explication": "3e personne du singulier au futur : verbe entier + a. Regarder+a, écouter+a.",
+        "ref": "Futur = verbe entier + ai, as, a, ons, ez, ont"
+       },
+       {
+        "consigne": "Dans la phrase 'Maya mange une pomme dans la cuisine', que précise 'dans la cuisine' ?",
+        "correction": "Le LIEU (où Maya mange)",
+        "explication": "Un complément de lieu répond à la question 'où ?'. Où mange Maya ? Dans la cuisine !",
+        "ref": "Compléments : où ? quand ? quoi ?"
+       },
+       {
+        "consigne": "Pose la question pour trouver le complément : 'Aaron joue CE MATIN.' → … joue Aaron ?",
+        "correction": "QUAND joue Aaron ? → ce matin",
+        "explication": "'Ce matin' précise le moment : c'est un complément de temps. On le trouve avec la question 'quand ?'.",
+        "ref": "Compléments : où ? quand ? quoi ?"
+       },
+       {
+        "consigne": "Conjugue 'être' au futur (à apprendre par cœur !) : je serai, tu …, il …, nous …, vous …, ils …",
+        "correction": "tu seras, il sera, nous serons, vous serez, ils seront",
+        "explication": "'Être' est un verbe irrégulier : son futur se forme sur 'ser-'. Il faut l'apprendre par cœur car il ne suit pas la règle des verbes en -er.",
+        "ref": "Verbes irréguliers : à mémoriser"
+       },
+       {
+        "consigne": "Transforme au futur : Aujourd'hui je chante. → Demain je …",
+        "correction": "Demain je chanterai.",
+        "explication": "On passe du présent au futur : chante → chanterai (verbe entier + ai).",
+        "ref": "Futur = verbe entier + ai, as, a, ons, ez, ont"
+       },
+       {
+        "consigne": "Trouve le complément et dis ce qu'il précise : 'Les enfants nagent à la piscine.'",
+        "correction": "'à la piscine' → complément de LIEU",
+        "explication": "Où nagent les enfants ? À la piscine. La question 'où ?' donne le complément de lieu.",
+        "ref": "Compléments : où ? quand ? quoi ?"
+       },
+       {
+        "consigne": "Écris une phrase au futur avec le verbe 'voyager' et un complément de temps.",
+        "correction": "Exemple : L'été prochain, nous voyagerons en Italie.",
+        "explication": "Vérifie : verbe au futur (voyagerons = voyager+ons ✔) + complément de temps ('l'été prochain' répond à 'quand ?' ✔).",
+        "ref": "Futur + complément de temps (quand ?)"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "La machine à voyager dans le temps",
+        "description": "L'adulte dit une phrase au présent, tu la transformes au futur le plus vite possible. Puis inversez les rôles !"
+       },
+       {
+        "titre": "Hier, aujourd'hui, demain",
+        "description": "Prépare 3 cartes : HIER, AUJOURD'HUI, DEMAIN. L'adulte dit une phrase, tu lèves la bonne carte !"
+       },
+       {
+        "titre": "Le détective des compléments",
+        "description": "Dans un livre, choisis une phrase et pose les 3 questions magiques : où ? quand ? quoi ? Trouve les compléments cachés !"
+       },
+       {
+        "titre": "Le futur en chaîne",
+        "description": "Je dis 'je chanterai', tu dis 'tu chanteras', je dis 'il chantera'… Sans se tromper jusqu'à 'ils chanteront' !"
+       },
+       {
+        "titre": "Imagine ta journée de CE2",
+        "description": "Raconte ta future rentrée en utilisant 5 verbes au futur : 'Je rencontrerai ma maîtresse, je rangerai mon cartable…'"
+       },
+       {
+        "titre": "Mime du futur",
+        "description": "Mime une action que tu feras demain, l'autre devine et dit la phrase au futur : 'Tu nageras !'"
+       },
+       {
+        "titre": "La bataille des questions",
+        "description": "L'adulte dit une phrase avec complément. Tu gagnes 1 point si tu poses la bonne question (où/quand/quoi) du premier coup !"
+       },
+       {
+        "titre": "Complète mon histoire",
+        "description": "L'adulte commence : 'Pendant les vacances, Maya…' Tu continues l'histoire avec des verbes au futur, à tour de rôle."
+       },
+       {
+        "titre": "Vrai ou faux futur",
+        "description": "L'adulte dit un verbe conjugué. Crie 'FUTUR !' s'il est au futur, 'PAS FUTUR !' sinon. 10 verbes, combien de bonnes réponses ?"
+       },
+       {
+        "titre": "Le loto des terminaisons",
+        "description": "Fabrique une grille avec ai/as/a/ons/ez/ont. L'adulte tire un pronom (je, tu, il…), coche la bonne terminaison !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE CE2 — FRANÇAIS. 1) L'IMPARFAIT : il raconte le passé qui dure ou se répète. Terminaisons pour TOUS les verbes : -ais, -ais, -ait, -ions, -iez, -aient. Exemple : je chantais, nous chantions. 2) LE GROUPE NOMINAL : nom + déterminant + adjectif. L'adjectif s'accorde avec le nom : un chat noir, une chatte noire, des chats noirs. 3) LES TYPES DE PHRASES : déclarative (elle dit : Le chat dort.), interrogative (elle demande : Le chat dort-il ?), exclamative (elle s'exclame : Quel beau chat !), impérative (elle ordonne : Dors !). 4) LE DICTIONNAIRE : les mots y sont rangés par ordre alphabétique ; chaque mot a sa définition, sa nature (nom, verbe, adjectif…) et des exemples.",
+      "exercices": [
+       {
+        "consigne": "Conjugue 'parler' à l'imparfait : je …, tu …, il …, nous …, vous …, ils …",
+        "correction": "je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient",
+        "explication": "L'imparfait a toujours les mêmes terminaisons : -ais, -ais, -ait, -ions, -iez, -aient, pour TOUS les verbes.",
+        "ref": "Cours §1 : L'imparfait"
+       },
+       {
+        "consigne": "Imparfait ou futur ? 1) Je chantais sous la pluie. 2) Je chanterai à la fête.",
+        "correction": "1) Imparfait 2) Futur",
+        "explication": "'chantais' (-ais) = imparfait, passé. 'chanterai' (verbe entier + ai) = futur. Les terminaisons sont la clé !",
+        "ref": "Cours §1 : L'imparfait"
+       },
+       {
+        "consigne": "Accorde l'adjectif : un ballon (rouge) → une balle … → des ballons … → des balles …",
+        "correction": "une balle rouge, des ballons rouges, des balles rouges",
+        "explication": "L'adjectif s'accorde en genre et en nombre avec le nom. 'Rouge' ne change pas au féminin (déjà un -e), mais prend un -s au pluriel.",
+        "ref": "Cours §2 : Le groupe nominal"
+       },
+       {
+        "consigne": "Souligne l'adjectif et le nom qu'il décrit : 'La petite fille mange une pomme verte.'",
+        "correction": "petite → fille | verte → pomme",
+        "explication": "L'adjectif donne une précision sur le nom. 'Petite' décrit la fille, 'verte' décrit la pomme. Remarque les accords au féminin !",
+        "ref": "Cours §2 : Le groupe nominal"
+       },
+       {
+        "consigne": "Quel type de phrase ? 1) Range ta chambre ! 2) Quel magnifique dessin ! 3) Où vas-tu ? 4) Il pleut.",
+        "correction": "1) Impérative 2) Exclamative 3) Interrogative 4) Déclarative",
+        "explication": "Impérative = ordre. Exclamative = émotion avec ! Interrogative = question avec ? Déclarative = simple information avec un point.",
+        "ref": "Cours §3 : Les types de phrases"
+       },
+       {
+        "consigne": "Transforme en phrase interrogative : 'Tu aimes le chocolat.'",
+        "correction": "Aimes-tu le chocolat ? (ou : Est-ce que tu aimes le chocolat ?)",
+        "explication": "Pour poser une question : on inverse sujet et verbe (Aimes-tu) ou on ajoute 'Est-ce que'. N'oublie pas le point d'interrogation !",
+        "ref": "Cours §3 : Les types de phrases"
+       },
+       {
+        "consigne": "Range comme dans le dictionnaire : girafe, gazelle, gorille, guépard",
+        "correction": "gazelle, girafe, gorille, guépard",
+        "explication": "Tous commencent par 'g', alors on compare la 2e lettre : a < i < o < u. D'où : gAzelle, gIrafe, gOrille, gUépard.",
+        "ref": "Cours §4 : Le dictionnaire"
+       },
+       {
+        "consigne": "Accorde à l'imparfait : Quand j'étais petit, nous (jouer) … tous les soirs et vous (chanter) … .",
+        "correction": "nous jouions, vous chantiez",
+        "explication": "Nous → -ions (jouions), vous → -iez (chantiez). L'imparfait raconte une habitude du passé ('tous les soirs').",
+        "ref": "Cours §1 : L'imparfait"
+       },
+       {
+        "consigne": "Complète le groupe nominal avec un adjectif accordé : des fleurs …, un soleil …, une histoire …",
+        "correction": "Exemples : des fleurs jolies/colorées, un soleil brillant/jaune, une histoire amusante/longue",
+        "explication": "Vérifie l'accord : fleurs (fém. pluriel) → adjectif en -es. Soleil (masc. sing.) → adjectif sans marque. Histoire (fém. sing.) → adjectif en -e.",
+        "ref": "Cours §2 : Le groupe nominal"
+       },
+       {
+        "consigne": "Écris 4 phrases sur ton animal préféré : une de chaque type (déclarative, interrogative, exclamative, impérative).",
+        "correction": "Exemple : Mon chat dort beaucoup. Pourquoi dort-il autant ? Comme il est mignon ! Réveille-toi, paresseux !",
+        "explication": "Vérifie la ponctuation : . pour déclarer, ? pour demander, ! pour s'exclamer ou ordonner.",
+        "ref": "Cours §3 : Les types de phrases"
+       },
+       {
+        "consigne": "Cherche 'malin' dans le dictionnaire (vrai ou imaginé) : donne sa nature et invente une phrase exemple.",
+        "correction": "Malin = adjectif. Exemple : Ce renard est très malin, il a trouvé la sortie tout seul !",
+        "explication": "Dans le dictionnaire, après le mot, on trouve sa nature (n. = nom, v. = verbe, adj. = adjectif) puis sa définition et des exemples.",
+        "ref": "Cours §4 : Le dictionnaire"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Il était une fois… à l'imparfait",
+        "description": "Invente une histoire qui commence par 'Quand j'étais bébé…' en utilisant 5 verbes à l'imparfait. L'adulte compte tes -ais, -ait, -aient !"
+       },
+       {
+        "titre": "La course au dictionnaire",
+        "description": "L'adulte dit un mot, le premier qui le trouve dans le dictionnaire gagne. 5 mots, 5 manches !"
+       },
+       {
+        "titre": "L'accordeur fou",
+        "description": "L'adulte dit un nom + un adjectif mal accordé ('une fleur bleu'). Corrige le plus vite possible : 'une fleur bleuE !'"
+       },
+       {
+        "titre": "Le quiz des 4 phrases",
+        "description": "Écris ! ? . sur 3 cartes. L'adulte lit des phrases en mettant le ton, tu lèves la bonne carte de ponctuation !"
+       },
+       {
+        "titre": "Devine la nature",
+        "description": "Un joueur dit un mot, l'autre devine : nom, verbe ou adjectif ? Vérifiez au dictionnaire en cas de doute !"
+       },
+       {
+        "titre": "Le groupe nominal géant",
+        "description": "Pars de 'un chat' et agrandis le groupe nominal à tour de rôle : 'un petit chat', 'un petit chat noir', 'un adorable petit chat noir'…"
+       },
+       {
+        "titre": "L'interview impossible",
+        "description": "Pose 5 questions (phrases interrogatives) à un personnage imaginaire joué par l'adulte. Puis inversez !"
+       },
+       {
+        "titre": "Imparfait contre futur",
+        "description": "L'adulte lance un verbe et une époque (hier/demain). Conjugue dans le bon temps. 1 point par bonne réponse, 10 manches !"
+       },
+       {
+        "titre": "Le mot mystère du dictionnaire",
+        "description": "Ouvre le dictionnaire au hasard, lis une définition sans dire le mot. L'autre devine le mot mystère !"
+       },
+       {
+        "titre": "Le théâtre des phrases",
+        "description": "Dis la même phrase ('Il pleut') de 4 façons : en déclarant, en demandant, en s'exclamant, en ordonnant. L'autre devine le type !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "maths",
+     "nom": "Mathématiques",
+     "emoji": "🔢",
+     "revision": {
+      "intro": "On révise le CE1 : nombres jusqu'à 1000, additions et soustractions posées, tables de multiplication 2-3-4-5, longueurs et monnaie.",
+      "exercices": [
+       {
+        "consigne": "Écris en chiffres : trois cent quarante-deux | six cent huit | neuf cent quatre-vingt-dix",
+        "correction": "342 | 608 | 990",
+        "explication": "On décompose : trois cent (300) + quarante (40) + deux (2) = 342. Attention à 608 : il n'y a pas de dizaines, on met 0 !"
+       },
+       {
+        "consigne": "Pose et calcule : 256 + 137 = ?",
+        "correction": "393",
+        "explication": "6+7=13, je pose 3 et je retiens 1. 5+3+1(retenue)=9. 2+1=3. Résultat : 393."
+       },
+       {
+        "consigne": "Pose et calcule : 425 - 182 = ?",
+        "correction": "243",
+        "explication": "5-2=3. 2-8 impossible → j'emprunte : 12-8=4, et je retiens 1 en bas. 4-(1+1)=2. Résultat : 243."
+       },
+       {
+        "consigne": "Récite la table de 4 : 4×1=…, 4×2=…, … jusqu'à 4×10",
+        "correction": "4, 8, 12, 16, 20, 24, 28, 32, 36, 40",
+        "explication": "La table de 4, c'est la table de 2 doublée ! 2×3=6 donc 4×3=12. Astuce pour vérifier tes réponses."
+       },
+       {
+        "consigne": "Range du plus petit au plus grand : 504, 450, 545, 405",
+        "correction": "405 < 450 < 504 < 545",
+        "explication": "Compare d'abord les centaines (4 ou 5), puis les dizaines : 405 et 450 → 0<5 donc 405 d'abord. 504 et 545 → 0<4 donc 504 d'abord."
+       },
+       {
+        "consigne": "Combien de centimes dans 3€ ? Et dans 5€50 ?",
+        "correction": "300 centimes | 550 centimes",
+        "explication": "1€ = 100 centimes. Donc 3€ = 3×100 = 300 c. Et 5€50 = 500 + 50 = 550 centimes."
+       },
+       {
+        "consigne": "Complète : 1 m = … cm | 250 cm = … m et … cm",
+        "correction": "100 cm | 2 m et 50 cm",
+        "explication": "1 mètre = 100 centimètres. 250 cm = 200 cm + 50 cm = 2 m et 50 cm."
+       },
+       {
+        "consigne": "Maya a 358 billes. Elle en gagne 124. Combien en a-t-elle ?",
+        "correction": "358 + 124 = 482 billes",
+        "explication": "'Elle en gagne' → addition. 8+4=12 (pose 2, retiens 1), 5+2+1=8, 3+1=4 → 482."
+       },
+       {
+        "consigne": "Calcule en ligne : 5×6 = ? | 3×8 = ? | 4×7 = ? | 2×9 = ?",
+        "correction": "30 | 24 | 28 | 18",
+        "explication": "Ce sont les tables à connaître par cœur. Si tu hésites sur 4×7 : c'est 2×7=14, puis 14+14=28."
+       },
+       {
+        "consigne": "Quelle est la moitié de 48 ? Le double de 35 ?",
+        "correction": "Moitié de 48 = 24 | Double de 35 = 70",
+        "explication": "Moitié = diviser par 2 : 48 = 40+8 → 20+4 = 24. Double = multiplier par 2 : 35×2 = 30×2 + 5×2 = 60+10 = 70."
+       },
+       {
+        "consigne": "Il est 9h30. Le film dure 1h. À quelle heure finit-il ?",
+        "correction": "10h30",
+        "explication": "9h30 + 1h00 = on ajoute 1 aux heures : 10h30. Les minutes ne changent pas."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "La bataille des nombres",
+        "description": "Avec un jeu de cartes, chacun tire 3 cartes et forme le plus grand nombre à 3 chiffres possible. Le plus grand gagne le pli !"
+       },
+       {
+        "titre": "Le compte est bon junior",
+        "description": "L'adulte donne un nombre cible (ex: 24) et 4 nombres (ex: 2, 3, 4, 10). Atteins la cible avec + - × !"
+       },
+       {
+        "titre": "Le marchand de glaces",
+        "description": "Joue au marchand avec des pièces factices : 'Une glace à 2€30, je paie avec 5€, combien me rends-tu ?'"
+       },
+       {
+        "titre": "Multiplication ping-pong",
+        "description": "Je dis '4×3', tu réponds '12' et tu lances '5×6'. Le premier qui se trompe ou hésite 5 secondes a perdu !"
+       },
+       {
+        "titre": "La course aux 1000",
+        "description": "Lance 3 dés, forme un nombre à 3 chiffres et additionne-le à ton total. Premier à dépasser 1000 !"
+       },
+       {
+        "titre": "Mètre détective",
+        "description": "Estime la longueur de 5 objets de la maison, puis mesure-les avec un mètre. Qui s'est le moins trompé ?"
+       },
+       {
+        "titre": "Le loto des tables",
+        "description": "Fabrique une grille avec des résultats (12, 20, 24…). L'adulte annonce des multiplications, coche si tu as le résultat !"
+       },
+       {
+        "titre": "Bingo soustraction",
+        "description": "L'adulte dit '50 - 20'. Si tu as 30 sur ta grille, coche-le ! Premier à finir sa ligne gagne."
+       },
+       {
+        "titre": "L'heure mystère",
+        "description": "Dessine des horloges sans aiguilles. L'adulte donne une heure, dessine les aiguilles correctement !"
+       },
+       {
+        "titre": "Pile ou face calcul",
+        "description": "Pile = addition, Face = soustraction. Lance la pièce et tire 2 nombres à 2 chiffres, calcule selon le tirage !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LE CE2 ! Tu connais les nombres jusqu'à 1000 — en CE2, tu iras jusqu'à 10 000 ! Le principe est le même : on ajoute la classe des MILLE. Exemple : 3 456 = 3 milliers + 4 centaines + 5 dizaines + 6 unités. Tu vas aussi commencer la MULTIPLICATION POSÉE : 23 × 3 se calcule en multipliant d'abord les unités (3×3=9) puis les dizaines (2×3=6) → 69. Enfin, tu découvriras la DIVISION comme un partage : 12 bonbons partagés entre 3 enfants = 12 ÷ 3 = 4 bonbons chacun. La division est l'inverse de la multiplication : 12÷3=4 PARCE QUE 3×4=12 !",
+      "exercices": [
+       {
+        "consigne": "Écris en chiffres : deux mille trois cent quarante-cinq",
+        "correction": "2 345",
+        "explication": "Deux mille (2000) + trois cent (300) + quarante (40) + cinq (5) = 2 345. La classe des mille s'écrit avant les centaines.",
+        "ref": "Cours : les nombres jusqu'à 10 000"
+       },
+       {
+        "consigne": "Décompose 4 567 : … milliers + … centaines + … dizaines + … unités",
+        "correction": "4 milliers + 5 centaines + 6 dizaines + 7 unités",
+        "explication": "Chaque chiffre a une position : 4(mille) 5(cent) 6(dix) 7(un). 4567 = 4000+500+60+7.",
+        "ref": "Cours : les nombres jusqu'à 10 000"
+       },
+       {
+        "consigne": "Calcule la multiplication posée : 32 × 3 = ?",
+        "correction": "96",
+        "explication": "Unités d'abord : 2×3=6. Puis dizaines : 3×3=9. Résultat : 96.",
+        "ref": "Cours : la multiplication posée"
+       },
+       {
+        "consigne": "Calcule : 21 × 4 = ?",
+        "correction": "84",
+        "explication": "1×4=4 (unités), 2×4=8 (dizaines) → 84. Sans retenue, c'est facile !",
+        "ref": "Cours : la multiplication posée"
+       },
+       {
+        "consigne": "Partage : 15 gâteaux entre 3 enfants. Combien chacun ?",
+        "correction": "15 ÷ 3 = 5 gâteaux chacun",
+        "explication": "On cherche : 3 × ? = 15. Dans la table de 3 : 3×5=15. Donc chacun reçoit 5 gâteaux.",
+        "ref": "Cours : la division-partage"
+       },
+       {
+        "consigne": "Calcule : 20 ÷ 4 = ? | 18 ÷ 2 = ? | 30 ÷ 5 = ?",
+        "correction": "5 | 9 | 6",
+        "explication": "Utilise les tables à l'envers : 4×5=20 donc 20÷4=5. 2×9=18 donc 18÷2=9. 5×6=30 donc 30÷5=6.",
+        "ref": "Cours : la division-partage"
+       },
+       {
+        "consigne": "Compare : 3 456 … 3 546 (mets < ou >)",
+        "correction": "3 456 < 3 546",
+        "explication": "Même milliers (3), on compare les centaines : 4 < 5, donc 3 456 est plus petit.",
+        "ref": "Cours : les nombres jusqu'à 10 000"
+       },
+       {
+        "consigne": "Calcule avec retenue : 24 × 3 = ?",
+        "correction": "72",
+        "explication": "4×3=12 : pose 2, retiens 1. 2×3=6, +1 de retenue =7. Résultat : 72.",
+        "ref": "Cours : la multiplication posée"
+       },
+       {
+        "consigne": "Problème : 4 paquets de 16 images. Combien d'images en tout ?",
+        "correction": "16 × 4 = 64 images",
+        "explication": "'4 paquets de 16' → multiplication. 6×4=24 (pose 4, retiens 2), 1×4=4, +2=6 → 64.",
+        "ref": "Cours : la multiplication posée"
+       },
+       {
+        "consigne": "Problème inverse : 24 fraises partagées en parts égales entre 4 amis. Combien chacun ?",
+        "correction": "24 ÷ 4 = 6 fraises",
+        "explication": "Partage équitable → division. 4×6=24 donc 24÷4=6. Vérification : 6+6+6+6=24 ✔",
+        "ref": "Cours : la division-partage"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le banquier des milliers",
+        "description": "Avec des papiers marqués 1000, 100, 10, 1, l'adulte annonce un nombre (ex: 2 340), compose-le avec les bons billets !"
+       },
+       {
+        "titre": "Multiplication express",
+        "description": "L'adulte écrit une multiplication simple (32×2), tu as 30 secondes pour la poser et la calculer. Chrono !"
+       },
+       {
+        "titre": "Le partage des pirates",
+        "description": "Prends 20 pièces (boutons, Lego). Partage le trésor entre 2, puis 4, puis 5 pirates. Y a-t-il toujours un partage parfait ?"
+       },
+       {
+        "titre": "Devine mon nombre (à 4 chiffres)",
+        "description": "Je pense à un nombre entre 1000 et 5000. Pose des questions ('plus grand que 3000 ?'), trouve-le en moins de 10 questions !"
+       },
+       {
+        "titre": "La table à l'envers",
+        "description": "L'adulte dit '21', tu trouves la division cachée : '21÷3=7 !' (ou 21÷7=3). 1 point par division trouvée !"
+       },
+       {
+        "titre": "Le marché du CE2",
+        "description": "Joue au marchand : '3 paquets de 12 billes, ça fait combien ?' Calcule avant de payer !"
+       },
+       {
+        "titre": "Bataille de milliers",
+        "description": "Tire 4 cartes, forme le plus grand nombre à 4 chiffres. Compare avec l'adversaire, le plus grand gagne !"
+       },
+       {
+        "titre": "Le relais des divisions",
+        "description": "Écris 10 divisions simples sur des papiers. Pioche, calcule, vérifie avec la multiplication inverse. Combien de bonnes réponses ?"
+       },
+       {
+        "titre": "Pizza party",
+        "description": "Dessine une pizza de 12 parts. Partage-la pour 2, 3, 4, 6 invités. Dessine chaque partage !"
+       },
+       {
+        "titre": "La cible mystère",
+        "description": "L'adulte donne un résultat (ex: 48), trouve 3 multiplications différentes qui y mènent (6×8, 4×12, 2×24) !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE CE2 — MATHÉMATIQUES. 1) NOMBRES JUSQU'À 10 000 : lire, écrire, comparer, ranger. 2) LES 4 OPÉRATIONS : addition et soustraction posées avec retenues, multiplication posée à 1 chiffre (et découverte à 2 chiffres), division posée simple. 3) TOUTES LES TABLES de 1 à 10 par cœur ! 4) GÉOMÉTRIE : l'angle droit (avec l'équerre), le carré, le rectangle, le triangle rectangle ; le PÉRIMÈTRE (somme des côtés). 5) MESURES : longueurs (km, m, cm, mm), masses (kg, g), contenances (L, cL), durées (heures et minutes : 1h = 60 min). 6) PROBLÈMES à 2 étapes : il faut parfois faire DEUX calculs pour trouver la réponse !",
+      "exercices": [
+       {
+        "consigne": "Pose et calcule : 4 567 + 2 856 = ?",
+        "correction": "7 423",
+        "explication": "7+6=13 (pose 3, retiens 1). 6+5+1=12 (pose 2, retiens 1). 5+8+1=14 (pose 4, retiens 1). 4+2+1=7. → 7 423",
+        "ref": "Cours §2 : Les 4 opérations"
+       },
+       {
+        "consigne": "Pose et calcule : 5 003 - 1 245 = ?",
+        "correction": "3 758",
+        "explication": "3-5 impossible → emprunts en cascade : 13-5=8, 9-4=5 (le 0 devient 9), 9-2=7, 4-1=3. → 3 758",
+        "ref": "Cours §2 : Les 4 opérations"
+       },
+       {
+        "consigne": "Calcule : 234 × 6 = ?",
+        "correction": "1 404",
+        "explication": "4×6=24 (pose 4, retiens 2). 3×6=18+2=20 (pose 0, retiens 2). 2×6=12+2=14. → 1 404",
+        "ref": "Cours §2 : Les 4 opérations"
+       },
+       {
+        "consigne": "Tables croisées : 7×8 = ? | 9×6 = ? | 8×8 = ? | 7×9 = ?",
+        "correction": "56 | 54 | 64 | 63",
+        "explication": "Astuce pour 7×8 : '5,6,7,8' → 56=7×8 ! Pour 9×6 : 10×6=60, moins 6 = 54.",
+        "ref": "Cours §3 : Les tables de 1 à 10"
+       },
+       {
+        "consigne": "Division posée : 84 ÷ 4 = ?",
+        "correction": "21",
+        "explication": "En 8, combien de fois 4 ? 2 fois (2×4=8, reste 0). J'abaisse le 4. En 4, combien de fois 4 ? 1 fois. → 21",
+        "ref": "Cours §2 : Les 4 opérations"
+       },
+       {
+        "consigne": "Vérifie avec ton équerre (ou un coin de livre) : combien d'angles droits a un rectangle ?",
+        "correction": "4 angles droits",
+        "explication": "Le rectangle a 4 angles droits, comme le carré. C'est ce qui les distingue des autres quadrilatères.",
+        "ref": "Cours §4 : Géométrie"
+       },
+       {
+        "consigne": "Périmètre d'un rectangle de 12 cm sur 7 cm ?",
+        "correction": "38 cm",
+        "explication": "Périmètre = 12+7+12+7 = 38 cm. Ou plus rapide : (12+7)×2 = 19×2 = 38 cm.",
+        "ref": "Cours §4 : Géométrie"
+       },
+       {
+        "consigne": "Convertis : 3 km = … m | 2 500 g = … kg et … g | 1h30 = … minutes",
+        "correction": "3 000 m | 2 kg et 500 g | 90 minutes",
+        "explication": "1 km = 1000 m → 3 km = 3000 m. 1 kg = 1000 g → 2500 g = 2 kg + 500 g. 1h = 60 min → 1h30 = 60+30 = 90 min.",
+        "ref": "Cours §5 : Mesures"
+       },
+       {
+        "consigne": "Problème à 2 étapes : Maya achète 3 livres à 8€ chacun. Elle paie avec un billet de 50€. Combien lui rend-on ?",
+        "correction": "Étape 1 : 3×8 = 24€. Étape 2 : 50-24 = 26€. On lui rend 26€.",
+        "explication": "D'abord le coût total (multiplication), PUIS la monnaie rendue (soustraction). Toujours identifier les 2 étapes avant de calculer !",
+        "ref": "Cours §6 : Problèmes à 2 étapes"
+       },
+       {
+        "consigne": "Problème à 2 étapes : Un car contient 54 places. 38 enfants et 9 adultes montent. Combien de places libres ?",
+        "correction": "Étape 1 : 38+9 = 47 personnes. Étape 2 : 54-47 = 7 places libres.",
+        "explication": "D'abord le total de passagers (addition), puis la différence avec la capacité (soustraction).",
+        "ref": "Cours §6 : Problèmes à 2 étapes"
+       },
+       {
+        "consigne": "Range du plus grand au plus petit : 8 909, 9 089, 8 990, 9 008",
+        "correction": "9 089 > 9 008 > 8 990 > 8 909",
+        "explication": "Compare les milliers (8 ou 9) : les 9... d'abord. Entre 9089 et 9008 : dizaines 8>0. Entre 8990 et 8909 : 9>0 aux dizaines.",
+        "ref": "Cours §1 : Nombres jusqu'à 10 000"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le champion des tables",
+        "description": "Toutes les tables en vrac ! L'adulte chronomètre : 20 multiplications en moins de 2 minutes ?"
+       },
+       {
+        "titre": "La chasse aux angles droits",
+        "description": "Avec une équerre (ou un coin de feuille), trouve 10 angles droits dans la maison. Photo ou liste à l'appui !"
+       },
+       {
+        "titre": "Le grand voyage des conversions",
+        "description": "Crée des cartes km/m/cm. L'adulte annonce '2 km', donne l'équivalent en mètres le plus vite possible !"
+       },
+       {
+        "titre": "Architecte en herbe",
+        "description": "Dessine le plan d'une maison avec 4 pièces rectangulaires. Calcule le périmètre de chaque pièce !"
+       },
+       {
+        "titre": "Le problème du chef",
+        "description": "Invente toi-même un problème à 2 étapes pour l'adulte. S'il se trompe, tu gagnes ! (Mais vérifie d'abord ta propre solution…)"
+       },
+       {
+        "titre": "Division éclair",
+        "description": "10 divisions simples écrites sur des papiers pliés. Pioche et réponds. L'adulte vérifie avec la multiplication inverse !"
+       },
+       {
+        "titre": "La balance mystère",
+        "description": "Pèse 5 objets de la cuisine avec une balance. Estime d'abord, pèse ensuite. Convertis les grammes en kg+g !"
+       },
+       {
+        "titre": "Le marathon des 10 000",
+        "description": "Chacun part de 0. Lance 4 dés et fais le plus grand nombre possible, additionne à ton score. Premier à 10 000 !"
+       },
+       {
+        "titre": "L'horloger fou",
+        "description": "L'adulte donne des durées farfelues ('le film commence à 14h45 et dure 1h30'). Trouve l'heure de fin !"
+       },
+       {
+        "titre": "Le triathlon mathématique",
+        "description": "3 épreuves : 5 additions posées, 5 multiplications, 5 conversions. Note ton score sur 15 et bats ton record demain !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "monde",
+     "nom": "Questionner le monde",
+     "emoji": "🌍",
+     "revision": {
+      "intro": "On révise le CE1 : le vivant et le non-vivant, les besoins des plantes et animaux, les saisons, lire un calendrier, se repérer sur un plan.",
+      "exercices": [
+       {
+        "consigne": "Vivant ou non-vivant ? un caillou, un chien, une fleur, une voiture, un arbre",
+        "correction": "Vivant : chien, fleur, arbre | Non-vivant : caillou, voiture",
+        "explication": "Un être vivant naît, grandit, se nourrit, se reproduit et meurt. Un caillou ou une voiture ne font rien de tout ça."
+       },
+       {
+        "consigne": "De quoi une plante a-t-elle besoin pour vivre ? Cite 3 choses.",
+        "correction": "De l'eau, de la lumière (soleil) et d'air (pour respirer). La terre apporte aussi des nutriments.",
+        "explication": "Sans eau ni lumière, une plante fane et meurt. C'est pour ça qu'on arrose les plantes et qu'on les met près des fenêtres."
+       },
+       {
+        "consigne": "Range les saisons dans l'ordre à partir du printemps.",
+        "correction": "Printemps → Été → Automne → Hiver",
+        "explication": "Les saisons se suivent toujours dans cet ordre et reviennent chaque année. Après l'hiver, le printemps revient : c'est un cycle."
+       },
+       {
+        "consigne": "Combien y a-t-il de jours dans une semaine ? Cite-les.",
+        "correction": "7 jours : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche",
+        "explication": "La semaine compte 7 jours. Les 5 premiers sont souvent les jours d'école, samedi et dimanche le week-end."
+       },
+       {
+        "consigne": "Quel animal pond des œufs : la poule, le chat, la grenouille, le chien ?",
+        "correction": "La poule et la grenouille pondent des œufs.",
+        "explication": "Certains animaux pondent des œufs (ovipares) : poules, grenouilles, poissons. D'autres ont des petits déjà formés (vivipares) : chat, chien."
+       },
+       {
+        "consigne": "Sur un plan, le Nord est en haut. Si je vais vers le bas, je vais vers le… ?",
+        "correction": "le Sud",
+        "explication": "Sur un plan ou une carte : haut = Nord, bas = Sud, droite = Est, gauche = Ouest. Moyen mnémo : Ne Soyez Pas Effrayés (N-S-E-O... en tournant)."
+       },
+       {
+        "consigne": "Cite 3 choses qui prouvent qu'on est en hiver.",
+        "correction": "Exemples : il fait froid, les arbres n'ont pas de feuilles, il fait nuit tôt, parfois il neige.",
+        "explication": "Chaque saison a ses indices. En hiver : froid, jours courts, arbres dénudés. Observer la nature aide à reconnaître la saison."
+       },
+       {
+        "consigne": "Combien de mois dans une année ? Quel est le premier ?",
+        "correction": "12 mois. Le premier est janvier.",
+        "explication": "L'année compte 12 mois, de janvier à décembre. Chaque mois a environ 30 jours (sauf février, plus court)."
+       },
+       {
+        "consigne": "Que mange une vache : de l'herbe ou de la viande ? Comment appelle-t-on cet animal ?",
+        "correction": "De l'herbe. C'est un herbivore.",
+        "explication": "Herbivore = mange des plantes (vache, lapin). Carnivore = mange de la viande (lion, chat). Omnivore = les deux (ours, humain)."
+       },
+       {
+        "consigne": "Hier on était mardi. Quel jour sommes-nous aujourd'hui ? Et demain ?",
+        "correction": "Aujourd'hui : mercredi. Demain : jeudi.",
+        "explication": "Les jours se suivent dans l'ordre. Après mardi vient mercredi, puis jeudi. Savoir compter les jours aide à se repérer dans le temps."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Vivant ou pas vivant ?",
+        "description": "L'adulte montre des objets/images, tu cries 'VIVANT !' ou 'PAS VIVANT !'. Attention aux pièges (une plante en plastique ?) !"
+       },
+       {
+        "titre": "La roue des saisons",
+        "description": "Dessine une roue à 4 parts. L'adulte décrit une scène ('il neige'), pointe la bonne saison !"
+       },
+       {
+        "titre": "Le calendrier vivant",
+        "description": "L'adulte dit 'le jour après lundi', tu réponds 'mardi'. Puis les mois, puis 'avant/après'. Chrono !"
+       },
+       {
+        "titre": "Qui mange quoi ?",
+        "description": "Trie des images d'animaux en 3 tas : herbivores, carnivores, omnivores. Vérifiez ensemble !"
+       },
+       {
+        "titre": "Boussole maison",
+        "description": "L'adulte cache un objet et te guide : 'va vers le Nord, puis l'Est'. Retrouve le trésor en suivant les directions !"
+       },
+       {
+        "titre": "La graine espionne",
+        "description": "Plante une graine de lentille dans du coton humide. Observe chaque jour et dessine sa croissance. Que lui faut-il ?"
+       },
+       {
+        "titre": "Le memory des bébés animaux",
+        "description": "Associe l'animal à son petit : poule-poussin, vache-veau, chat-chaton, mouton-agneau…"
+       },
+       {
+        "titre": "Météo du jour",
+        "description": "Chaque matin, note le temps qu'il fait et la saison. À la fin de la semaine, compare tes observations !"
+       },
+       {
+        "titre": "La course des mois",
+        "description": "Récite les 12 mois le plus vite possible sans erreur. Bats ton record chaque jour !"
+       },
+       {
+        "titre": "Plan au trésor",
+        "description": "Dessine le plan de ta chambre vue du dessus. Cache un objet et fais deviner sa position à un parent avec le plan !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LE CE2 ! En CE1 tu as observé le vivant. En CE2, tu vas comprendre COMMENT ça marche. Tu découvriras les RÈGNES du vivant (animaux, végétaux), la classification (avec ou sans squelette, nombre de pattes…), et le cycle de vie complet (œuf → larve → adulte chez la grenouille ou le papillon). Tu commenceras aussi à lire des FRISES du temps (pour ranger les événements de l'Histoire) et des CARTES (de ta région, de la France). Premier pas : un être vivant traverse plusieurs étapes appelées le CYCLE DE VIE. Exemple du papillon : œuf → chenille → chrysalide → papillon. C'est une métamorphose !",
+      "exercices": [
+       {
+        "consigne": "Range le cycle du papillon : chrysalide, œuf, papillon, chenille",
+        "correction": "œuf → chenille → chrysalide → papillon",
+        "explication": "Le papillon subit une métamorphose. La chenille sort de l'œuf, se transforme en chrysalide, puis devient papillon.",
+        "ref": "Cours : le cycle de vie"
+       },
+       {
+        "consigne": "La grenouille : range les étapes — grenouille, têtard, œuf",
+        "correction": "œuf → têtard → grenouille",
+        "explication": "Le têtard sort de l'œuf et vit dans l'eau avec une queue. Il perd sa queue, ses pattes poussent : il devient grenouille.",
+        "ref": "Cours : le cycle de vie"
+       },
+       {
+        "consigne": "A-t-il un squelette à l'intérieur ? Le poisson, l'escargot, le chien, le ver de terre",
+        "correction": "Avec squelette : poisson, chien | Sans : escargot, ver de terre",
+        "explication": "Les animaux avec un squelette interne sont les vertébrés (poisson, chien). Sans squelette = invertébrés (escargot, ver).",
+        "ref": "Cours : classification du vivant"
+       },
+       {
+        "consigne": "Combien de pattes a un insecte ? Et une araignée ?",
+        "correction": "Insecte : 6 pattes | Araignée : 8 pattes",
+        "explication": "Tous les insectes ont 6 pattes (mouche, fourmi). L'araignée en a 8 : ce n'est donc PAS un insecte, c'est un arachnide !",
+        "ref": "Cours : classification du vivant"
+       },
+       {
+        "consigne": "Sur une frise du temps, range : ma naissance, aujourd'hui, l'année prochaine. Lequel est le plus à gauche ?",
+        "correction": "Ma naissance (le plus ancien, à gauche) → aujourd'hui → l'année prochaine (à droite)",
+        "explication": "Sur une frise, le temps va de gauche (passé) à droite (futur). Le plus ancien événement est toujours à gauche.",
+        "ref": "Cours : lire une frise du temps"
+       },
+       {
+        "consigne": "Animal ou végétal ? un chêne, une abeille, une rose, un lapin",
+        "correction": "Animaux : abeille, lapin | Végétaux : chêne, rose",
+        "explication": "Les végétaux (plantes) fabriquent leur nourriture avec la lumière et ne bougent pas. Les animaux se déplacent et mangent.",
+        "ref": "Cours : les règnes du vivant"
+       },
+       {
+        "consigne": "Vrai ou faux : la chenille et le papillon sont deux animaux différents.",
+        "correction": "Faux ! C'est le MÊME animal à deux étapes de sa vie.",
+        "explication": "La chenille devient papillon : c'est une transformation, pas deux animaux. C'est la métamorphose.",
+        "ref": "Cours : le cycle de vie"
+       },
+       {
+        "consigne": "Cite un animal vertébré et un invertébré que tu connais.",
+        "correction": "Exemples : vertébré = chat, oiseau, poisson | invertébré = papillon, escargot, araignée",
+        "explication": "Vertébré = a une colonne vertébrale (un dos avec des os). Invertébré = pas de squelette interne.",
+        "ref": "Cours : classification du vivant"
+       },
+       {
+        "consigne": "Sur une carte de France, où se trouve la mer Méditerranée : au Nord ou au Sud ?",
+        "correction": "Au Sud",
+        "explication": "La Méditerranée borde le sud de la France (Marseille, Nice). La Manche est au nord, l'Atlantique à l'ouest.",
+        "ref": "Cours : lire une carte"
+       },
+       {
+        "consigne": "Quelle étape vient juste avant le papillon adulte ?",
+        "correction": "La chrysalide (ou cocon)",
+        "explication": "Avant de devenir papillon, la chenille s'enferme dans une chrysalide où elle se transforme complètement.",
+        "ref": "Cours : le cycle de vie"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le puzzle du cycle de vie",
+        "description": "Dessine et découpe les 4 étapes du papillon (ou de la grenouille). Mélange et remets dans l'ordre !"
+       },
+       {
+        "titre": "Vertébré ou invertébré ?",
+        "description": "L'adulte montre un animal, tu touches ton dos si c'est un vertébré, tu fais le mou si c'est un invertébré !"
+       },
+       {
+        "titre": "La chasse aux pattes",
+        "description": "Liste 5 insectes (6 pattes) et 3 araignées (8 pattes). Compte bien les pattes sur les images !"
+       },
+       {
+        "titre": "Ma première frise",
+        "description": "Crée une frise de ta vie : naissance, premiers pas, entrée à l'école… Range les souvenirs de gauche à droite !"
+       },
+       {
+        "titre": "Animal ou végétal",
+        "description": "Pioche des cartes (vraies ou dessinées). Trie en deux colonnes : animaux / végétaux. Discutez des cas difficiles (le corail ?) !"
+       },
+       {
+        "titre": "L'élevage de la curiosité",
+        "description": "Avec un adulte, observe une chenille ou des têtards dans la nature (sans les déranger). Dessine ce que tu vois !"
+       },
+       {
+        "titre": "Le grand tri du vivant",
+        "description": "Classe 10 animaux selon : avec/sans squelette, nombre de pattes, pond des œufs ou non. Fais un tableau !"
+       },
+       {
+        "titre": "Boussole et carte",
+        "description": "Sur une carte de France, trouve la mer au Sud, l'océan à l'Ouest. Place les points cardinaux !"
+       },
+       {
+        "titre": "Métamorphose mimée",
+        "description": "Mime les étapes du papillon : l'œuf (en boule), la chenille (qui rampe), la chrysalide (immobile), le papillon (qui vole) !"
+       },
+       {
+        "titre": "Le quiz nature",
+        "description": "Prépare 10 questions sur le vivant pour défier un parent. Qui sera le meilleur naturaliste ?"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE CE2 — QUESTIONNER LE MONDE. 1) LE VIVANT : classification (vertébrés/invertébrés), régimes alimentaires (herbivore, carnivore, omnivore), cycles de vie et métamorphoses, besoins des végétaux. 2) LA MATIÈRE : les 3 états de l'eau (solide=glace, liquide=eau, gazeux=vapeur) ; l'eau gèle à 0°C et bout à 100°C. 3) LE TEMPS (Histoire) : lire une frise chronologique, les grandes périodes (Préhistoire, Antiquité, Moyen Âge, Temps modernes, Époque contemporaine), mesurer la durée (jour, mois, année, siècle = 100 ans). 4) L'ESPACE (Géographie) : se repérer sur un plan, une carte ; les paysages (montagne, plaine, littoral, ville, campagne) ; les points cardinaux (N, S, E, O).",
+      "exercices": [
+       {
+        "consigne": "Dans quel état est l'eau : un glaçon, la pluie, la vapeur au-dessus d'une casserole ?",
+        "correction": "Glaçon = solide | Pluie = liquide | Vapeur = gazeux",
+        "explication": "L'eau existe sous 3 états selon la température : solide (froid), liquide (normal), gazeux (chaud).",
+        "ref": "Cours §2 : Les états de l'eau"
+       },
+       {
+        "consigne": "À quelle température l'eau gèle-t-elle ? À quelle température bout-elle ?",
+        "correction": "Elle gèle à 0°C et bout à 100°C.",
+        "explication": "En dessous de 0°C, l'eau devient glace. À 100°C, elle se transforme en vapeur (ébullition).",
+        "ref": "Cours §2 : Les états de l'eau"
+       },
+       {
+        "consigne": "Range ces périodes de l'Histoire dans l'ordre : Moyen Âge, Préhistoire, Antiquité",
+        "correction": "Préhistoire → Antiquité → Moyen Âge",
+        "explication": "La Préhistoire est la plus ancienne (avant l'écriture). Puis l'Antiquité (Romains, Gaulois), puis le Moyen Âge (châteaux, chevaliers).",
+        "ref": "Cours §3 : Les grandes périodes"
+       },
+       {
+        "consigne": "Combien d'années dans un siècle ? Combien de siècles dans 300 ans ?",
+        "correction": "1 siècle = 100 ans. 300 ans = 3 siècles.",
+        "explication": "Un siècle dure 100 ans. Pour trouver le nombre de siècles, on divise les années par 100 : 300 ÷ 100 = 3.",
+        "ref": "Cours §3 : Mesurer la durée"
+       },
+       {
+        "consigne": "Classe ces animaux par régime : lapin, lion, ours. (herbivore/carnivore/omnivore)",
+        "correction": "Lapin = herbivore | Lion = carnivore | Ours = omnivore",
+        "explication": "Le lapin mange des plantes, le lion de la viande, l'ours mange de tout (baies ET poissons).",
+        "ref": "Cours §1 : Le vivant"
+       },
+       {
+        "consigne": "Quel paysage : beaucoup d'immeubles et de routes ? De grandes étendues plates cultivées ?",
+        "correction": "Immeubles = la ville (paysage urbain) | Étendues plates cultivées = la plaine (ou campagne)",
+        "explication": "On reconnaît un paysage à ses éléments : la ville a des bâtiments, la campagne des champs, la montagne des reliefs.",
+        "ref": "Cours §4 : Les paysages"
+       },
+       {
+        "consigne": "Vrai ou faux : quand l'eau gèle, elle devient gazeuse.",
+        "correction": "Faux ! Quand l'eau gèle, elle devient SOLIDE (glace).",
+        "explication": "Geler = devenir solide (glace). Devenir gazeux = s'évaporer en vapeur, ce qui arrive en chauffant, pas en refroidissant.",
+        "ref": "Cours §2 : Les états de l'eau"
+       },
+       {
+        "consigne": "Sur une frise, le passé est à gauche. Où place-t-on l'événement le plus récent ?",
+        "correction": "À droite",
+        "explication": "La frise va du passé (gauche) au présent/futur (droite). L'événement le plus récent est donc le plus à droite.",
+        "ref": "Cours §3 : Lire une frise"
+       },
+       {
+        "consigne": "Cite les 4 points cardinaux et leur position sur une carte.",
+        "correction": "Nord (haut), Sud (bas), Est (droite), Ouest (gauche)",
+        "explication": "Sur une carte, le Nord est toujours en haut. On peut retenir 'N-E-S-O' en tournant dans le sens des aiguilles d'une montre.",
+        "ref": "Cours §4 : L'espace"
+       },
+       {
+        "consigne": "Une plante a besoin de 3 choses pour pousser. Si on la met dans un placard sombre, que se passe-t-il ?",
+        "correction": "Elle manque de lumière, devient pâle et finit par mourir.",
+        "explication": "Sans lumière, la plante ne peut pas faire la photosynthèse (fabriquer sa nourriture). Elle s'affaiblit et meurt.",
+        "ref": "Cours §1 : Besoins des végétaux"
+       },
+       {
+        "consigne": "Problème : la Préhistoire se termine avec l'invention de l'écriture, il y a environ 5000 ans. Combien de siècles cela fait-il ?",
+        "correction": "5000 ÷ 100 = 50 siècles",
+        "explication": "On convertit les années en siècles en divisant par 100. 5000 ans = 50 siècles. Ça fait très, très longtemps !",
+        "ref": "Cours §3 : Mesurer la durée"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "L'expérience des glaçons",
+        "description": "Mets un glaçon dans 3 endroits (frigo, table, près d'un radiateur). Chronomètre la fonte ! Où fond-il le plus vite et pourquoi ?"
+       },
+       {
+        "titre": "La frise géante",
+        "description": "Fabrique une grande frise au sol avec les 5 grandes périodes. Saute d'une période à l'autre quand l'adulte les nomme !"
+       },
+       {
+        "titre": "Le détective des paysages",
+        "description": "Regarde 5 photos de paysages. Devine : ville, montagne, mer, campagne ou forêt ? Justifie avec un indice !"
+       },
+       {
+        "titre": "Le grand quiz de l'eau",
+        "description": "10 questions sur les états de l'eau. Solide, liquide ou gazeux ? L'adulte teste, tu réponds par geste (poing=solide, main qui coule=liquide, doigts qui montent=gaz) !"
+       },
+       {
+        "titre": "Voyage dans le temps",
+        "description": "Tire une carte 'événement' (les dinosaures, les châteaux forts, les voitures…). Place-la dans la bonne période !"
+       },
+       {
+        "titre": "Boussole vivante",
+        "description": "Place 4 panneaux N-S-E-O dans le jardin. L'adulte donne un parcours ('3 pas au Nord'), suis-le pour trouver le trésor !"
+       },
+       {
+        "titre": "Tri des régimes alimentaires",
+        "description": "Classe 12 animaux en herbivores, carnivores, omnivores. Fais 3 colonnes et discute des surprises (le panda ?) !"
+       },
+       {
+        "titre": "L'eau qui voyage",
+        "description": "Dessine le cycle de l'eau : la mer s'évapore, les nuages se forment, la pluie tombe… Raconte le voyage d'une goutte !"
+       },
+       {
+        "titre": "Le siècle mystère",
+        "description": "L'adulte donne un nombre d'années (200, 500, 1000), convertis-le en siècles le plus vite possible !"
+       },
+       {
+        "titre": "Carte au trésor de France",
+        "description": "Sur une carte de France, place 5 villes, les mers et les montagnes. Utilise les points cardinaux pour te repérer !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "emc",
+     "nom": "Enseignement moral et civique",
+     "emoji": "🤝",
+     "revision": {
+      "intro": "On révise le CE1 : les règles de la classe et de la maison, le respect des autres, les émotions, la politesse, vivre ensemble.",
+      "exercices": [
+       {
+        "consigne": "Cite 3 règles importantes à respecter en classe.",
+        "correction": "Exemples : lever la main pour parler, écouter les autres, ne pas se moquer, respecter le matériel.",
+        "explication": "Les règles servent à ce que tout le monde vive bien ensemble et apprenne dans le calme. Elles protègent chacun."
+       },
+       {
+        "consigne": "Que dit-on quand on reçoit un cadeau ? Quand on bouscule quelqu'un sans faire exprès ?",
+        "correction": "Merci pour le cadeau. Pardon (ou excuse-moi) si on bouscule.",
+        "explication": "La politesse montre le respect des autres. 'Merci', 'pardon', 's'il te plaît', 'bonjour' sont des mots magiques du vivre-ensemble."
+       },
+       {
+        "consigne": "Nomme l'émotion : on rit, on saute de bonheur → ? | on pleure, on est triste → ? | on tremble, on a peur → ?",
+        "correction": "Joie | Tristesse | Peur",
+        "explication": "Reconnaître ses émotions aide à mieux les comprendre et à en parler. Les 4 grandes émotions : joie, tristesse, peur, colère."
+       },
+       {
+        "consigne": "Ton camarade est tombé et pleure. Que peux-tu faire ?",
+        "correction": "L'aider à se relever, lui demander si ça va, prévenir un adulte, le réconforter.",
+        "explication": "Aider les autres et faire preuve d'empathie (comprendre ce qu'ils ressentent) rend la vie en groupe plus douce."
+       },
+       {
+        "consigne": "Vrai ou faux : on a le droit de se moquer de quelqu'un qui est différent.",
+        "correction": "Faux ! Se moquer fait de la peine et n'est jamais acceptable.",
+        "explication": "Chacun est différent et c'est une richesse. Le respect, c'est accepter les autres tels qu'ils sont, sans se moquer."
+       },
+       {
+        "consigne": "À quoi sert de ranger la classe ou sa chambre tous ensemble ?",
+        "correction": "À avoir un endroit agréable et propre, et à partager les efforts équitablement.",
+        "explication": "Quand chacun participe aux tâches communes, le groupe fonctionne mieux. C'est ça, la coopération."
+       },
+       {
+        "consigne": "Tu veux jouer avec un jouet qu'un autre enfant utilise. Que fais-tu ?",
+        "correction": "Je demande gentiment si je peux jouer aussi, ou j'attends mon tour, ou je propose de partager.",
+        "explication": "Partager et attendre son tour évitent les disputes. On peut aussi jouer ensemble : c'est encore plus amusant !"
+       },
+       {
+        "consigne": "Cite 2 mots de politesse pour dire bonjour et au revoir.",
+        "correction": "Bonjour / Bonsoir pour arriver ; Au revoir / À bientôt pour partir.",
+        "explication": "Saluer les gens montre qu'on les respecte et qu'on est content de les voir. C'est la base de la vie en société."
+       },
+       {
+        "consigne": "Pourquoi est-ce important d'écouter quand quelqu'un parle ?",
+        "correction": "Pour le comprendre, lui montrer du respect, et apprendre des choses.",
+        "explication": "Écouter, c'est respecter la parole de l'autre. Si tout le monde parle en même temps, personne ne se comprend."
+       },
+       {
+        "consigne": "Que peux-tu faire pour aider à la maison ?",
+        "correction": "Exemples : mettre la table, ranger mes jouets, nourrir l'animal, aider à débarrasser.",
+        "explication": "Participer aux tâches de la maison, c'est grandir et soulager les parents. Chacun a un rôle dans la famille."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le théâtre des émotions",
+        "description": "Mime une émotion (joie, peur, colère, tristesse), l'autre devine ! Puis discutez d'un moment où vous l'avez ressentie."
+       },
+       {
+        "titre": "Le jeu de la politesse",
+        "description": "Pendant une journée, gagne un point à chaque mot magique utilisé (merci, pardon, s'il te plaît). Combien à la fin ?"
+       },
+       {
+        "titre": "Vrai ou faux du respect",
+        "description": "L'adulte dit une phrase ('se moquer c'est drôle'), tu réponds vrai ou faux et tu expliques pourquoi."
+       },
+       {
+        "titre": "La boîte à problèmes",
+        "description": "L'adulte décrit une petite dispute, tu proposes une solution juste pour tout le monde. Devenez médiateurs !"
+       },
+       {
+        "titre": "Le défi des bonnes actions",
+        "description": "Chaque jour, fais une bonne action (aider, partager, consoler). Raconte-la le soir en famille !"
+       },
+       {
+        "titre": "Qui suis-je ? (émotions)",
+        "description": "Décris une émotion sans la nommer : 'Mon cœur bat fort, mes mains tremblent…' L'autre devine : la peur !"
+       },
+       {
+        "titre": "Le règlement maison",
+        "description": "Ensemble, inventez 5 règles de la maison et dessinez-les. Affichez-les et respectez-les toute la semaine !"
+       },
+       {
+        "titre": "Chacun son tour",
+        "description": "Jouez à un jeu de société et observez : chacun attend-il bien son tour ? Félicitez les bons comportements !"
+       },
+       {
+        "titre": "Le compliment surprise",
+        "description": "Chaque membre de la famille dit un compliment sincère à un autre. Comment se sent-on quand on en reçoit un ?"
+       },
+       {
+        "titre": "L'écoute active",
+        "description": "L'un raconte sa journée, l'autre écoute sans couper, puis répète ce qu'il a compris. Bravo si tout est juste !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LE CE2 ! En CE1, tu as appris à respecter les règles. En CE2, tu vas comprendre POURQUOI elles existent et découvrir des notions plus grandes : les DROITS et les DEVOIRS (on a le droit d'être protégé, le devoir de respecter les autres), la notion d'ÉGALITÉ (filles et garçons ont les mêmes droits), et les premiers symboles de la RÉPUBLIQUE française (le drapeau bleu-blanc-rouge, la Marianne, la devise 'Liberté, Égalité, Fraternité'). Première idée importante : une règle juste s'applique à TOUT LE MONDE de la même façon. C'est ça, l'égalité.",
+      "exercices": [
+       {
+        "consigne": "Quelles sont les 3 couleurs du drapeau français ?",
+        "correction": "Bleu, blanc, rouge",
+        "explication": "Le drapeau tricolore est le symbole de la France. Ses 3 bandes verticales sont bleue, blanche et rouge.",
+        "ref": "Cours : les symboles de la République"
+       },
+       {
+        "consigne": "Complète la devise de la France : Liberté, …, Fraternité",
+        "correction": "Égalité",
+        "explication": "La devise française est 'Liberté, Égalité, Fraternité'. Elle résume les valeurs importantes de notre pays.",
+        "ref": "Cours : les symboles de la République"
+       },
+       {
+        "consigne": "Vrai ou faux : les filles et les garçons ont les mêmes droits.",
+        "correction": "Vrai !",
+        "explication": "L'égalité signifie que filles et garçons peuvent faire les mêmes activités et ont les mêmes droits. Personne n'est supérieur à l'autre.",
+        "ref": "Cours : l'égalité"
+       },
+       {
+        "consigne": "Donne un exemple de DROIT que tu as et un DEVOIR que tu dois respecter.",
+        "correction": "Droit : être protégé, aller à l'école, jouer. Devoir : respecter les autres, suivre les règles.",
+        "explication": "Un droit, c'est ce qui nous est dû (la protection). Un devoir, c'est ce qu'on doit faire (respecter). Les deux vont ensemble.",
+        "ref": "Cours : droits et devoirs"
+       },
+       {
+        "consigne": "Une règle juste, elle s'applique à qui ?",
+        "correction": "À tout le monde, de la même façon.",
+        "explication": "Si une règle ne s'appliquait qu'à certains, ce serait injuste. L'égalité veut que les règles soient les mêmes pour tous.",
+        "ref": "Cours : l'égalité"
+       },
+       {
+        "consigne": "Comment s'appelle la femme symbole de la République française (souvent sur les pièces et dans les mairies) ?",
+        "correction": "Marianne",
+        "explication": "Marianne représente la République française. On la voit dans les mairies, sur des timbres et des pièces. Elle porte un bonnet rouge.",
+        "ref": "Cours : les symboles de la République"
+       },
+       {
+        "consigne": "Vrai ou faux : un enfant a le droit d'être protégé et soigné.",
+        "correction": "Vrai !",
+        "explication": "Tous les enfants ont des droits : être protégés, nourris, soignés, aller à l'école, jouer. C'est écrit dans les Droits de l'Enfant.",
+        "ref": "Cours : droits et devoirs"
+       },
+       {
+        "consigne": "Pourquoi vote-t-on (les adultes) en démocratie ?",
+        "correction": "Pour choisir ensemble ceux qui décident, en respectant l'avis de chacun.",
+        "explication": "Voter, c'est donner son avis pour les décisions importantes. Chaque voix compte de la même façon : c'est l'égalité en action.",
+        "ref": "Cours : vivre en démocratie"
+       },
+       {
+        "consigne": "Ton camarade vient d'un autre pays et parle une autre langue. Comment l'accueillir ?",
+        "correction": "Avec gentillesse : lui sourire, l'aider, lui apprendre des mots, jouer avec lui.",
+        "explication": "Accueillir les différences enrichit le groupe. La fraternité, c'est se traiter comme des frères et sœurs, peu importe les origines.",
+        "ref": "Cours : la fraternité"
+       },
+       {
+        "consigne": "Quel symbole chante-t-on lors des grandes occasions en France ? (l'hymne national)",
+        "correction": "La Marseillaise",
+        "explication": "La Marseillaise est l'hymne national français. On la chante lors des cérémonies et des grands événements sportifs.",
+        "ref": "Cours : les symboles de la République"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le drapeau tricolore",
+        "description": "Dessine et colorie le drapeau français dans le bon ordre. Puis cherche les drapeaux d'autres pays : combien ont du bleu-blanc-rouge ?"
+       },
+       {
+        "titre": "Devine le symbole",
+        "description": "L'adulte décrit un symbole (une femme au bonnet rouge…), tu devines : Marianne, drapeau, Marseillaise, coq ?"
+       },
+       {
+        "titre": "Égalité, vrai ou faux",
+        "description": "L'adulte propose des situations ('seuls les garçons peuvent jouer au foot'), tu dis si c'est juste ou injuste et pourquoi !"
+       },
+       {
+        "titre": "La chasse aux droits",
+        "description": "Liste 5 droits de l'enfant et 5 devoirs. Dessine-les ! Affichez-les dans ta chambre."
+       },
+       {
+        "titre": "Le tribunal des histoires",
+        "description": "L'adulte raconte une petite injustice dans une histoire, tu joues le juge et proposes une solution équitable !"
+       },
+       {
+        "titre": "Mini-élection maison",
+        "description": "Votez en famille pour le film du soir ou le menu du week-end. Chacun une voix ! Découvre comment marche un vote."
+       },
+       {
+        "titre": "L'accueil du nouveau",
+        "description": "Imagine qu'un nouvel élève arrive. Joue la scène : comment l'accueillir gentiment ? Inversez les rôles !"
+       },
+       {
+        "titre": "Symboles en chanson",
+        "description": "Écoute la Marseillaise avec un adulte. Repère un mot que tu connais. D'où vient cette chanson ?"
+       },
+       {
+        "titre": "Le jeu des pays",
+        "description": "Sur une carte du monde, repère 5 pays. Chaque pays a sa culture et ses symboles : c'est ça, la diversité !"
+       },
+       {
+        "titre": "Liberté, Égalité, Fraternité",
+        "description": "Pour chaque mot de la devise, trouve un exemple concret dans ta vie de tous les jours. Discutez-en ensemble !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE CE2 — ENSEIGNEMENT MORAL ET CIVIQUE. 1) LA SENSIBILITÉ : identifier et exprimer ses émotions et celles des autres ; respecter les différences (handicap, origine, religion, garçon/fille). 2) LE DROIT ET LA RÈGLE : comprendre les règles de la vie collective, distinguer droits et devoirs, connaître les droits de l'enfant. 3) LE JUGEMENT : distinguer le bien du mal, argumenter un choix, comprendre la justice et l'égalité. 4) L'ENGAGEMENT : coopérer, s'entraider, prendre des responsabilités (délégué, métiers de la classe), respecter l'environnement. 5) LA RÉPUBLIQUE : symboles (drapeau, Marianne, Marseillaise, devise, 14 juillet), principes (liberté, égalité, fraternité, laïcité).",
+      "exercices": [
+       {
+        "consigne": "Quelle fête nationale célèbre-t-on le 14 juillet en France ?",
+        "correction": "La fête nationale (anniversaire de la prise de la Bastille en 1789).",
+        "explication": "Le 14 juillet célèbre un grand événement de l'Histoire de France. Il y a des défilés et des feux d'artifice partout dans le pays.",
+        "ref": "Cours §5 : La République"
+       },
+       {
+        "consigne": "Qu'est-ce que la laïcité, expliquée simplement ?",
+        "correction": "C'est le fait que chacun est libre de croire ou non, et que l'école accueille tout le monde pareil, sans favoriser une religion.",
+        "explication": "La laïcité protège la liberté de croyance de chacun. À l'école publique, on respecte toutes les opinions sans en imposer aucune.",
+        "ref": "Cours §5 : Principes de la République"
+       },
+       {
+        "consigne": "Distingue un droit et un devoir : 'aller à l'école' / 'respecter ses camarades'.",
+        "correction": "Aller à l'école = un droit (et une obligation) | Respecter ses camarades = un devoir",
+        "explication": "L'instruction est un droit garanti à tous les enfants. Le respect des autres est un devoir de chacun envers le groupe.",
+        "ref": "Cours §2 : Droit et règle"
+       },
+       {
+        "consigne": "Un camarade en fauteuil roulant ne peut pas monter un escalier. Que faut-il faire pour l'égalité ?",
+        "correction": "Installer une rampe ou un ascenseur pour qu'il accède partout comme les autres.",
+        "explication": "L'égalité, c'est donner à chacun les moyens d'accéder aux mêmes choses. On adapte l'environnement pour inclure tout le monde.",
+        "ref": "Cours §1 : Respecter les différences"
+       },
+       {
+        "consigne": "Cite les 5 symboles de la République française.",
+        "correction": "Le drapeau tricolore, Marianne, la Marseillaise, la devise (Liberté-Égalité-Fraternité), le 14 juillet (et le coq).",
+        "explication": "Ces symboles représentent la France et ses valeurs. On les retrouve dans les mairies, les écoles et lors des grandes occasions.",
+        "ref": "Cours §5 : Symboles de la République"
+       },
+       {
+        "consigne": "Qu'est-ce qu'un délégué de classe et à quoi sert-il ?",
+        "correction": "Un élève élu par ses camarades pour les représenter et porter leur voix auprès des adultes.",
+        "explication": "Le délégué est choisi par un vote. Il exprime les idées de la classe : c'est un premier pas vers la démocratie et l'engagement.",
+        "ref": "Cours §4 : L'engagement"
+       },
+       {
+        "consigne": "Pourquoi faut-il protéger l'environnement ? Donne 2 gestes simples.",
+        "correction": "Pour garder une planète propre et vivable. Gestes : trier les déchets, économiser l'eau et l'électricité, ne pas gaspiller.",
+        "explication": "Protéger l'environnement est un devoir envers la nature et les générations futures. Chaque petit geste compte.",
+        "ref": "Cours §4 : Respecter l'environnement"
+       },
+       {
+        "consigne": "Vrai ou faux : en France, on peut être puni juste à cause de sa religion ou de son origine.",
+        "correction": "Faux ! C'est interdit. Tout le monde est égal devant la loi.",
+        "explication": "La discrimination (traiter mal quelqu'un à cause de son origine, sa religion…) est interdite par la loi. L'égalité protège chacun.",
+        "ref": "Cours §3 : La justice et l'égalité"
+       },
+       {
+        "consigne": "Explique la différence entre 'être d'accord' et 'respecter l'avis de l'autre'.",
+        "correction": "On peut ne pas être d'accord avec quelqu'un, mais on doit quand même respecter son droit de penser différemment.",
+        "explication": "Le respect ne veut pas dire être toujours d'accord. On peut débattre poliment tout en acceptant les opinions différentes.",
+        "ref": "Cours §3 : Le jugement"
+       },
+       {
+        "consigne": "Dans la cour, deux groupes se disputent un ballon. Propose une solution juste pour tous.",
+        "correction": "Exemples : faire des tours de jeu, partager le temps, jouer ensemble, ou tirer au sort équitablement.",
+        "explication": "Une solution juste respecte tout le monde de façon égale. Le dialogue et le partage évitent les conflits.",
+        "ref": "Cours §3 : Le jugement"
+       },
+       {
+        "consigne": "Pourquoi dit-on que voter est important dans une démocratie ?",
+        "correction": "Parce que chaque personne donne son avis et que les décisions sont prises ensemble, en respectant la majorité.",
+        "explication": "En démocratie, le pouvoir appartient au peuple. Voter permet à chacun de participer aux choix importants. Chaque voix est égale.",
+        "ref": "Cours §5 : Principes de la République"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le débat des petits citoyens",
+        "description": "Choisis un sujet ('faut-il aider à la maison ?'). Chacun donne son avis poliment. Écoutez-vous sans vous couper !"
+       },
+       {
+        "titre": "La chasse aux symboles",
+        "description": "Dans la rue, à la mairie, sur les pièces : trouve les symboles de la République ! Note où tu les vois."
+       },
+       {
+        "titre": "Le jeu de l'inclusion",
+        "description": "Imagine des solutions pour qu'un camarade différent (aveugle, en fauteuil…) participe à un jeu. Soyez inventifs !"
+       },
+       {
+        "titre": "Élection de classe maison",
+        "description": "Organise une vraie élection (du repas, de l'activité) avec bulletins et urne. Comptez les voix ensemble !"
+       },
+       {
+        "titre": "Le tri sélectif challenge",
+        "description": "Trie correctement 10 déchets dans les bonnes poubelles (verre, papier, plastique…). Chrono et vérification !"
+       },
+       {
+        "titre": "Droits et devoirs en images",
+        "description": "Dessine une affiche : à gauche les droits de l'enfant, à droite ses devoirs. Présente-la à ta famille !"
+       },
+       {
+        "titre": "Le théâtre des valeurs",
+        "description": "Joue une saynète qui montre la Liberté, puis l'Égalité, puis la Fraternité. L'autre devine la valeur jouée !"
+       },
+       {
+        "titre": "Quiz de la République",
+        "description": "Prépare 10 questions sur les symboles et valeurs françaises. Défie un parent : qui est le meilleur citoyen ?"
+       },
+       {
+        "titre": "La médiation",
+        "description": "L'adulte joue une dispute, tu deviens médiateur et proposes une solution juste. Inversez ensuite les rôles !"
+       },
+       {
+        "titre": "La carte des émotions",
+        "description": "Crée une roue des émotions. Chaque jour, montre comment tu te sens et explique pourquoi. Apprends à les nommer !"
+       }
+      ]
+     }
+    },
+    {
+     "id": "arts",
+     "nom": "Arts plastiques",
+     "emoji": "🎨",
+     "revision": {
+      "intro": "On révise le CE1 : les couleurs primaires et secondaires, dessiner, découper, coller, observer une image, exprimer ce qu'on ressent.",
+      "exercices": [
+       {
+        "consigne": "Cite les 3 couleurs primaires.",
+        "correction": "Le rouge, le bleu et le jaune.",
+        "explication": "Les couleurs primaires ne peuvent pas être fabriquées par mélange. À partir d'elles, on crée toutes les autres couleurs !"
+       },
+       {
+        "consigne": "Quel mélange donne du vert ? Du orange ? Du violet ?",
+        "correction": "Bleu + jaune = vert | Rouge + jaune = orange | Rouge + bleu = violet",
+        "explication": "En mélangeant deux couleurs primaires, on obtient une couleur secondaire. Essaie avec de la peinture pour voir la magie !"
+       },
+       {
+        "consigne": "Cite 2 outils pour dessiner et 2 outils pour peindre.",
+        "correction": "Dessiner : crayon, feutre, stylo. Peindre : pinceau, éponge, doigts, rouleau.",
+        "explication": "Chaque outil laisse une trace différente. Le crayon fait des traits fins, le pinceau des aplats de couleur."
+       },
+       {
+        "consigne": "Une couleur claire et douce comme le ciel : chaude ou froide ?",
+        "correction": "Froide (le bleu est une couleur froide).",
+        "explication": "Les couleurs froides (bleu, vert, violet) évoquent le calme, l'eau, la nuit. Les chaudes (rouge, orange, jaune) évoquent le feu, le soleil."
+       },
+       {
+        "consigne": "Pour faire un collage, de quoi as-tu besoin ?",
+        "correction": "De papiers ou images, de ciseaux pour découper et de colle.",
+        "explication": "Le collage consiste à assembler des morceaux découpés pour créer une nouvelle image. C'est une technique amusante et créative !"
+       },
+       {
+        "consigne": "Regarde un dessin que tu aimes. Qu'est-ce qui te plaît : les couleurs, les formes, l'histoire ?",
+        "correction": "Réponse personnelle — l'important est de savoir dire POURQUOI on aime.",
+        "explication": "Observer une œuvre et exprimer son ressenti, c'est le début de la culture artistique. Il n'y a pas de mauvaise réponse !"
+       },
+       {
+        "consigne": "Comment obtenir une couleur plus claire à partir du bleu ?",
+        "correction": "En ajoutant du blanc.",
+        "explication": "Le blanc éclaircit les couleurs (bleu + blanc = bleu clair). Le noir les fonce. C'est ainsi qu'on crée des nuances."
+       },
+       {
+        "consigne": "Cite 3 formes que tu peux dessiner facilement.",
+        "correction": "Exemples : le rond, le carré, le triangle, le rectangle, l'étoile, le cœur.",
+        "explication": "Les formes simples sont la base du dessin. En les combinant, on peut dessiner presque tout : une maison, un bonhomme, un soleil !"
+       },
+       {
+        "consigne": "Quelle couleur fait penser au soleil et à la chaleur ?",
+        "correction": "Le jaune (ou l'orange, le rouge).",
+        "explication": "Les couleurs chaudes rappellent le soleil et le feu. Elles donnent une impression de chaleur et d'énergie dans un dessin."
+       },
+       {
+        "consigne": "Vrai ou faux : en art, il faut toujours dessiner exactement comme la réalité.",
+        "correction": "Faux ! En art, on peut imaginer, déformer, inventer. La liberté est permise !",
+        "explication": "L'art n'est pas une photo. On peut dessiner un chat bleu ou un soleil carré : l'imagination est la plus belle des libertés !"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le mélangeur de couleurs",
+        "description": "Avec de la peinture, mélange deux couleurs primaires et devine la couleur obtenue AVANT de regarder. Surprise garantie !"
+       },
+       {
+        "titre": "Le dessin aveugle",
+        "description": "Dessine un objet sans regarder ta feuille (juste l'objet). Compare le résultat rigolo avec un parent !"
+       },
+       {
+        "titre": "La chasse aux couleurs chaudes et froides",
+        "description": "Dans la maison, trouve 5 objets de couleurs chaudes et 5 de couleurs froides. Classe-les !"
+       },
+       {
+        "titre": "Le collage surprise",
+        "description": "Découpe des formes dans de vieux magazines et assemble-les pour créer un animal imaginaire. Donne-lui un nom !"
+       },
+       {
+        "titre": "Devine le dessin",
+        "description": "Dessine quelque chose petit à petit, l'autre devine ce que c'est le plus vite possible !"
+       },
+       {
+        "titre": "L'empreinte mystère",
+        "description": "Trempe des objets (bouchon, feuille, éponge) dans la peinture et fais des empreintes. Devine quel objet a fait quelle trace !"
+       },
+       {
+        "titre": "Le portrait à la chaîne",
+        "description": "Chacun dessine une partie du visage (yeux, nez, bouche…) sans voir les autres parties. Découvrez le résultat ensemble !"
+       },
+       {
+        "titre": "La symphonie des formes",
+        "description": "Crée un tableau uniquement avec des ronds, ou uniquement avec des triangles. Que représente-t-il ?"
+       },
+       {
+        "titre": "Couleurs en musique",
+        "description": "Écoute une musique et peins ce qu'elle t'inspire : couleurs vives pour une musique gaie, douces pour une musique calme !"
+       },
+       {
+        "titre": "Le musée de la maison",
+        "description": "Crée 3 œuvres et organise une exposition à la maison. Invite ta famille à visiter ton musée !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "🌉 EN ROUTE VERS LE CE2 ! En CE1, tu as exploré les couleurs et les formes. En CE2, tu vas apprendre à mieux REPRÉSENTER le monde : les NUANCES (du clair au foncé d'une même couleur), la notion de PREMIER PLAN (devant) et d'ARRIÈRE-PLAN (derrière, plus petit), et tu découvriras de grands ARTISTES et leurs œuvres. Première découverte importante : pour donner une impression de profondeur dans un dessin, on dessine les objets PROCHES en grand (en bas) et les objets LOINTAINS en petit (en haut). C'est la perspective !",
+      "exercices": [
+       {
+        "consigne": "Pour dessiner un arbre LOIN derrière une maison, le dessines-tu plus grand ou plus petit que la maison ?",
+        "correction": "Plus petit (et plus haut sur la feuille).",
+        "explication": "Les objets lointains paraissent plus petits. En les dessinant petits et en haut, on crée l'illusion de la distance : c'est la perspective.",
+        "ref": "Cours : premier plan et arrière-plan"
+       },
+       {
+        "consigne": "Crée 3 nuances de bleu : du plus clair au plus foncé. Comment fais-tu ?",
+        "correction": "Bleu + beaucoup de blanc (clair) → bleu pur (moyen) → bleu + un peu de noir (foncé).",
+        "explication": "Une nuance est une variation d'une même couleur. On éclaircit avec du blanc, on assombrit avec du noir.",
+        "ref": "Cours : les nuances"
+       },
+       {
+        "consigne": "Dans un paysage, qu'est-ce qui est au premier plan : le ciel ou le chemin devant toi ?",
+        "correction": "Le chemin devant (le premier plan est ce qui est le plus proche).",
+        "explication": "Le premier plan, c'est ce qui est devant, près de nous, dessiné en bas et en grand. Le ciel est à l'arrière-plan.",
+        "ref": "Cours : premier plan et arrière-plan"
+       },
+       {
+        "consigne": "Cite un peintre célèbre que tu connais (ou cherche avec un adulte).",
+        "correction": "Exemples : Van Gogh, Picasso, Monet, Matisse, Léonard de Vinci.",
+        "explication": "Découvrir les grands artistes enrichit ta culture. Chacun avait un style unique : Van Gogh peignait avec de gros coups de pinceau colorés.",
+        "ref": "Cours : découvrir les artistes"
+       },
+       {
+        "consigne": "Quelle couleur ajoutes-tu pour rendre une couleur plus foncée ?",
+        "correction": "Du noir.",
+        "explication": "Le noir assombrit les couleurs, le blanc les éclaircit. En jouant avec les deux, on crée toutes les nuances d'une couleur.",
+        "ref": "Cours : les nuances"
+       },
+       {
+        "consigne": "Vrai ou faux : dans un paysage, on dessine souvent le ciel en haut et le sol en bas.",
+        "correction": "Vrai !",
+        "explication": "Pour représenter l'espace, on organise le dessin : le ciel et les objets lointains en haut, le sol et les objets proches en bas.",
+        "ref": "Cours : premier plan et arrière-plan"
+       },
+       {
+        "consigne": "Tu veux peindre un coucher de soleil. Quelles couleurs (chaudes ou froides) choisis-tu ?",
+        "correction": "Des couleurs chaudes : rouge, orange, jaune, rose.",
+        "explication": "Le coucher de soleil est plein de couleurs chaudes. Les associer crée une ambiance douce et lumineuse.",
+        "ref": "Cours : ambiance et couleurs"
+       },
+       {
+        "consigne": "Dessine la même pomme de 3 façons : réaliste, rigolote, et imaginaire (pomme volante !).",
+        "correction": "Activité créative — l'important est d'oser varier les styles.",
+        "explication": "Un même objet peut être représenté de mille façons. L'art autorise le réalisme comme la fantaisie. Exprime ta créativité !",
+        "ref": "Cours : varier les représentations"
+       },
+       {
+        "consigne": "Quelles 2 couleurs primaires mélanges-tu pour obtenir un beau vert sapin (foncé) ?",
+        "correction": "Bleu + jaune, puis ajoute un tout petit peu de noir pour le foncer.",
+        "explication": "Vert = bleu + jaune. Pour un vert foncé (sapin), on ajoute un peu de noir. Pour un vert clair (printemps), un peu de blanc.",
+        "ref": "Cours : les nuances"
+       },
+       {
+        "consigne": "Pourquoi est-ce intéressant de regarder les œuvres de différents artistes ?",
+        "correction": "Pour découvrir des styles variés, s'inspirer, et apprendre de nouvelles techniques.",
+        "explication": "Observer les artistes ouvre l'imagination et donne des idées. Chacun apporte sa façon unique de voir le monde.",
+        "ref": "Cours : découvrir les artistes"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "Le paysage en profondeur",
+        "description": "Dessine un paysage avec un premier plan (grand, en bas) et un arrière-plan (petit, en haut). Crée l'illusion de la distance !"
+       },
+       {
+        "titre": "La gamme des nuances",
+        "description": "Choisis une couleur et crée 5 nuances, du plus clair au plus foncé, comme une échelle. Quelle est la plus belle ?"
+       },
+       {
+        "titre": "Le détective des tableaux",
+        "description": "Regarde un tableau célèbre (sur écran avec un adulte). Trouve le premier plan, l'arrière-plan, les couleurs dominantes !"
+       },
+       {
+        "titre": "À la manière de…",
+        "description": "Choisis un artiste (Van Gogh, Picasso…) et dessine 'à sa manière'. Imite son style à ta façon !"
+       },
+       {
+        "titre": "Chaud-froid",
+        "description": "Peins deux versions du même dessin : une en couleurs chaudes, une en couleurs froides. Quelle ambiance ressens-tu ?"
+       },
+       {
+        "titre": "Le coucher de soleil",
+        "description": "Peins un coucher de soleil en mélangeant des couleurs chaudes qui se fondent. Du jaune en bas au rouge en haut !"
+       },
+       {
+        "titre": "Devine l'artiste",
+        "description": "L'adulte montre des œuvres, tu essaies de reconnaître si c'est le même artiste ou non grâce au style !"
+       },
+       {
+        "titre": "Une pomme, mille styles",
+        "description": "Dessine un même fruit de 5 façons différentes : réaliste, géométrique, rigolote, triste, joyeuse !"
+       },
+       {
+        "titre": "Le dégradé magique",
+        "description": "Sur une bande de papier, fais un dégradé d'une couleur à une autre (bleu vers vert). Mélange progressivement !"
+       },
+       {
+        "titre": "Mon musée imaginaire",
+        "description": "Crée 3 œuvres dans 3 styles différents et organise un vrai vernissage à la maison avec des étiquettes !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "📚 PROGRAMME DE CE2 — ARTS PLASTIQUES. 1) LA REPRÉSENTATION : représenter le monde réel ou imaginaire, jouer avec la ressemblance, raconter une histoire en images (la narration visuelle, comme la BD). 2) LES COULEURS : primaires, secondaires, nuances, couleurs chaudes et froides, créer des ambiances. 3) LES MATÉRIAUX ET TECHNIQUES : dessin, peinture, collage, modelage (pâte à modeler, argile), assemblage d'objets, empreintes et textures. 4) L'ESPACE : organiser une composition (premier plan, arrière-plan), occuper toute la feuille, créer du volume. 5) LA CULTURE ARTISTIQUE : découvrir des œuvres et des artistes de différentes époques et cultures, exprimer son ressenti, utiliser un vocabulaire artistique (artiste, œuvre, composition, palette).",
+      "exercices": [
+       {
+        "consigne": "Raconte une mini-histoire en 3 cases dessinées (début, milieu, fin). Comme une BD !",
+        "correction": "Activité de narration visuelle — l'histoire doit se comprendre rien qu'en regardant les images.",
+        "explication": "La BD raconte avec des images successives. Chaque case fait avancer l'histoire. C'est de la narration visuelle.",
+        "ref": "Cours §1 : La représentation"
+       },
+       {
+        "consigne": "Sépare ces couleurs : primaires ou secondaires ? rouge, vert, jaune, orange, bleu, violet",
+        "correction": "Primaires : rouge, jaune, bleu | Secondaires : vert, orange, violet",
+        "explication": "Les primaires (rouge, jaune, bleu) ne se mélangent pas. Les secondaires (vert, orange, violet) viennent du mélange de deux primaires.",
+        "ref": "Cours §2 : Les couleurs"
+       },
+       {
+        "consigne": "Cite 3 techniques différentes pour créer une image.",
+        "correction": "Exemples : le dessin, la peinture, le collage, le modelage, l'empreinte, l'assemblage.",
+        "explication": "Chaque technique donne un rendu différent. On peut même les combiner dans une seule œuvre (techniques mixtes) !",
+        "ref": "Cours §3 : Matériaux et techniques"
+       },
+       {
+        "consigne": "Pour donner du VOLUME (3D) à une boule en pâte à modeler, que fais-tu ?",
+        "correction": "Je modèle la pâte en la roulant et en la sculptant pour créer du relief, pas juste du plat.",
+        "explication": "Le modelage crée du volume : l'objet a de l'épaisseur, on peut le tourner. C'est différent du dessin, qui est plat (2D).",
+        "ref": "Cours §3 : Le modelage"
+       },
+       {
+        "consigne": "Dans une composition, faut-il dessiner tout petit au centre, ou occuper toute la feuille ?",
+        "correction": "Occuper toute la feuille pour une belle composition équilibrée.",
+        "explication": "Une bonne composition utilise tout l'espace de la feuille. Un petit dessin perdu au milieu paraît vide et déséquilibré.",
+        "ref": "Cours §4 : L'espace"
+       },
+       {
+        "consigne": "Quelle ambiance créent les couleurs froides (bleu, vert) ? Et les chaudes (rouge, orange) ?",
+        "correction": "Froides = calme, fraîcheur, nuit, eau. Chaudes = énergie, chaleur, soleil, feu.",
+        "explication": "Les couleurs transmettent des émotions. Les artistes choisissent leur palette selon l'ambiance qu'ils veulent créer.",
+        "ref": "Cours §2 : Créer des ambiances"
+       },
+       {
+        "consigne": "Comment appelle-t-on l'ensemble des couleurs utilisées dans une œuvre ?",
+        "correction": "La palette.",
+        "explication": "La palette, c'est la gamme de couleurs choisies par l'artiste. Une palette chaude, froide, ou très colorée change tout le ressenti.",
+        "ref": "Cours §5 : Vocabulaire artistique"
+       },
+       {
+        "consigne": "Crée une texture 'rugueuse' et une texture 'lisse' avec ce que tu veux. Comment fais-tu ?",
+        "correction": "Rugueux : frotter sur du papier de verre, coller du sable. Lisse : papier glacé, peinture étalée bien à plat.",
+        "explication": "La texture, c'est l'aspect d'une surface (douce, rugueuse, granuleuse). On peut la créer avec différents matériaux et gestes.",
+        "ref": "Cours §3 : Empreintes et textures"
+       },
+       {
+        "consigne": "Choisis une œuvre que tu aimes et explique avec des mots d'artiste ce qui te plaît (palette, composition, sujet).",
+        "correction": "Réponse personnelle utilisant le vocabulaire : 'J'aime la palette de couleurs chaudes et la composition qui occupe toute la toile.'",
+        "explication": "Utiliser le vocabulaire artistique (palette, composition, sujet) permet de mieux décrire et apprécier une œuvre.",
+        "ref": "Cours §5 : Culture artistique"
+       },
+       {
+        "consigne": "Imagine et dessine un animal fantastique en combinant 3 animaux réels. Décris-le.",
+        "correction": "Activité créative — exemple : un 'lion-aigle-poisson' avec crinière, ailes et écailles.",
+        "explication": "Combiner des éléments réels pour créer l'imaginaire est une démarche artistique. Beaucoup d'artistes inventent des créatures !",
+        "ref": "Cours §1 : Représenter l'imaginaire"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "La BD express",
+        "description": "En 4 cases, raconte une histoire muette (sans mots). L'autre doit comprendre l'histoire rien qu'avec les images !"
+       },
+       {
+        "titre": "Le défi des techniques",
+        "description": "Représente le MÊME sujet (un arbre) de 4 façons : dessin, peinture, collage, modelage. Quelle technique préfères-tu ?"
+       },
+       {
+        "titre": "Le sculpteur en herbe",
+        "description": "Avec de la pâte à modeler, crée un objet en volume (un animal, un personnage). Tourne-le : a-t-il du relief partout ?"
+       },
+       {
+        "titre": "La palette d'ambiance",
+        "description": "L'adulte donne une émotion (la joie, la peur, le calme). Choisis une palette de couleurs qui l'exprime et peins-la !"
+       },
+       {
+        "titre": "Le musée vivant",
+        "description": "Reproduis la pose d'un personnage dans un tableau célèbre. Photo à l'appui ! Devinez quel tableau c'est."
+       },
+       {
+        "titre": "Texture mystère",
+        "description": "Crée 5 textures différentes (rugueux, lisse, doux, piquant, granuleux) et fais-les deviner les yeux fermés au toucher !"
+       },
+       {
+        "titre": "L'animal fantastique",
+        "description": "Combine 3 animaux pour créer une créature imaginaire. Dessine-la, nomme-la et invente son histoire !"
+       },
+       {
+        "titre": "Le critique d'art",
+        "description": "Devant une œuvre, utilise 5 mots d'artiste (palette, composition, premier plan…) pour la décrire. Qui en utilise le plus ?"
+       },
+       {
+        "titre": "Composition équilibrée",
+        "description": "Dessine en occupant TOUTE la feuille. L'adulte vérifie : y a-t-il des zones vides ? Comment les remplir joliment ?"
+       },
+       {
+        "titre": "Le grand vernissage",
+        "description": "Crée une vraie exposition de tes œuvres avec titres et palettes. Invite la famille et présente chaque tableau comme un artiste !"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "aaron": {
+   "nom": "Aaron",
+   "niveau": "PS → MS",
+   "age": "3-4 ans",
+   "couleur": "#4ECDC4",
+   "emoji": "🚀",
+   "matieres": [
+    {
+     "id": "demo_lang",
+     "nom": "Le Langage (démo)",
+     "emoji": "🗣️",
+     "revision": {
+      "intro": "Démo : on revoit un point de PS.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Demande à Aaron de dire son prénom.",
+        "correction": "Aaron dit son prénom clairement.",
+        "explication": "Parent : encourage-le à parler fort."
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Les cris des animaux",
+        "description": "Montre un animal, Aaron fait son cri !"
+       }
+      ]
+     },
+     "preparation": {
+      "cours": "Démo : en MS, Aaron tapera les syllabes des mots.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Tapez les syllabes : MA-YA (2 tapes).",
+        "correction": "Il frappe 1 fois par syllabe.",
+        "explication": "Parent : exagère chaque syllabe.",
+        "ref": "Cours démo : les syllabes"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 Le tambour des syllabes",
+        "description": "Tapez les prénoms en syllabes sur une casserole !"
+       }
+      ]
+     },
+     "etude": {
+      "cours": "Démo : programme MS — reconnaître son prénom écrit.",
+      "exercices": [
+       {
+        "consigne": "👨‍👩‍👧 Montre 'AARON' écrit. Le reconnaît-il ?",
+        "correction": "Il pointe son prénom grâce au 'A'.",
+        "explication": "Parent : écris son prénom en gros.",
+        "ref": "Cours démo : découvrir l'écrit"
+       }
+      ],
+      "jeux": [
+       {
+        "titre": "👨‍👩‍👧 La pêche aux prénoms",
+        "description": "Aaron pêche et reconnaît son prénom !"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
 }

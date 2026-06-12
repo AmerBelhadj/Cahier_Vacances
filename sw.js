@@ -1,5 +1,5 @@
 // Service Worker — Les Vacances de Maya et Aaron (Phase 1)
-const CACHE_NAME = 'maya-aaron-v2.0.0';
+const CACHE_NAME = 'maya-aaron-v2.1.0';
 const URLS_TO_CACHE = [
   './index.html', './manifest.json',
   './assets/css/main.css', './assets/js/app.js', './assets/js/progress.js',
